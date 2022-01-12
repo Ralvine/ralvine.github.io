@@ -234,7 +234,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto Slab, Monda, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Noto Serif SC, Monda, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 30px 0 15px;
@@ -1993,7 +1993,7 @@ pre code {
   width: 4px;
 }
 .post-body {
-  font-family: Noto Serif SC, Monda, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Roboto Slab, Monda, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -2180,7 +2180,7 @@ pre code {
 }
 .posts-expand .post-meta-container {
   color: #999;
-  font-family: Noto Serif SC, Monda, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Roboto Slab, Monda, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
@@ -2358,6 +2358,39 @@ pre code {
   to {
     transform: rotateZ(-30deg);
   }
+}
+.followme {
+  color: #bbb;
+  padding: 1em 1.5em;
+  text-align: center;
+  background: var(--card-bg-color);
+  border-left: 3px solid #ff2a2a;
+  margin: 1em 0 0;
+}
+.followme .social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.followme .social-list .social-item {
+  margin: 0.5em 2em;
+}
+@media (max-width: 991px) {
+  .followme .social-list .social-item {
+    margin: 0.5em 0.75em;
+  }
+}
+.followme .social-list .social-link {
+  border: 0;
+  display: inline-block;
+  text-align: center;
+}
+.followme .social-list .social-link .icon {
+  font-size: 1.75em;
+}
+.followme .social-list .social-link .label {
+  display: block;
+  font-size: 14px;
 }
 .category-all-page .category-all-title {
   text-align: center;
