@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>page</title>
-    <url>/2022/01/12/page/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>给中国新媒体的八条标准</title>
     <url>/2020/12/20/a-test-article/</url>
     <content><![CDATA[<p>大家好，很高兴到熟悉的邯郸路参加活动，我1998年的宿舍就在北面同济武东路校区，距离这里几百米。同济本部校区在南面一公里多的地方，所以当时我隔几天就会骑车穿过复旦大学。如果天气热，就在邯郸路大门的会客室吹一会空调，打开饮水机喝水摸猫。</p>
@@ -122,8 +117,8 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>test</title>
-    <url>/2022/01/12/test/</url>
+    <title>page</title>
+    <url>/2022/01/12/page/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -153,5 +148,10 @@
       <tags>
         <tag>测试</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2022/01/12/test/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
