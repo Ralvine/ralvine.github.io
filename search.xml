@@ -16,24 +16,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2022 寒假简报</title>
-    <url>/2022/01/13/holiday-brief/</url>
-    <content><![CDATA[<p>如何避免40日之后的后悔</p>
-<span id="more"></span>
-
-
-
-<p>使用 Markdown<a href="Markdown%E6%98%AF%E4%B8%80%E7%A7%8D%E7%BA%AF%E6%96%87%E6%9C%AC%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80">^1</a>可以效率的书写文档, 直接转换成 HTML[^2]。</p>
-<p>[^2]:HyperText Markup Language 超文本标记语言</p>
-]]></content>
-      <categories>
-        <category>便笺</category>
-      </categories>
-      <tags>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>写作语法手册</title>
     <url>/2021/01/01/note0/</url>
     <content><![CDATA[<p>下面展示一些写作时需要的语法。</p>
@@ -102,6 +84,270 @@
     <title>test</title>
     <url>/2022/01/12/test/</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>2022 寒假简报</title>
+    <url>/2022/01/13/holiday-brief/</url>
+    <content><![CDATA[<p>关于寒假期间的一些安排与实际执行情况。</p>
+<span id="more"></span>
+
+<table>
+<thead>
+<tr>
+<th>Days</th>
+<th>Date</th>
+<th>Plans</th>
+<th>Having done</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>1/10</td>
+<td></td>
+<td>Back home, watch movie</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1/11</td>
+<td></td>
+<td>Create Hexo website.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>1/12</td>
+<td></td>
+<td>Buy some things..</td>
+</tr>
+<tr>
+<td>4</td>
+<td>1/13</td>
+<td>start the math learning..</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>1/14</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>1/15</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>1/16</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>1/17</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>1/18</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>1/19</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>1/20</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>1/21</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>1/22</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>1/23</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>1/24</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>1/25</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>1/26</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>1/27</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>19</td>
+<td>1/28</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>20</td>
+<td>1/29</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>21</td>
+<td>1/30</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>22</td>
+<td>1/31</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>23</td>
+<td>2/1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>24</td>
+<td>2/2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td>2/3</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>26</td>
+<td>2/4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>27</td>
+<td>2/5</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>28</td>
+<td>2/6</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>29</td>
+<td>2/7</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>30</td>
+<td>2/8</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>31</td>
+<td>2/9</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>32</td>
+<td>2/10</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>33</td>
+<td>2/11</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>34</td>
+<td>2/12</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>35</td>
+<td>2/13</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>36</td>
+<td>2/14</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>37</td>
+<td>2/15</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>38</td>
+<td>2/16</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>39</td>
+<td>2/17</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>便笺</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+      </tags>
   </entry>
   <entry>
     <title>语法笔记</title>

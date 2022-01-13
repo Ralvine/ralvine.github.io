@@ -2406,6 +2406,10 @@ pre code {
 .post-reward div span {
   display: block;
 }
+.post-reward div:hover span {
+  animation: next-roll 0.1s infinite linear;
+  pointer-events: none;
+}
 .post-reward img {
   display: inline-block;
   margin: 0.8em 2em 0;
@@ -2704,6 +2708,42 @@ ul.breadcrumb li:last-child {
     color: #eee;
   }
 }
+@media (prefers-color-scheme: dark) {
+  html #dsqjs a {
+    color: var(--link-color);
+  }
+  html #dsqjs a:focus,
+  html #dsqjs a:hover {
+    color: var(--link-hover-color);
+  }
+  html #dsqjs .dsqjs-nav,
+  html #dsqjs footer {
+    border-color: var(--card-bg-color);
+  }
+  html #dsqjs .dsqjs-load-more,
+  html #dsqjs .dsqjs-load-more:hover,
+  html #dsqjs .dsqjs-nav-tab,
+  html #dsqjs .dsqjs-no-comment,
+  html #dsqjs .dsqjs-post-content {
+    color: var(--text-color);
+  }
+  html #dsqjs .dsqjs-order-label {
+    background-color: #3e4b5e;
+  }
+  html #dsqjs .dsqjs-order-radio:checked+.dsqjs-order-label {
+    background-color: var(--content-bg-color);
+  }
+  html #dsqjs .dsqjs-tab-active>span:after {
+    background-color: #2e9fff !important;
+  }
+  html #dsqjs .dsqjs-footer,
+  html #dsqjs .dsqjs-meta {
+    color: var(--text-color);
+  }
+  html #dsqjs .dsqjs-post-body blockquote {
+    border-color: var(--content-bg-color);
+  }
+}
 .search-active {
   overflow: hidden;
 }
@@ -2974,17 +3014,6 @@ mjx-container[display='true'] + br {
   float: right;
   padding: 2px 5px;
   text-shadow: 1px 1px 0 rgba(0,0,0,0.1);
-}
-.main-menu .menu-item-active::after {
-  background: #bbb;
-  border-radius: 50%;
-  content: ' ';
-  height: 6px;
-  margin-top: -3px;
-  position: absolute;
-  right: 15px;
-  top: 50%;
-  width: 6px;
 }
 .sub-menu {
   margin: 0;
