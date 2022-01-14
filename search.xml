@@ -6,7 +6,7 @@
     <content><![CDATA[<p><a href="https://gitee.com/wang_heyu/Computer-Simulation/raw/master/doc/assignment_cn.pdf">download</a></p>
 <span id="more"></span>
 
-<div class="pdf-container" data-target="https://gitee.com/parallelcoder_admin/blog_file/raw/master/plan.pdf" data-height="500px"></div>
+<div class="pdf-container" data-target="plan.pdf" data-height="500px"></div>
 
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>为发掘家乡传统文化，弘扬优良传统，增强文化自信，我们将进行以“寻觅故土风情，传述乡梓故事”为主题的社会实践活动。“千里不同风，百里不同俗”，不同地区有不c同的文化特色和历史底蕴，多姿多彩的文化共同构成了中华民族的文化底色。我们期待在这次活动中充分领略、发掘和弘扬家乡的风俗文化，同时为家乡文化“走出去”贡献出一份力量。</p>
 <h2 id="实践前准备工作"><a href="#实践前准备工作" class="headerlink" title="实践前准备工作"></a>实践前准备工作</h2><p>鉴于近期疫情情况，本次活动由9位组员分别在各自家乡展开，所有交流均运用“互联网+”技术手段在微信、钉钉群组等平台进行。实践前，组员将线上规划具体日程与实践方式。</p>
@@ -302,180 +302,18 @@
 ]]></content>
   </entry>
   <entry>
-    <title>TESTV数据分析</title>
-    <url>/2021/12/22/data-anay/</url>
-    <content><![CDATA[<h2 id="数据"><a href="#数据" class="headerlink" title="数据"></a>数据</h2><p>*数据截至2021年12月22日下午6时。</p>
-<center><strong>基本信息</strong></center>
-
-<table>
-<thead>
-<tr>
-<th>id</th>
-<th>平台</th>
-<th>粉丝数</th>
-<th>总播放数</th>
-<th>总获赞数</th>
-<th>所属分区</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>TESTV</td>
-<td>哔哩哔哩</td>
-<td>223.5万</td>
-<td>3.1亿</td>
-<td>841.1万</td>
-<td>科技区</td>
-</tr>
-</tbody></table>
-<center>主页签名｜我们不做评测，是体验！愉快的体验！</center>
-
+    <title>Hello World</title>
+    <url>/2022/01/11/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <span id="more"></span>
 
-<center><strong>投稿分析</strong></center>
-
-<p>·以播放量降序</p>
-<table>
-<thead>
-<tr>
-<th>分区</th>
-<th>时间</th>
-<th>话题</th>
-<th>类型</th>
-<th>播放数</th>
-<th>获赞数</th>
-<th>投币数</th>
-<th>收藏数</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>生活</td>
-<td>20/12/24</td>
-<td>反诈短片</td>
-<td>合作Vlog</td>
-<td>264.2万</td>
-<td>24.2万</td>
-<td>23.6万</td>
-<td>4.5万</td>
-</tr>
-<tr>
-<td>科技</td>
-<td>20/10/24</td>
-<td>购iPhone 12 Pro</td>
-<td>BB Time</td>
-<td>197.2万</td>
-<td>12.4万</td>
-<td>11.2万</td>
-<td>2.7万</td>
-</tr>
-<tr>
-<td>科技</td>
-<td>19/10/15</td>
-<td>Switch Lite掌机</td>
-<td>值不值得买</td>
-<td>189.2万</td>
-<td>5.2万</td>
-<td>3.7万</td>
-<td>1.6万</td>
-</tr>
-<tr>
-<td>科技</td>
-<td>20/12/1</td>
-<td>iPhone 12 mini</td>
-<td>值不值得买</td>
-<td>187万</td>
-<td>24.2万</td>
-<td>23.6万</td>
-<td>4.5万</td>
-</tr>
-<tr>
-<td>科技</td>
-<td>20/2/4</td>
-<td>华为MatePad Pro</td>
-<td>值不值得买</td>
-<td>171.3万</td>
-<td>3.9万</td>
-<td>1.3万</td>
-<td>5621</td>
-</tr>
-<tr>
-<td>科技</td>
-<td>18/11/2</td>
-<td>iPhone XR</td>
-<td>值不值得买</td>
-<td>169.8万</td>
-<td>1.3万</td>
-<td>6521</td>
-<td>3730</td>
-</tr>
-<tr>
-<td>生活</td>
-<td>17/4/7</td>
-<td>Switch</td>
-<td>值不值得买</td>
-<td>160万</td>
-<td>9030</td>
-<td>4275</td>
-<td>5724</td>
-</tr>
-</tbody></table>
-<p>·其他类型的高收藏量视频</p>
-<table>
-<thead>
-<tr>
-<th>分区</th>
-<th></th>
-<th>标题</th>
-<th>类型</th>
-<th>播放数</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>美食</td>
-<td></td>
-<td>229元火锅烧烤一体机 在家吃烤肉 好用吗</td>
-<td>BB Time</td>
-<td>60.5万</td>
-</tr>
-<tr>
-<td>游戏</td>
-<td></td>
-<td>不是鱼露 是鲈鱼 马壮实与TESTV动森联机治疗鲈鱼</td>
-<td>游戏Vlog</td>
-<td>49.9万</td>
-</tr>
-<tr>
-<td>科技</td>
-<td></td>
-<td>鸭掌猪脚超豪华螺蛳粉 到柳州打卡的螺蛳粉老店</td>
-<td>旅行Vlog</td>
-<td>34万</td>
-</tr>
-<tr>
-<td>汽车</td>
-<td></td>
-<td>7天探险大西北 航拍青海湖竟发现这么美</td>
-<td>Vlog 软广</td>
-<td>31.1万</td>
-</tr>
-<tr>
-<td>生活</td>
-<td></td>
-<td>勒是重庆城 背后的故事</td>
-<td>BB Time</td>
-<td>22.7万</td>
-</tr>
-</tbody></table>
-<h2 id="分析与建议"><a href="#分析与建议" class="headerlink" title="分析与建议"></a>分析与建议</h2><p>@Testv官方频道 是创办于2015年的数码类自媒体。发展历程和大多数数码评测机构、科技类自媒体一样，从早年的优酷转战如今b站，积累了百万级的粉丝量。在分家事件后，官方频道着眼于数码产品评测本身，除值不值得买核心节目之外，另有日常Vlog节目BB Time。</p>
-<p>Testv的视频创作类型广泛，譬如游戏实况、旅行Vlog、重庆历史/日常、产品评测，但从播放量、收藏量可以看出，其具有核心竞争力的内容仍然是值不值得买的数码产品评测与建议节目。</p>
-<p>“值不值得买”系列中，Apple与华为的最新产品往往能获得最多的播放量，可见科技区的投稿效果较为依赖产品迭代的热点。</p>
-<p>但另一方面，作为曾以销售重庆特产零食作为辅助收入来源的频道，加之作为自媒体在影视创作领域相对于个人up主的优势，其旅行、美食乃至人文类视频也能获得不错的观众反馈。正如科技区个人up主@木羽说科技 的经验所呈现，用户更倾向于观看<strong>轻松氛围 偏向日常体验</strong>的数码类视频。</p>
-<p>因此，对TESTV来说，在确保跟进科技数码领域热点的基础上，可以更多地拍摄关于入手新产品、体验小众产品的视频，并在美食、游戏等领域尝试制作更为精良的Vlog，在保证现有用户留存的基础上，利用频道自身的回旋余地探索更多视频内容的创作方向。</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span>https://hexo.io/docs/one-command-deployment.html)</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>工作</category>
+        <category>随笔</category>
       </categories>
       <tags>
-        <tag>哔哩哔哩</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -743,21 +581,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/01/11/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span>https://hexo.io/docs/one-command-deployment.html)</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>写作语法手册</title>
     <url>/2021/01/01/note0/</url>
     <content><![CDATA[<p>下面展示一些写作时需要的语法。</p>
@@ -820,6 +643,183 @@
       <tags>
         <tag>Markdown</tag>
         <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>TESTV数据分析</title>
+    <url>/2021/12/22/data-anay/</url>
+    <content><![CDATA[<h2 id="数据"><a href="#数据" class="headerlink" title="数据"></a>数据</h2><p>*数据截至2021年12月22日下午6时。</p>
+<center><strong>基本信息</strong></center>
+
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>平台</th>
+<th>粉丝数</th>
+<th>总播放数</th>
+<th>总获赞数</th>
+<th>所属分区</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>TESTV</td>
+<td>哔哩哔哩</td>
+<td>223.5万</td>
+<td>3.1亿</td>
+<td>841.1万</td>
+<td>科技区</td>
+</tr>
+</tbody></table>
+<center>主页签名｜我们不做评测，是体验！愉快的体验！</center>
+
+<span id="more"></span>
+
+<center><strong>投稿分析</strong></center>
+
+<p>·以播放量降序</p>
+<table>
+<thead>
+<tr>
+<th>分区</th>
+<th>时间</th>
+<th>话题</th>
+<th>类型</th>
+<th>播放数</th>
+<th>获赞数</th>
+<th>投币数</th>
+<th>收藏数</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>生活</td>
+<td>20/12/24</td>
+<td>反诈短片</td>
+<td>合作Vlog</td>
+<td>264.2万</td>
+<td>24.2万</td>
+<td>23.6万</td>
+<td>4.5万</td>
+</tr>
+<tr>
+<td>科技</td>
+<td>20/10/24</td>
+<td>购iPhone 12 Pro</td>
+<td>BB Time</td>
+<td>197.2万</td>
+<td>12.4万</td>
+<td>11.2万</td>
+<td>2.7万</td>
+</tr>
+<tr>
+<td>科技</td>
+<td>19/10/15</td>
+<td>Switch Lite掌机</td>
+<td>值不值得买</td>
+<td>189.2万</td>
+<td>5.2万</td>
+<td>3.7万</td>
+<td>1.6万</td>
+</tr>
+<tr>
+<td>科技</td>
+<td>20/12/1</td>
+<td>iPhone 12 mini</td>
+<td>值不值得买</td>
+<td>187万</td>
+<td>24.2万</td>
+<td>23.6万</td>
+<td>4.5万</td>
+</tr>
+<tr>
+<td>科技</td>
+<td>20/2/4</td>
+<td>华为MatePad Pro</td>
+<td>值不值得买</td>
+<td>171.3万</td>
+<td>3.9万</td>
+<td>1.3万</td>
+<td>5621</td>
+</tr>
+<tr>
+<td>科技</td>
+<td>18/11/2</td>
+<td>iPhone XR</td>
+<td>值不值得买</td>
+<td>169.8万</td>
+<td>1.3万</td>
+<td>6521</td>
+<td>3730</td>
+</tr>
+<tr>
+<td>生活</td>
+<td>17/4/7</td>
+<td>Switch</td>
+<td>值不值得买</td>
+<td>160万</td>
+<td>9030</td>
+<td>4275</td>
+<td>5724</td>
+</tr>
+</tbody></table>
+<p>·其他类型的高收藏量视频</p>
+<table>
+<thead>
+<tr>
+<th>分区</th>
+<th></th>
+<th>标题</th>
+<th>类型</th>
+<th>播放数</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>美食</td>
+<td></td>
+<td>229元火锅烧烤一体机 在家吃烤肉 好用吗</td>
+<td>BB Time</td>
+<td>60.5万</td>
+</tr>
+<tr>
+<td>游戏</td>
+<td></td>
+<td>不是鱼露 是鲈鱼 马壮实与TESTV动森联机治疗鲈鱼</td>
+<td>游戏Vlog</td>
+<td>49.9万</td>
+</tr>
+<tr>
+<td>科技</td>
+<td></td>
+<td>鸭掌猪脚超豪华螺蛳粉 到柳州打卡的螺蛳粉老店</td>
+<td>旅行Vlog</td>
+<td>34万</td>
+</tr>
+<tr>
+<td>汽车</td>
+<td></td>
+<td>7天探险大西北 航拍青海湖竟发现这么美</td>
+<td>Vlog 软广</td>
+<td>31.1万</td>
+</tr>
+<tr>
+<td>生活</td>
+<td></td>
+<td>勒是重庆城 背后的故事</td>
+<td>BB Time</td>
+<td>22.7万</td>
+</tr>
+</tbody></table>
+<h2 id="分析与建议"><a href="#分析与建议" class="headerlink" title="分析与建议"></a>分析与建议</h2><p>@Testv官方频道 是创办于2015年的数码类自媒体。发展历程和大多数数码评测机构、科技类自媒体一样，从早年的优酷转战如今b站，积累了百万级的粉丝量。在分家事件后，官方频道着眼于数码产品评测本身，除值不值得买核心节目之外，另有日常Vlog节目BB Time。</p>
+<p>Testv的视频创作类型广泛，譬如游戏实况、旅行Vlog、重庆历史/日常、产品评测，但从播放量、收藏量可以看出，其具有核心竞争力的内容仍然是值不值得买的数码产品评测与建议节目。</p>
+<p>“值不值得买”系列中，Apple与华为的最新产品往往能获得最多的播放量，可见科技区的投稿效果较为依赖产品迭代的热点。</p>
+<p>但另一方面，作为曾以销售重庆特产零食作为辅助收入来源的频道，加之作为自媒体在影视创作领域相对于个人up主的优势，其旅行、美食乃至人文类视频也能获得不错的观众反馈。正如科技区个人up主@木羽说科技 的经验所呈现，用户更倾向于观看<strong>轻松氛围 偏向日常体验</strong>的数码类视频。</p>
+<p>因此，对TESTV来说，在确保跟进科技数码领域热点的基础上，可以更多地拍摄关于入手新产品、体验小众产品的视频，并在美食、游戏等领域尝试制作更为精良的Vlog，在保证现有用户留存的基础上，利用频道自身的回旋余地探索更多视频内容的创作方向。</p>
+]]></content>
+      <categories>
+        <category>工作</category>
+      </categories>
+      <tags>
+        <tag>哔哩哔哩</tag>
       </tags>
   </entry>
 </search>
