@@ -6,7 +6,8 @@
     <content><![CDATA[<p><a href="https://gitee.com/wang_heyu/Computer-Simulation/raw/master/doc/assignment_cn.pdf">download</a></p>
 <span id="more"></span>
 
-<p><object type="application/pdf" data="https://gitee.com/parallelcoder_admin/blog_file/raw/master/plan.pdf" id="review" style="width:800px;  height:750px; margin-top:45px;  margin-left:0px"></object></p>
+<div class="pdf-container" data-target="https://gitee.com/parallelcoder_admin/blog_file/raw/master/plan.pdf" data-height="500px"></div>
+
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>为发掘家乡传统文化，弘扬优良传统，增强文化自信，我们将进行以“寻觅故土风情，传述乡梓故事”为主题的社会实践活动。“千里不同风，百里不同俗”，不同地区有不c同的文化特色和历史底蕴，多姿多彩的文化共同构成了中华民族的文化底色。我们期待在这次活动中充分领略、发掘和弘扬家乡的风俗文化，同时为家乡文化“走出去”贡献出一份力量。</p>
 <h2 id="实践前准备工作"><a href="#实践前准备工作" class="headerlink" title="实践前准备工作"></a>实践前准备工作</h2><p>鉴于近期疫情情况，本次活动由9位组员分别在各自家乡展开，所有交流均运用“互联网+”技术手段在微信、钉钉群组等平台进行。实践前，组员将线上规划具体日程与实践方式。</p>
 <p>活动经费包括车费、门票费用等先由当地组员自行筹措支付；活动设备由组员自行准备。</p>
@@ -478,21 +479,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/01/11/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span>https://hexo.io/docs/one-command-deployment.html)</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2022 寒假简报</title>
     <url>/2022/01/13/holiday-brief/</url>
     <content><![CDATA[<p>关于寒假期间的一些安排与实际执行情况。</p>
@@ -754,6 +740,21 @@
       </categories>
       <tags>
         <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/01/11/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span>https://hexo.io/docs/one-command-deployment.html)</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
