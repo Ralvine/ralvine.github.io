@@ -448,6 +448,86 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2022/01/11/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
+<embed id="pdfPlayer" src=" https://gitee.com/parallelcoder_admin/blog_file/raw/master/plan.pdf " type="application/pdf" width="100%" height="500px">
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>写作语法手册</title>
+    <url>/2021/01/01/note0/</url>
+    <content><![CDATA[<p>下面展示一些写作时需要的语法。</p>
+<span id="more"></span>
+
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题？"><a href="#六级标题？" class="headerlink" title="六级标题？"></a>六级标题？</h6><h2 id="标记"><a href="#标记" class="headerlink" title="标记"></a>标记</h2><p><u>下划线</u>、<em>斜体</em>、<strong>加粗</strong>、<em><strong>粗斜体</strong></em>、==高亮==、<del>删除线</del>、<a href="haha">链接</a>、注释<a href="%E6%B3%A8%E9%87%8A1">^1</a></p>
+<p><font color=#0099ff size=4 face="黑体">字体</font></p>
+<ul>
+<li><p><input disabled="" type="checkbox">  任务</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  已完成</p>
+</li>
+</ul>
+<ol>
+<li>有序列表项</li>
+<li>第二项</li>
+</ol>
+<p><code>单行代码</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">多行</span><br><span class="line">代码</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>单引用</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>嵌套引用</p>
+</blockquote>
+</blockquote>
+<h2 id="对齐"><a href="#对齐" class="headerlink" title="对齐"></a>对齐</h2><center>中心对齐</center>
+<p align="right">右对齐</p>
+
+<ul>
+<li>列表<ul>
+<li>二级列表<ul>
+<li>三级列表</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="绘制"><a href="#绘制" class="headerlink" title="绘制"></a>绘制</h2><p>分割线&gt;</p>
+<hr>
+<p>分割线&lt;</p>
+<table>
+<thead>
+<tr>
+<th>biao</th>
+<th>ge</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>2</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>bilibili</title>
     <url>/2022/01/14/bilibili/</url>
     <content><![CDATA[<p><iframe src="//player.bilibili.com/player.html?aid=763293176&amp;cid=417794545&amp;page=1" frameborder="no" scrolling="no" width="95%" height="600"></iframe></p>
@@ -477,6 +557,241 @@
 </body>
 </html>
 ]]></content>
+  </entry>
+  <entry>
+    <title>社会实践具体安排（草案）</title>
+    <url>/2022/01/15/plan-demo/</url>
+    <content><![CDATA[<p><a href="https://gitee.com/parallelcoder_admin/blog_file/raw/master/demo.pdf">Download(demo.pdf)</a></p>
+<hr>
+<h4 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h4><table>
+<thead>
+<tr>
+<th>日期</th>
+<th>分工</th>
+<th></th>
+<th>成果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1/17</td>
+<td>各组</td>
+<td>搜集八地家乡基本资料</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>甬杭组 瓯婺组</td>
+<td>家乡历史名人[仅搜集资料]（杭州 宁波 金华 温州）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>台州组</td>
+<td>博物馆或遗址参观剪辑视频（台州）</td>
+<td>[视频]博物馆专题</td>
+</tr>
+<tr>
+<td>1/18</td>
+<td>丽水组 甬杭组</td>
+<td>方言调研（宁波 杭州 丽水）</td>
+<td>[调研报告/录制采访视频]</td>
+</tr>
+<tr>
+<td></td>
+<td>黄冈组</td>
+<td>地域比较[策划常用语收集各组录制素材]</td>
+<td>[视频]地域比较视频，也可以用其他方式呈现</td>
+</tr>
+<tr>
+<td></td>
+<td>台州组 瓯婺组</td>
+<td>推文文案 推文排版</td>
+<td>[推文]方言专题，汇总上述内容</td>
+</tr>
+<tr>
+<td>1/19</td>
+<td>瓯婺组</td>
+<td>美食制作视频（温州 金华）</td>
+<td>[视频]美食制作视频</td>
+</tr>
+<tr>
+<td></td>
+<td>黄冈组 丽水组</td>
+<td>特色美食介绍（黄冈 丽水）</td>
+<td>[推文]美食专题-1</td>
+</tr>
+<tr>
+<td></td>
+<td>甬杭组 台州组</td>
+<td>推文排版 实践中期简报撰写</td>
+<td></td>
+</tr>
+<tr>
+<td>1/20</td>
+<td>台州组 黄冈组 丽水组</td>
+<td>家乡历史名人（黄岩 温岭 黄冈 丽水）</td>
+<td>[推文]历史名人专题（整合1/17资料）</td>
+</tr>
+<tr>
+<td></td>
+<td>瓯婺组</td>
+<td>博物馆或遗址参观剪辑视频（温州 金华）</td>
+<td>[视频]博物馆专题</td>
+</tr>
+<tr>
+<td></td>
+<td>甬杭组</td>
+<td>推文排版</td>
+<td></td>
+</tr>
+<tr>
+<td>1/21</td>
+<td>甬杭组</td>
+<td>美食制作视频（宁波 杭州）</td>
+<td>[视频]美食制作视频</td>
+</tr>
+<tr>
+<td></td>
+<td>台州组</td>
+<td>特色美食介绍（黄岩温岭）</td>
+<td>[推文]美食专题-2</td>
+</tr>
+<tr>
+<td></td>
+<td>黄冈组 丽水组</td>
+<td>博物馆或遗址参观剪辑视频（黄冈丽水）</td>
+<td>[视频]博物馆专题</td>
+</tr>
+<tr>
+<td></td>
+<td>瓯婺组</td>
+<td>推文排版</td>
+<td></td>
+</tr>
+<tr>
+<td>1/22</td>
+<td>瓯婺组 丽水组</td>
+<td>特色艺术形式（温州金华丽水）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>甬杭组</td>
+<td>文化古镇（宁波杭州）</td>
+<td>[视频]古镇视频</td>
+</tr>
+<tr>
+<td></td>
+<td>黄冈组 台州组</td>
+<td>推文文案 推文排版</td>
+<td>[推文]艺术专题（特色艺术与古镇）</td>
+</tr>
+<tr>
+<td>1/23</td>
+<td>各组</td>
+<td>写一段心得用于总结推文</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>甬杭组</td>
+<td>博物馆或遗址参观 剪辑视频（宁波 杭州）</td>
+<td>[视频]博物馆专题</td>
+</tr>
+<tr>
+<td></td>
+<td>台州组</td>
+<td>艺术鉴赏分享（黄岩 温岭）</td>
+<td>[PPT]艺术鉴赏</td>
+</tr>
+<tr>
+<td></td>
+<td>丽水组 黄冈组 瓯婺组</td>
+<td>实践简报撰写 推文排版 总结推文文案</td>
+<td>[推文]总结推文</td>
+</tr>
+</tbody></table>
+<p><i>每日需上传团队安全简报。</i></p>
+<hr>
+<h4 id="活动分组"><a href="#活动分组" class="headerlink" title="活动分组"></a>活动分组</h4><p>台州组：杨钧尹（队长）、李京蔚、郑恬欣</p>
+<p>甬杭组：方思梦、莫欣澜</p>
+<p>黄冈组：彭鑫霖</p>
+<p>瓯婺组：潘致宇、陈可</p>
+<p>丽水组：林昊润</p>
+<hr>
+<h4 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h4><table>
+<thead>
+<tr>
+<th>活动主题</th>
+<th>具体内容</th>
+<th></th>
+<th>呈现形式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>探寻家乡方言</td>
+<td>方言调研</td>
+<td>实地或问卷调查方言传承情况；采访相关人士了解其历史特色。</td>
+<td>·调研报告或采访稿·视频</td>
+</tr>
+<tr>
+<td></td>
+<td>地域比较*</td>
+<td>用八地方言表达一组常用语并剪辑成视频或制作科普视频，公开发布。</td>
+<td></td>
+</tr>
+<tr>
+<td>探寻家乡历史</td>
+<td>博物馆或遗址参观</td>
+<td>实地参观博物馆展厅，探寻当地历史，以视频方式记录，辅以旁白或字幕介绍，公开发布。</td>
+<td>·视频</td>
+</tr>
+<tr>
+<td>探寻家乡美食</td>
+<td>美食制作视频</td>
+<td>深入街巷，实地拍摄美食的制作过程，制作短视频。</td>
+<td>·视频·推文</td>
+</tr>
+<tr>
+<td></td>
+<td>特色美食介绍*</td>
+<td>搜集当地几种代表性小吃的介绍与文化内涵。</td>
+<td></td>
+</tr>
+<tr>
+<td>探寻家乡名人</td>
+<td>家乡历史名人*</td>
+<td>通过知网等网站以文献学习为手段探究家乡传统文化的起源、发展等各个方面；撰写分享心得。</td>
+<td>·推文</td>
+</tr>
+<tr>
+<td>文艺作品中的家乡</td>
+<td>艺术鉴赏分享*</td>
+<td>观看并赏析与本地民俗有关的文化作品；记录后进行交流分享，汇总成一份包含海报、心得、推荐词的演示文稿。</td>
+<td>·PPT</td>
+</tr>
+<tr>
+<td>寻访历史活化石</td>
+<td>文化古镇</td>
+<td>深入调查当地历史比较悠久的古村古镇，或是一条古街，了解历史，感受古镇的韵味，制成专题视频与推文。</td>
+<td>·视频·照片集</td>
+</tr>
+<tr>
+<td>探寻家乡艺术</td>
+<td>特色艺术形式*</td>
+<td>当地独特的艺术（如金华婺剧）。</td>
+<td>·推文</td>
+</tr>
+</tbody></table>
+<p><i>[注]以*标注的是能够在线上直接完成的活动；“推文”指就该活动发布的专题推文。</i></p>
+<hr>
+]]></content>
+      <categories>
+        <category>档案</category>
+      </categories>
+      <tags>
+        <tag>社会实践</tag>
+      </tags>
   </entry>
   <entry>
     <title>2022 寒假简报</title>
@@ -740,322 +1055,6 @@
       </categories>
       <tags>
         <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/01/11/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<embed id="pdfPlayer" src=" https://gitee.com/parallelcoder_admin/blog_file/raw/master/plan.pdf " type="application/pdf" width="100%" height="500px">
-]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>社会实践具体安排（草案）</title>
-    <url>/2022/01/15/plan-demo/</url>
-    <content><![CDATA[<p><a href="https://gitee.com/parallelcoder_admin/blog_file/raw/master/demo.pdf">Download(demo.pdf)</a></p>
-<hr>
-<h4 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h4><table>
-<thead>
-<tr>
-<th>日期</th>
-<th>分工</th>
-<th></th>
-<th>成果</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1/17</td>
-<td>各组</td>
-<td>搜集八地家乡基本资料</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>甬杭组 瓯婺组</td>
-<td>家乡历史名人[仅搜集资料]（杭州 宁波 金华 温州）</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>台州组</td>
-<td>博物馆或遗址参观剪辑视频（台州）</td>
-<td>[视频]博物馆专题</td>
-</tr>
-<tr>
-<td>1/18</td>
-<td>丽水组 甬杭组</td>
-<td>方言调研（宁波 杭州 丽水）</td>
-<td>[调研报告/录制采访视频]</td>
-</tr>
-<tr>
-<td></td>
-<td>黄冈组</td>
-<td>地域比较[策划常用语收集各组录制素材]</td>
-<td>[视频]地域比较视频，也可以用其他方式呈现</td>
-</tr>
-<tr>
-<td></td>
-<td>台州组 瓯婺组</td>
-<td>推文文案 推文排版</td>
-<td>[推文]方言专题，汇总上述内容</td>
-</tr>
-<tr>
-<td>1/19</td>
-<td>瓯婺组</td>
-<td>美食制作视频（温州 金华）</td>
-<td>[视频]美食制作视频</td>
-</tr>
-<tr>
-<td></td>
-<td>黄冈组 丽水组</td>
-<td>特色美食介绍（黄冈 丽水）</td>
-<td>[推文]美食专题-1</td>
-</tr>
-<tr>
-<td></td>
-<td>甬杭组 台州组</td>
-<td>推文排版 实践中期简报撰写</td>
-<td></td>
-</tr>
-<tr>
-<td>1/20</td>
-<td>台州组 黄冈组 丽水组</td>
-<td>家乡历史名人（黄岩 温岭 黄冈 丽水）</td>
-<td>[推文]历史名人专题（整合1/17资料）</td>
-</tr>
-<tr>
-<td></td>
-<td>瓯婺组</td>
-<td>博物馆或遗址参观剪辑视频（温州 金华）</td>
-<td>[视频]博物馆专题</td>
-</tr>
-<tr>
-<td></td>
-<td>甬杭组</td>
-<td>推文排版</td>
-<td></td>
-</tr>
-<tr>
-<td>1/21</td>
-<td>甬杭组</td>
-<td>美食制作视频（宁波 杭州）</td>
-<td>[视频]美食制作视频</td>
-</tr>
-<tr>
-<td></td>
-<td>台州组</td>
-<td>特色美食介绍（黄岩温岭）</td>
-<td>[推文]美食专题-2</td>
-</tr>
-<tr>
-<td></td>
-<td>黄冈组 丽水组</td>
-<td>博物馆或遗址参观剪辑视频（黄冈丽水）</td>
-<td>[视频]博物馆专题</td>
-</tr>
-<tr>
-<td></td>
-<td>瓯婺组</td>
-<td>推文排版</td>
-<td></td>
-</tr>
-<tr>
-<td>1/22</td>
-<td>瓯婺组 丽水组</td>
-<td>特色艺术形式（温州金华丽水）</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>甬杭组</td>
-<td>文化古镇（宁波杭州）</td>
-<td>[视频]古镇视频</td>
-</tr>
-<tr>
-<td></td>
-<td>黄冈组 台州组</td>
-<td>推文文案 推文排版</td>
-<td>[推文]艺术专题（特色艺术与古镇）</td>
-</tr>
-<tr>
-<td>1/23</td>
-<td>各组</td>
-<td>写一段心得用于总结推文</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>甬杭组</td>
-<td>博物馆或遗址参观 剪辑视频（宁波 杭州）</td>
-<td>[视频]博物馆专题</td>
-</tr>
-<tr>
-<td></td>
-<td>台州组</td>
-<td>艺术鉴赏分享（黄岩 温岭）</td>
-<td>[PPT]艺术鉴赏</td>
-</tr>
-<tr>
-<td></td>
-<td>丽水组 黄冈组 瓯婺组</td>
-<td>实践简报撰写 推文排版 总结推文文案</td>
-<td>[推文]总结推文</td>
-</tr>
-</tbody></table>
-<p><i>每日需上传团队安全简报。</i></p>
-<hr>
-<h4 id="活动分组"><a href="#活动分组" class="headerlink" title="活动分组"></a>活动分组</h4><p>台州组：杨钧尹（队长）、李京蔚、郑恬欣</p>
-<p>甬杭组：方思梦、莫欣澜</p>
-<p>黄冈组：彭鑫霖</p>
-<p>瓯婺组：潘致宇、陈可</p>
-<p>丽水组：林昊润</p>
-<hr>
-<h4 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h4><table>
-<thead>
-<tr>
-<th>活动主题</th>
-<th>具体内容</th>
-<th></th>
-<th>呈现形式</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>探寻家乡方言</td>
-<td>方言调研</td>
-<td>实地或问卷调查方言传承情况；采访相关人士了解其历史特色。</td>
-<td>·调研报告或采访稿·视频</td>
-</tr>
-<tr>
-<td></td>
-<td>地域比较*</td>
-<td>用八地方言表达一组常用语并剪辑成视频或制作科普视频，公开发布。</td>
-<td></td>
-</tr>
-<tr>
-<td>探寻家乡历史</td>
-<td>博物馆或遗址参观</td>
-<td>实地参观博物馆展厅，探寻当地历史，以视频方式记录，辅以旁白或字幕介绍，公开发布。</td>
-<td>·视频</td>
-</tr>
-<tr>
-<td>探寻家乡美食</td>
-<td>美食制作视频</td>
-<td>深入街巷，实地拍摄美食的制作过程，制作短视频。</td>
-<td>·视频·推文</td>
-</tr>
-<tr>
-<td></td>
-<td>特色美食介绍*</td>
-<td>搜集当地几种代表性小吃的介绍与文化内涵。</td>
-<td></td>
-</tr>
-<tr>
-<td>探寻家乡名人</td>
-<td>家乡历史名人*</td>
-<td>通过知网等网站以文献学习为手段探究家乡传统文化的起源、发展等各个方面；撰写分享心得。</td>
-<td>·推文</td>
-</tr>
-<tr>
-<td>文艺作品中的家乡</td>
-<td>艺术鉴赏分享*</td>
-<td>观看并赏析与本地民俗有关的文化作品；记录后进行交流分享，汇总成一份包含海报、心得、推荐词的演示文稿。</td>
-<td>·PPT</td>
-</tr>
-<tr>
-<td>寻访历史活化石</td>
-<td>文化古镇</td>
-<td>深入调查当地历史比较悠久的古村古镇，或是一条古街，了解历史，感受古镇的韵味，制成专题视频与推文。</td>
-<td>·视频·照片集</td>
-</tr>
-<tr>
-<td>探寻家乡艺术</td>
-<td>特色艺术形式*</td>
-<td>当地独特的艺术（如金华婺剧）。</td>
-<td>·推文</td>
-</tr>
-</tbody></table>
-<p><i>[注]以*标注的是能够在线上直接完成的活动；“推文”指就该活动发布的专题推文。</i></p>
-<hr>
-<embed id="pdfPlayer" src=" https://gitee.com/parallelcoder_admin/blog_file/raw/master/demo.pdf " type="application/pdf" width="100%" height="1800px">
-]]></content>
-      <categories>
-        <category>档案</category>
-      </categories>
-      <tags>
-        <tag>社会实践</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>写作语法手册</title>
-    <url>/2021/01/01/note0/</url>
-    <content><![CDATA[<p>下面展示一些写作时需要的语法。</p>
-<span id="more"></span>
-
-<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题？"><a href="#六级标题？" class="headerlink" title="六级标题？"></a>六级标题？</h6><h2 id="标记"><a href="#标记" class="headerlink" title="标记"></a>标记</h2><p><u>下划线</u>、<em>斜体</em>、<strong>加粗</strong>、<em><strong>粗斜体</strong></em>、==高亮==、<del>删除线</del>、<a href="haha">链接</a>、注释<a href="%E6%B3%A8%E9%87%8A1">^1</a></p>
-<p><font color=#0099ff size=4 face="黑体">字体</font></p>
-<ul>
-<li><p><input disabled="" type="checkbox">  任务</p>
-</li>
-<li><p><input checked="" disabled="" type="checkbox">  已完成</p>
-</li>
-</ul>
-<ol>
-<li>有序列表项</li>
-<li>第二项</li>
-</ol>
-<p><code>单行代码</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">多行</span><br><span class="line">代码</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>单引用</p>
-</blockquote>
-<blockquote>
-<blockquote>
-<p>嵌套引用</p>
-</blockquote>
-</blockquote>
-<h2 id="对齐"><a href="#对齐" class="headerlink" title="对齐"></a>对齐</h2><center>中心对齐</center>
-<p align="right">右对齐</p>
-
-<ul>
-<li>列表<ul>
-<li>二级列表<ul>
-<li>三级列表</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="绘制"><a href="#绘制" class="headerlink" title="绘制"></a>绘制</h2><p>分割线&gt;</p>
-<hr>
-<p>分割线&lt;</p>
-<table>
-<thead>
-<tr>
-<th>biao</th>
-<th>ge</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td>2</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-        <tag>CSS</tag>
       </tags>
   </entry>
 </search>
