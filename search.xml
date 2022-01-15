@@ -3,12 +3,10 @@
   <entry>
     <title>团队实践活动计划</title>
     <url>/2021/12/31/act-plan/</url>
-    <content><![CDATA[<p><a href="https://gitee.com/wang_heyu/Computer-Simulation/raw/master/doc/assignment_cn.pdf">download</a></p>
-<embed id="pdfPlayer" src=" https://gitee.com/parallelcoder_admin/blog_file/raw/master/plan.pdf " type="application/pdf" width="100%" height="500px">
-
+    <content><![CDATA[<p><a href="https://gitee.com/parallelcoder_admin/blog_file/raw/master/plan.pdf">Download(plan.pdf)</a></p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>为发掘家乡传统文化，弘扬优良传统，增强文化自信，我们将进行以“寻觅故土风情，传述乡梓故事”为主题的社会实践活动。“千里不同风，百里不同俗”，不同地区有不c同的文化特色和历史底蕴，多姿多彩的文化共同构成了中华民族的文化底色。我们期待在这次活动中充分领略、发掘和弘扬家乡的风俗文化，同时为家乡文化“走出去”贡献出一份力量。</p>
 <span id="more"></span>
 
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>为发掘家乡传统文化，弘扬优良传统，增强文化自信，我们将进行以“寻觅故土风情，传述乡梓故事”为主题的社会实践活动。“千里不同风，百里不同俗”，不同地区有不c同的文化特色和历史底蕴，多姿多彩的文化共同构成了中华民族的文化底色。我们期待在这次活动中充分领略、发掘和弘扬家乡的风俗文化，同时为家乡文化“走出去”贡献出一份力量。</p>
 <h2 id="实践前准备工作"><a href="#实践前准备工作" class="headerlink" title="实践前准备工作"></a>实践前准备工作</h2><p>鉴于近期疫情情况，本次活动由9位组员分别在各自家乡展开，所有交流均运用“互联网+”技术手段在微信、钉钉群组等平台进行。实践前，组员将线上规划具体日程与实践方式。</p>
 <p>活动经费包括车费、门票费用等先由当地组员自行筹措支付；活动设备由组员自行准备。</p>
 <h2 id="实践内容"><a href="#实践内容" class="headerlink" title="实践内容"></a>实践内容</h2><h3 id="活动分组"><a href="#活动分组" class="headerlink" title="活动分组"></a>活动分组</h3><p><strong>台州组：</strong>杨钧尹（队长）、李京蔚、郑恬欣</p>
@@ -271,37 +269,6 @@
       </tags>
   </entry>
   <entry>
-    <title>bilibili</title>
-    <url>/2022/01/14/bilibili/</url>
-    <content><![CDATA[<p><iframe src="//player.bilibili.com/player.html?aid=763293176&amp;cid=417794545&amp;page=1" frameborder="no" scrolling="no" width="95%" height="600"></iframe></p>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Valine - A simple comment system based on Leancloud.</title>
-    <!--Leancloud 操作库:-->
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <!--Valine 的核心代码库:-->
-    <script src="./dist/Valine.min.js"></script>
-</head>
-<body>
-    <div class="comment"></div>
-    <script>
-        new Valine({
-            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
-            av: AV, 
-            el: '.comment', // 
-            app_id: 'Your APP ID', // 这里填写上面得到的APP ID
-            app_key: 'Your APP KEY', // 这里填写上面得到的APP KEY
-            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!' // [v1.0.7 new]留言框占位提示文字
-        });
-    </script>
-</body>
-</html>
-]]></content>
-  </entry>
-  <entry>
     <title>TESTV数据分析</title>
     <url>/2021/12/22/data-anay/</url>
     <content><![CDATA[<h2 id="数据"><a href="#数据" class="headerlink" title="数据"></a>数据</h2><p>*数据截至2021年12月22日下午6时。</p>
@@ -479,6 +446,51 @@
       </tags>
   </entry>
   <entry>
+    <title>Surface Pro 2 评测备档</title>
+    <url>/2021/10/01/bilibili/</url>
+    <content><![CDATA[<blockquote>
+<p>这是由优酷用户@嘉峪出品 约八年前上传的微软 Surface Pro 2 评测视频。这是我最早了解到微软 Surface 系列产品，也是我彼时认为最优秀的一批关于该产品的测评。由于如今原视频失效，特在B站备份存档。（2021-10-01）</p>
+</blockquote>
+<span id="more"></span>
+
+<p><iframe src="//player.bilibili.com/player.html?aid=763293176&amp;cid=417794545&amp;page=1" frameborder="no" scrolling="no" width="95%" height="600"></iframe></p>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Valine - A simple comment system based on Leancloud.</title>
+    <!--Leancloud 操作库:-->
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <!--Valine 的核心代码库:-->
+    <script src="./dist/Valine.min.js"></script>
+</head>
+<body>
+    <div class="comment"></div>
+    <script>
+        new Valine({
+            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+            av: AV, 
+            el: '.comment', // 
+            app_id: 'Your APP ID', // 这里填写上面得到的APP ID
+            app_key: 'Your APP KEY', // 这里填写上面得到的APP KEY
+            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!' // [v1.0.7 new]留言框占位提示文字
+        });
+    </script>
+</body>
+</html>
+
+]]></content>
+      <categories>
+        <category>经典备份仓</category>
+      </categories>
+      <tags>
+        <tag>评测</tag>
+        <tag>科技</tag>
+        <tag>微软</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>写作语法手册</title>
     <url>/2021/01/01/note0/</url>
     <content><![CDATA[<p>下面展示一些写作时需要的语法。</p>
@@ -544,7 +556,53 @@
       </tags>
   </entry>
   <entry>
-    <title>社会实践具体安排（草案）</title>
+    <title>「开端」纪录</title>
+    <url>/2022/01/15/kaiduan/</url>
+    <content><![CDATA[<p><img src="https://gitee.com/parallelcoder_admin/blog_file/raw/master/kaiduan.jpg" alt="avatar"></p>
+<blockquote class="blockquote-center">
+<p><font face="仿宋">善良不是廉价的美德,它是要和能力相匹配的,要不然就是添乱。</font></p>
+
+</blockquote>
+
+<span id="more"></span>
+
+<hr>
+<h3 id="观评"><a href="#观评" class="headerlink" title="观评"></a>观评</h3><p>熟悉类似影片的朋友或许会和我一样，在起初不自觉地给这部剧打上刻板的标签。</p>
+<p>或是探讨宿命、平行宇宙与世界本原的科学幻想（源代码），或是关乎执念、困囿于时线循环的惊悚篇章（恐怖游轮）。</p>
+<p>而《开端》以戏谑的姿态回应了这份偏见，或曰桎梏。</p>
+<p>在开端的叙事架构之中，循环本身被抽离了意义。不在乎为何循环，也不在乎“他”或者“她”为何被卷入循环；对创作者而言，他们所要传达的是光怪陆离表象之下的现实主义内核，其承载者正是这辆公交车和它的乘客们。</p>
+<p>如果说《一出好戏》以荒岛求生的俗套框架掩藏导演真正渴望演绎的人性实验，那么《开端》就是一副当代社会底层人物的群像，借由他们的话语阐述善、自由与正义。</p>
+<blockquote>
+<p><font face="仿宋">他原本逃避着李诗情太过清澈的目光，现在却根本移不开眼。这个女孩身上那些之前还让他‘诟病’的天真，现在却是如此让人惊心动魄。那些天真是她的武器，也是她的铠甲，让肖鹤云溃不成军。</font></p>
+</blockquote>
+<p>得以循环的李诗情和肖鹤云，一位学生，一位社畜；是参与者，也是旁观者。前者急于报警、着眼于救人的天真与单纯打动了“成为社会螺丝钉多年”而圆滑现实、心念逃避的后者；后者又以职业本能的逻辑理性释然了拘于感性的前者。而插曲般呈现的卢笛故事线，则讲述了缺乏尊严，控制欲覆压之下成长的年轻人何以找寻自我的价值。些数矛盾的价值内核确是不谋而合的。</p>
+<blockquote>
+<p><font face="仿宋">她装心脏不舒服的时候，阿姨积极拿药，肖鹤云让司机开门。</font></p>
+<p><font face="仿宋">她装被「色狼」欺负的时候，网红大哥积极留证，耳机肌肉男上前制服“坏蛋”。</font></p>
+<p><font face="仿宋">她装和肖鹤云吵架踢坏了别人瓜，网红大哥仗义执言，瓜农大叔把瓜分给大家以德报怨。</font></p>
+<p><font face="仿宋">她装没有卫生巾的时候，无家可归的大叔在行李箱里翻出卫生巾。</font></p>
+<p><font face="仿宋">他们不是冷漠的陌生人，只是没有应付突发状况的勇气和反应，也有正常人面对危险恐惧与却步。</font></p>
+<p><font face="仿宋">他们只是没有下一次循环的普通人。</font></p>
+</blockquote>
+<p align="right"><font face="仿宋">（载于<a href="https://movie.douban.com/review/14143283/?_dtcc=1">豆瓣</a>）</font></p>
+
+<hr>
+<h3 id="摘录"><a href="#摘录" class="headerlink" title="摘录"></a>摘录</h3><blockquote>
+<p><font face="仿宋">其实我也想要活下去，我也是人，我也怕死。其实之前每一次我都特别想要下车。我还偷偷想过，我是不是可以趁着循环的机会做一点出格的、放飞自我的事情，就像我可以不用担心花钱，也不用担心长胖，然后大吃大喝；或者是晚上可以不回宿舍，然后去网吧刷夜……可是，我能想到的让我高兴的事情也就是这样了。我就是一个普通人。我想象力有限。但是我觉得，如果能救下这一车人，就是我能想到最出格、最放飞自我的事情。而且他们现在对我来说，已经不再是普通的陌生人。（李诗情）</font></p>
+</blockquote>
+<blockquote>
+<p><font face="仿宋">爸爸，妈妈，我今天差一点坐上那辆爆炸的公交车。就差一点。我在想，如果这次死神抓住了我，你们以后会如何回忆我呢。一个不服管教、奇装异服、没有朋友，总是对你们抱怨、与社会格格不入的哮喘患者。我的内心其实比你们同事家的孩子都要丰富、充实，我早已找到了活着的意义。“我将守护我的次元，献出我的心。”唯一的遗憾，是可能没人为我颁发勋章，挂在客厅的墙上，让你们炫耀。如果有一天我没能回家，请你们到这个地址，动漫城九栋二零一，密码六个六，进去之后，你们就会知道我的秘密。别对我失望。你们应该这么想，我试着拥有过我想要的生活了。我拥有过快乐。谢谢你们一直保护着我。我想说，我很爱你们，很幸福，很知足，我对自己爹生活很满意。其实我最大心愿，是让你们看到我眼中的世界，是多么的精彩啊。（卢笛）</font></p>
+</blockquote>
+<hr>
+<h3 id="影音"><a href="#影音" class="headerlink" title="影音"></a>影音</h3><p>图片参见<a href="https://movie.douban.com/subject/35332289/all_photos">此处</a>。</p>
+]]></content>
+      <tags>
+        <tag>悬疑剧</tag>
+        <tag>剧评</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>团队实践活动日程（草案）</title>
     <url>/2022/01/15/plan-demo/</url>
     <content><![CDATA[<p><a href="https://gitee.com/parallelcoder_admin/blog_file/raw/master/demo.pdf">Download(demo.pdf)</a></p>
 <hr>
@@ -779,7 +837,7 @@
       </tags>
   </entry>
   <entry>
-    <title>实践活动具体安排</title>
+    <title>团队实践活动内容分工</title>
     <url>/2022/01/15/plan-formal/</url>
     <content><![CDATA[<table>
 <thead>
@@ -858,6 +916,16 @@
       </categories>
       <tags>
         <tag>社会实践</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「是，大臣」观看笔记</title>
+    <url>/2022/01/15/y-m/</url>
+    <content><![CDATA[<p>Building……</p>
+]]></content>
+      <tags>
+        <tag>剧评</tag>
+        <tag>政治剧</tag>
       </tags>
   </entry>
 </search>
