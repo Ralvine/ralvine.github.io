@@ -1,37 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>bilibili</title>
-    <url>/2022/01/14/bilibili/</url>
-    <content><![CDATA[<p><iframe src="//player.bilibili.com/player.html?aid=763293176&amp;cid=417794545&amp;page=1" frameborder="no" scrolling="no" width="95%" height="600"></iframe></p>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Valine - A simple comment system based on Leancloud.</title>
-    <!--Leancloud 操作库:-->
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <!--Valine 的核心代码库:-->
-    <script src="./dist/Valine.min.js"></script>
-</head>
-<body>
-    <div class="comment"></div>
-    <script>
-        new Valine({
-            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
-            av: AV, 
-            el: '.comment', // 
-            app_id: 'Your APP ID', // 这里填写上面得到的APP ID
-            app_key: 'Your APP KEY', // 这里填写上面得到的APP KEY
-            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!' // [v1.0.7 new]留言框占位提示文字
-        });
-    </script>
-</body>
-</html>
-]]></content>
-  </entry>
-  <entry>
     <title>团队实践活动计划</title>
     <url>/2021/12/31/act-plan/</url>
     <content><![CDATA[<p><a href="https://gitee.com/wang_heyu/Computer-Simulation/raw/master/doc/assignment_cn.pdf">download</a></p>
@@ -298,8 +267,39 @@
         <category>工作</category>
       </categories>
       <tags>
-        <tag>实践</tag>
+        <tag>社会实践</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>bilibili</title>
+    <url>/2022/01/14/bilibili/</url>
+    <content><![CDATA[<p><iframe src="//player.bilibili.com/player.html?aid=763293176&amp;cid=417794545&amp;page=1" frameborder="no" scrolling="no" width="95%" height="600"></iframe></p>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Valine - A simple comment system based on Leancloud.</title>
+    <!--Leancloud 操作库:-->
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <!--Valine 的核心代码库:-->
+    <script src="./dist/Valine.min.js"></script>
+</head>
+<body>
+    <div class="comment"></div>
+    <script>
+        new Valine({
+            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+            av: AV, 
+            el: '.comment', // 
+            app_id: 'Your APP ID', // 这里填写上面得到的APP ID
+            app_key: 'Your APP KEY', // 这里填写上面得到的APP KEY
+            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!' // [v1.0.7 new]留言框占位提示文字
+        });
+    </script>
+</body>
+</html>
+]]></content>
   </entry>
   <entry>
     <title>TESTV数据分析</title>
@@ -479,282 +479,68 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/01/11/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+    <title>写作语法手册</title>
+    <url>/2021/01/01/note0/</url>
+    <content><![CDATA[<p>下面展示一些写作时需要的语法。</p>
 <span id="more"></span>
 
-<embed id="pdfPlayer" src=" https://gitee.com/parallelcoder_admin/blog_file/raw/master/plan.pdf " type="application/pdf" width="100%" height="500px">
-]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2022 寒假简报</title>
-    <url>/2022/01/13/holiday-brief/</url>
-    <content><![CDATA[<p>关于寒假期间的一些安排与实际执行情况。</p>
-<span id="more"></span>
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题？"><a href="#六级标题？" class="headerlink" title="六级标题？"></a>六级标题？</h6><h2 id="标记"><a href="#标记" class="headerlink" title="标记"></a>标记</h2><p><u>下划线</u>、<em>斜体</em>、<strong>加粗</strong>、<em><strong>粗斜体</strong></em>、==高亮==、<del>删除线</del>、<a href="haha">链接</a>、注释<a href="%E6%B3%A8%E9%87%8A1">^1</a></p>
+<p><font color=#0099ff size=4 face="黑体">字体</font></p>
+<ul>
+<li><p><input disabled="" type="checkbox">  任务</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  已完成</p>
+</li>
+</ul>
+<ol>
+<li>有序列表项</li>
+<li>第二项</li>
+</ol>
+<p><code>单行代码</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">多行</span><br><span class="line">代码</span><br></pre></td></tr></table></figure>
 
+<blockquote>
+<p>单引用</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>嵌套引用</p>
+</blockquote>
+</blockquote>
+<h2 id="对齐"><a href="#对齐" class="headerlink" title="对齐"></a>对齐</h2><center>中心对齐</center>
+<p align="right">右对齐</p>
+
+<ul>
+<li>列表<ul>
+<li>二级列表<ul>
+<li>三级列表</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="绘制"><a href="#绘制" class="headerlink" title="绘制"></a>绘制</h2><p>分割线&gt;</p>
+<hr>
+<p>分割线&lt;</p>
 <table>
 <thead>
 <tr>
-<th>Days</th>
-<th>Date</th>
-<th>Plans</th>
-<th>Having done</th>
+<th>biao</th>
+<th>ge</th>
 </tr>
 </thead>
 <tbody><tr>
 <td>1</td>
-<td>1/10</td>
-<td></td>
-<td>Back home, watch movie</td>
-</tr>
-<tr>
 <td>2</td>
-<td>1/11</td>
-<td></td>
-<td>Create Hexo website.</td>
-</tr>
-<tr>
-<td>3</td>
-<td>1/12</td>
-<td></td>
-<td>Buy some things..</td>
-</tr>
-<tr>
-<td>4</td>
-<td>1/13</td>
-<td>start the math learning..</td>
-<td></td>
-</tr>
-<tr>
-<td>5</td>
-<td>1/14</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>6</td>
-<td>1/15</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>7</td>
-<td>1/16</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>8</td>
-<td>1/17</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>9</td>
-<td>1/18</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>10</td>
-<td>1/19</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>11</td>
-<td>1/20</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>12</td>
-<td>1/21</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>13</td>
-<td>1/22</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>14</td>
-<td>1/23</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>15</td>
-<td>1/24</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>16</td>
-<td>1/25</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>17</td>
-<td>1/26</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>18</td>
-<td>1/27</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>19</td>
-<td>1/28</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>20</td>
-<td>1/29</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>21</td>
-<td>1/30</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>22</td>
-<td>1/31</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>23</td>
-<td>2/1</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>24</td>
-<td>2/2</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>25</td>
-<td>2/3</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>26</td>
-<td>2/4</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>27</td>
-<td>2/5</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>28</td>
-<td>2/6</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>29</td>
-<td>2/7</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>30</td>
-<td>2/8</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>31</td>
-<td>2/9</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>32</td>
-<td>2/10</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>33</td>
-<td>2/11</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>34</td>
-<td>2/12</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>35</td>
-<td>2/13</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>36</td>
-<td>2/14</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>37</td>
-<td>2/15</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>38</td>
-<td>2/16</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>39</td>
-<td>2/17</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 </tbody></table>
 ]]></content>
       <categories>
-        <category>便笺</category>
+        <category>笔记</category>
       </categories>
       <tags>
-        <tag>学习</tag>
+        <tag>Markdown</tag>
+        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>
@@ -1072,71 +858,6 @@
       </categories>
       <tags>
         <tag>社会实践</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>写作语法手册</title>
-    <url>/2021/01/01/note0/</url>
-    <content><![CDATA[<p>下面展示一些写作时需要的语法。</p>
-<span id="more"></span>
-
-<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题？"><a href="#六级标题？" class="headerlink" title="六级标题？"></a>六级标题？</h6><h2 id="标记"><a href="#标记" class="headerlink" title="标记"></a>标记</h2><p><u>下划线</u>、<em>斜体</em>、<strong>加粗</strong>、<em><strong>粗斜体</strong></em>、==高亮==、<del>删除线</del>、<a href="haha">链接</a>、注释<a href="%E6%B3%A8%E9%87%8A1">^1</a></p>
-<p><font color=#0099ff size=4 face="黑体">字体</font></p>
-<ul>
-<li><p><input disabled="" type="checkbox">  任务</p>
-</li>
-<li><p><input checked="" disabled="" type="checkbox">  已完成</p>
-</li>
-</ul>
-<ol>
-<li>有序列表项</li>
-<li>第二项</li>
-</ol>
-<p><code>单行代码</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">多行</span><br><span class="line">代码</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>单引用</p>
-</blockquote>
-<blockquote>
-<blockquote>
-<p>嵌套引用</p>
-</blockquote>
-</blockquote>
-<h2 id="对齐"><a href="#对齐" class="headerlink" title="对齐"></a>对齐</h2><center>中心对齐</center>
-<p align="right">右对齐</p>
-
-<ul>
-<li>列表<ul>
-<li>二级列表<ul>
-<li>三级列表</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="绘制"><a href="#绘制" class="headerlink" title="绘制"></a>绘制</h2><p>分割线&gt;</p>
-<hr>
-<p>分割线&lt;</p>
-<table>
-<thead>
-<tr>
-<th>biao</th>
-<th>ge</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td>2</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-        <tag>CSS</tag>
       </tags>
   </entry>
 </search>
