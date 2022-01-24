@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#292929" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)">
+<meta name="generator" content="Hexo 6.0.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#292929">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trebuchet+MS:300,300italic,400,400italic,700,700italic%7CMonda:300,300italic,400,400italic,700,700italic%7CNoto+Serif+SC:300,300italic,400,400italic,700,700italic%7CRoboto+Slab:300,300italic,400,400italic,700,700italic%7CPT+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"ralvine.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.9.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"twikoo":null,"enable":false,"visitor":true,"envId":"xxxxxxxxxxxxxxx","valine":{"enable":true,"appId":"TqKCbdJq0vpNsg8bwva4dz4J-gzGzoHsz","appKey":"kDX4Uj4cJGs8vJTu7UUowkX0","serverURLs":null,"placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":[]}},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":true,"preload":true}}</script><script src="/js/config.js"></script>
+<meta name="description" content="Ch3-Lists&amp;Stacks&amp;Queues:1Ch4-Trees:2Ch5-Hashing:1Ch6-PriorityQueues&amp;Heaps:1Ch7-Sorting:1.5Ch9-GraphAlgorithms:1.5*主定理">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数据结构与算法｜笔记">
+<meta property="og:url" content="https://ralvine.github.io/2022/01/24/ds-note/index.html">
+<meta property="og:site_name" content="Blog">
+<meta property="og:description" content="Ch3-Lists&amp;Stacks&amp;Queues:1Ch4-Trees:2Ch5-Hashing:1Ch6-PriorityQueues&amp;Heaps:1Ch7-Sorting:1.5Ch9-GraphAlgorithms:1.5*主定理">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-01-23T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-01-24T05:33:15.766Z">
+<meta property="article:author" content="ralvine">
+<meta property="article:tag" content="CS-Learning">
+<meta property="article:tag" content="数据结构">
+<meta property="article:tag" content="算法">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://ralvine.github.io/2022/01/24/ds-note/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://ralvine.github.io/2022/01/24/ds-note/","path":"2022/01/24/ds-note/","title":"数据结构与算法｜笔记"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>数据结构与算法｜笔记 | Blog</title>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Blog</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Keep curiosity, keep thinking.</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-主页"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>主页</a></li>
+        
+            
+  <li class="menu-item menu-item-蓝图"><a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>蓝图</a></li>
+
+
+      
+        <li class="menu-item menu-item-标签"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
+        <li class="menu-item menu-item-分类"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li>
+        <li class="menu-item menu-item-归档"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+        <li class="menu-item menu-item-关于"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B1%BB%E6%A8%A1%E6%9D%BF%E5%8F%8A%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80"><span class="nav-number">1.</span> <span class="nav-text">类模板及语法基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8A%A8%E6%80%81%E5%86%85%E5%AD%98%E4%B8%8E%E9%87%8A%E6%94%BE"><span class="nav-number">1.1.</span> <span class="nav-text">动态内存与释放</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#template"><span class="nav-number">1.2.</span> <span class="nav-text">template</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E9%94%AE%E5%AD%97%E4%BF%AE%E9%A5%B0%E7%AC%A6"><span class="nav-number">1.3.</span> <span class="nav-text">关键字修饰符</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#const"><span class="nav-number">1.3.1.</span> <span class="nav-text">const</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Static"><span class="nav-number">1.3.2.</span> <span class="nav-text">Static</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#this"><span class="nav-number">1.3.3.</span> <span class="nav-text">*this</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Explicit-%E6%98%BE%E5%BC%8F%E8%BD%AC%E6%8D%A2"><span class="nav-number">1.3.4.</span> <span class="nav-text">Explicit 显式转换</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%8F%E5%AE%9A%E4%B9%89"><span class="nav-number">1.4.</span> <span class="nav-text">宏定义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BC%A0%E9%80%92-%E5%BC%95%E7%94%A8"><span class="nav-number">1.5.</span> <span class="nav-text">传递 引用</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BD%A2%E5%8F%82%E7%9A%84%E5%80%BC%E4%BC%A0%E9%80%92-%E6%8C%87%E9%92%88%E4%BC%A0%E9%80%92-%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92"><span class="nav-number">1.5.1.</span> <span class="nav-text">形参的值传递 指针传递 引用传递</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%B7%A6%E5%80%BC-%E5%8F%B3%E5%80%BC%E5%BC%95%E7%94%A8"><span class="nav-number">1.5.2.</span> <span class="nav-text">左值 右值引用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#std-move"><span class="nav-number">1.5.3.</span> <span class="nav-text">std::move</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Class-amp-Struct-%E5%B0%81%E8%A3%85"><span class="nav-number">1.6.</span> <span class="nav-text">Class &amp; Struct 封装</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A4%8D%E5%88%B6%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0"><span class="nav-number">1.6.1.</span> <span class="nav-text">复制构造函数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%87%BD%E6%95%B0%E5%8C%96"><span class="nav-number">1.6.2.</span> <span class="nav-text">函数化</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#struct-%E5%AE%9A%E4%B9%89%E4%BC%A0%E5%85%A5%E5%8F%82%E6%95%B0"><span class="nav-number">1.6.3.</span> <span class="nav-text">struct 定义传入参数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Operator-%E9%87%8D%E8%BD%BD%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="nav-number">1.6.4.</span> <span class="nav-text">Operator 重载运算符</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8%E9%87%8A"><span class="nav-number">1.6.5.</span> <span class="nav-text">注释</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Standard-Template-Library"><span class="nav-number">1.7.</span> <span class="nav-text">Standard Template Library</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%8D%E6%9D%82%E5%BA%A6"><span class="nav-number">2.</span> <span class="nav-text">复杂度</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#big-O"><span class="nav-number">2.1.</span> <span class="nav-text">big O</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6"><span class="nav-number">2.2.</span> <span class="nav-text">时间复杂度</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BB%E5%AE%9A%E7%90%86-%E2%98%85"><span class="nav-number">2.3.</span> <span class="nav-text">主定理 ★</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Vector-amp-List-amp-Stack-amp-Queues"><span class="nav-number">3.</span> <span class="nav-text">Vector &amp; List &amp; Stack &amp; Queues</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#iterator"><span class="nav-number">3.1.</span> <span class="nav-text">iterator</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Vector-amp-List"><span class="nav-number">3.2.</span> <span class="nav-text">Vector &amp; List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Stack-amp-Queue"><span class="nav-number">3.3.</span> <span class="nav-text">Stack &amp; Queue</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Stack-%E8%AE%A1%E7%AE%97%E5%99%A8"><span class="nav-number">3.3.1.</span> <span class="nav-text">Stack 计算器</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Trees"><span class="nav-number">4.</span> <span class="nav-text">Trees</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Binary-Search-Tree"><span class="nav-number">4.1.</span> <span class="nav-text">Binary Search Tree</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9E%84%E5%BB%BA"><span class="nav-number">4.1.1.</span> <span class="nav-text">构建</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E-struct-%E6%9E%84%E9%80%A0"><span class="nav-number">4.1.2.</span> <span class="nav-text">关于 struct 构造</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E-function-%E5%8F%82%E6%95%B0"><span class="nav-number">4.1.3.</span> <span class="nav-text">关于 function 参数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%97%B6%E9%97%B4%E5%88%86%E6%9E%90"><span class="nav-number">4.1.4.</span> <span class="nav-text">时间分析</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Balance-Tree"><span class="nav-number">4.2.</span> <span class="nav-text">Balance Tree</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#AVL-Trees"><span class="nav-number">4.2.1.</span> <span class="nav-text">AVL Trees</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Splay-Trees"><span class="nav-number">4.2.2.</span> <span class="nav-text">Splay Trees*</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Traversals"><span class="nav-number">4.3.</span> <span class="nav-text">Traversals</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#B-Trees"><span class="nav-number">4.4.</span> <span class="nav-text">B Trees*</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sets-amp-Maps"><span class="nav-number">4.5.</span> <span class="nav-text">Sets &amp; Maps</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hashing"><span class="nav-number">5.</span> <span class="nav-text">Hashing</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Analysis"><span class="nav-number">5.1.</span> <span class="nav-text">Analysis</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%80%E6%94%BE%E5%AF%BB%E5%9D%80%E6%B3%95"><span class="nav-number">5.2.</span> <span class="nav-text">开放寻址法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%86%8D%E6%95%A3%E5%88%97"><span class="nav-number">5.3.</span> <span class="nav-text">再散列</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%AF%E6%89%A9%E6%95%A3%E5%88%97"><span class="nav-number">5.4.</span> <span class="nav-text">可扩散列*</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Priority-Queues-amp-Heaps"><span class="nav-number">6.</span> <span class="nav-text">Priority Queues &amp; Heaps</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Binary-Heap"><span class="nav-number">6.1.</span> <span class="nav-text">Binary Heap</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Applications-of-Priority-Queues"><span class="nav-number">6.2.</span> <span class="nav-text">Applications of Priority Queues</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sorting"><span class="nav-number">7.</span> <span class="nav-text">Sorting</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Insertion-Sort"><span class="nav-number">7.1.</span> <span class="nav-text">Insertion Sort*</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Quick-Sort"><span class="nav-number">7.2.</span> <span class="nav-text">Quick Sort</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Pivot%E7%AD%96%E7%95%A5"><span class="nav-number">7.2.1.</span> <span class="nav-text">Pivot策略</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#A-Linear-Expected-Time-Algorithm-for-Selection"><span class="nav-number">7.2.2.</span> <span class="nav-text">A Linear-Expected-Time Algorithm for Selection</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Linear-Time-Sorts-Bucket-Sort-and-Radix-Sort-%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%88%86%E6%9E%90"><span class="nav-number">7.3.</span> <span class="nav-text">Linear-Time Sorts: Bucket Sort and Radix Sort 复杂度分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%A1%EF%BC%88%E5%9F%BA%EF%BC%89%E6%95%B0%E6%8E%92%E5%BA%8F%E2%80%94%E2%80%94%E9%9D%9E%E6%AF%94%E8%BE%83%E7%AE%97%E6%B3%95"><span class="nav-number">7.4.</span> <span class="nav-text">计（基）数排序——非比较算法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F-%E5%A0%86%E6%8E%92%E5%BA%8F"><span class="nav-number">7.5.</span> <span class="nav-text">归并排序&#x2F;堆排序</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%BE%E8%AE%BA%E7%AE%97%E6%B3%95"><span class="nav-number">8.</span> <span class="nav-text">图论算法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A1%A8%E7%A4%BA"><span class="nav-number">8.1.</span> <span class="nav-text">表示</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F"><span class="nav-number">8.2.</span> <span class="nav-text">拓扑排序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Dijkstras"><span class="nav-number">8.3.</span> <span class="nav-text">Dijkstras</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%80%E5%9D%8F%E5%8F%AF%E8%83%BD"><span class="nav-number">8.4.</span> <span class="nav-text">最坏可能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%AF%E5%AF%B9%E8%B4%9F%E8%BE%B9%E6%9D%83%E4%BD%BF%E7%94%A8%E7%9A%84%E7%AE%97%E6%B3%95"><span class="nav-number">8.5.</span> <span class="nav-text">可对负边权使用的算法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91"><span class="nav-number">8.6.</span> <span class="nav-text">最小生成树</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88-%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88"><span class="nav-number">8.7.</span> <span class="nav-text">深度优先 广度优先</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1%E8%A1%A5%E5%85%85"><span class="nav-number">9.</span> <span class="nav-text">算法设计补充</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95"><span class="nav-number">9.1.</span> <span class="nav-text">贪心算法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%86%E6%B2%BB%E7%AE%97%E6%B3%95-Divide-and-Conquer"><span class="nav-number">9.2.</span> <span class="nav-text">分治算法 Divide-and-Conquer</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Dynamic-Programming"><span class="nav-number">9.3.</span> <span class="nav-text">Dynamic Programming</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9B%9E%E6%BA%AF%E6%B3%95"><span class="nav-number">9.4.</span> <span class="nav-text">回溯法</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="ralvine"
+      src="/images/avatar.gif">
+  <p class="site-author-name" itemprop="name">ralvine</p>
+  <div class="site-description" itemprop="description">Math, Zhejiang University</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">15</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">17</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/ralvine" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;ralvine" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:1337253857@qq.com" title="邮箱 → mailto:1337253857@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>邮箱</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/148242387" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;148242387" rel="noopener" target="_blank"><i class="fab fa-youtube fa-fw"></i>Bilibili</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.zhihu.com/people/yang-jun-yin-25" title="知乎 → https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;yang-jun-yin-25" rel="noopener" target="_blank"><i class="fab fa-zhihu fa-fw"></i>知乎</a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+      Links
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://ralvine.github.io/mind-lib/" title="https:&#x2F;&#x2F;ralvine.github.io&#x2F;mind-lib&#x2F;">文献馆</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://ralvine.github.io/course-note/" title="https:&#x2F;&#x2F;ralvine.github.io&#x2F;course-note&#x2F;">笔记仓</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://新民学会.keldos.me/" title="https:&#x2F;&#x2F;新民学会.keldos.me" rel="noopener" target="_blank">新民学会</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://csdiy.wiki/" title="https:&#x2F;&#x2F;csdiy.wiki" rel="noopener" target="_blank">CSDIY</a>
+        </li>
+    </ul>
+  </div>
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+  <a href="https://github.com/ralvine" class="github-corner" title="关注我的GitHub" aria-label="关注我的GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://ralvine.github.io/2022/01/24/ds-note/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="ralvine">
+      <meta itemprop="description" content="Math, Zhejiang University">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          数据结构与算法｜笔记
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-01-24 00:00:00 / 修改时间：13:33:15" itemprop="dateCreated datePublished" datetime="2022-01-24T00:00:00+08:00">2022-01-24</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">笔记</span></a>
+        </span>
+    </span>
+
+  
+    <span id="/2022/01/24/ds-note/" class="post-meta-item leancloud_visitors" data-flag-title="数据结构与算法｜笔记" title="阅读次数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>9k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>8 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <blockquote class="blockquote-center">
+<p>Ch3-Lists&amp;Stacks&amp;Queues:1<br>Ch4-Trees:2<br>Ch5-Hashing:1<br>Ch6-PriorityQueues&amp;Heaps:1<br>Ch7-Sorting:1.5<br>Ch9-GraphAlgorithms:1.5<br>*主定理</p>
+
+</blockquote>
+
+<span id="more"></span>
+
+<h2 id="类模板及语法基础"><a href="#类模板及语法基础" class="headerlink" title="类模板及语法基础"></a>类模板及语法基础</h2><p><em>Point:关键字</em></p>
+<h3 id="动态内存与释放"><a href="#动态内存与释放" class="headerlink" title="动态内存与释放"></a>动态内存与释放</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span>* name; <span class="keyword">delete</span> [] name;</span><br><span class="line"><span class="built_in">Birds</span>() &#123;name=<span class="keyword">new</span> <span class="keyword">char</span>[<span class="number">256</span>]&#125;</span><br></pre></td></tr></table></figure>
+<p>利用指针实现动态内存分配。同值对象指向相同address</p>
+<p>Shell命令查看内存泄漏状况<code>valgrind filename</code></p>
+<p>释放内存：及时delete变量。由于为指针，要防止指向新地址时原内存未被释放。</p>
+<h3 id="template"><a href="#template" class="headerlink" title="template"></a>template</h3><p>编译时自动填充typename<br>在类外撰写类成员函数时需要添加<br>可指定T的具体类型</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</span><br><span class="line">Array&lt;T&gt;::<span class="built_in">FunctionName</span>(<span class="keyword">const</span> Array&lt;T&gt;&amp; _obj) &#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="关键字修饰符"><a href="#关键字修饰符" class="headerlink" title="关键字修饰符"></a>关键字修饰符</h3><h4 id="const"><a href="#const" class="headerlink" title="const"></a>const</h4><p>对成员函数：修饰非静态数据，只读化。应尽可能将该成员函数声明为const 成员函数，除非成员函数需要修改数据成员。const可访问非常量数据，反之不可。指针数据可以被const 函数修改。<br><code>Class:: func() const &#123;&#125;</code></p>
+<p>对形参：指针传递，禁止修改指针指向地址内存数据；值传递不需要const保护。</p>
+<p><code>void copyMemory(const T* _s,T* _d,int _n);</code></p>
+<h4 id="Static"><a href="#Static" class="headerlink" title="Static"></a>Static</h4><p>静态变量，延长生命周期又相较全局变量保留了一定的访问范围。需要一个数据对象为整个类而非某个对象服务,同时又力求不破坏类的封装性,即要求此成员隐藏在类的内部时使用。</p>
+<h4 id="this"><a href="#this" class="headerlink" title="*this"></a>*this</h4><p>指向obj自身的指针</p>
+<h4 id="Explicit-显式转换"><a href="#Explicit-显式转换" class="headerlink" title="Explicit 显式转换"></a>Explicit 显式转换</h4><p>explicit 对单参数构造函数限制隐式转换<br>防止编译器进行类型等方式的强制转换。</p>
+<h3 id="宏定义"><a href="#宏定义" class="headerlink" title="宏定义"></a>宏定义</h3><p>用于简化重复语句<code>#define TEMP template&lt;typename T&gt;</code></p>
+<p>编译处理</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">ifndef</span> xxx</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> xxx</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></span><br></pre></td></tr></table></figure>
+
+<h3 id="传递-引用"><a href="#传递-引用" class="headerlink" title="传递 引用"></a>传递 引用</h3><h4 id="形参的值传递-指针传递-引用传递"><a href="#形参的值传递-指针传递-引用传递" class="headerlink" title="形参的值传递 指针传递 引用传递"></a>形参的值传递 指针传递 引用传递</h4><p>默认为值传递，开辟新函数，储存实参数据；指针实质存在一层中介地址，引用传递直接对传入对象进行修改；*&amp;obj适用于struct对象，对其属性变量进行修改</p>
+<p>（1）T* a： 传递实参指针地址，及最终指向数据地址，但可以利用*a修改地址内存数据<br>（2）T&amp; a：左值引用，实参的别名</p>
+<h4 id="左值-右值引用"><a href="#左值-右值引用" class="headerlink" title="左值 右值引用"></a>左值 右值引用</h4><p>右值引用&amp;&amp;：防止传递给形参T&amp; a的是常量（此时函数无法修改a）</p>
+<p><strong>看能不能对表达式取地址，如果能，则为左值，否则为右值</strong></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> c = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> &amp;d = c; <span class="comment">// error.</span></span><br><span class="line"><span class="keyword">int</span> &amp;&amp;d = <span class="number">10</span>;</span><br></pre></td></tr></table></figure>
+
+<p><strong>约定</strong> rhs：引用；lhs：赋值</p>
+<h4 id="std-move"><a href="#std-move" class="headerlink" title="std::move"></a>std::move</h4><p>强制将左值转换为右值引用，如push_back避免开辟新内存</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">AvlNode</span>(<span class="keyword">const</span> Comparable &amp; ele, AvlNode *lt, AvlNode *rt, <span class="keyword">int</span> h = <span class="number">0</span>): element&#123;ele&#125;, left&#123;lt&#125;, right&#123;rt&#125;, height&#123;h&#125; &#123;&#125;</span><br><span class="line"><span class="built_in">AvlNode</span>(Comparable &amp;&amp; ele, AvlNode *lt, AvlNode *rt, <span class="keyword">int</span> h = <span class="number">0</span>): element&#123;std::<span class="built_in">move</span>(ele)&#125;, left&#123;lt&#125;, right&#123;rt&#125;, height&#123;h&#125; &#123;&#125; <span class="comment">//参数无地址，临时ele=参数</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Class-amp-Struct-封装"><a href="#Class-amp-Struct-封装" class="headerlink" title="Class &amp; Struct 封装"></a>Class &amp; Struct 封装</h3><p>外部只提供相应功能的接口，不允许直接对底层对象进行修改。</p>
+<h4 id="复制构造函数"><a href="#复制构造函数" class="headerlink" title="复制构造函数"></a>复制构造函数</h4><p>将b中成员属性复制到c： <code>Birds c(b);</code><br>类中处理：定义拷贝函数；否则：缺省。<br>需要开辟新的动态内存</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Birds</span>(Birds _obj) &#123;</span><br><span class="line">name=<span class="keyword">new</span> <span class="keyword">char</span> [<span class="number">256</span>]; </span><br><span class="line"><span class="keyword">for</span>循环迭代载入name[i]=_obj.name[i];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="函数化"><a href="#函数化" class="headerlink" title="函数化"></a>函数化</h4><p>如复制构造函数中的copyMemory，便于多核并行运算。</p>
+<h4 id="struct-定义传入参数"><a href="#struct-定义传入参数" class="headerlink" title="struct 定义传入参数"></a>struct 定义传入参数</h4><p>使得struct能够直接在定义时传入相应参数</p>
+<p><code>BinaryNode(const Comparable&amp; theElement, BinaryNode *lt, BinaryNode *rt): element(theElement),left(lt),right(rt) &#123;&#125;</code></p>
+<h4 id="Operator-重载运算符"><a href="#Operator-重载运算符" class="headerlink" title="Operator 重载运算符"></a>Operator 重载运算符</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">const Array&amp; operator=(const Array&amp; _obj)</span><br></pre></td></tr></table></figure>
+
+<h4 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h4><p>doxymacs/doxygen格式的注释：<br>可以通过命令提取所有相应注释以html方式直观显示。</p>
+<h3 id="Standard-Template-Library"><a href="#Standard-Template-Library" class="headerlink" title="Standard Template Library"></a>Standard Template Library</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// get random number.</span></span><br><span class="line"><span class="built_in">srand</span>((<span class="keyword">unsigned</span>)<span class="built_in">time</span>(<span class="literal">nullptr</span>)); <span class="comment">// 随机种子</span></span><br><span class="line">a=<span class="built_in">rand</span>()%<span class="number">10</span>;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="built_in">abs</span>();<span class="built_in">min</span>();<span class="built_in">max</span>();<span class="built_in">swap</span>(a,b);</span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="built_in">sqrt</span>();<span class="built_in">sin</span>();<span class="built_in">cos</span>();<span class="built_in">tan</span>();<span class="built_in">pow</span>();</span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;ctime&gt;</span></span></span><br><span class="line"><span class="keyword">clock_t</span> start = <span class="built_in">clock</span>();</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="复杂度"><a href="#复杂度" class="headerlink" title="复杂度"></a>复杂度</h2><h3 id="big-O"><a href="#big-O" class="headerlink" title="big O"></a>big O</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1000</span>N=<span class="built_in">O</span>(N^<span class="number">2</span>); (logN)^k=<span class="built_in">O</span>(N); </span><br><span class="line"><span class="number">1</span> &lt; logN &lt; N &lt; NlogN &lt; N^<span class="number">2</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>循环｜内语句*迭代次数；嵌套循环</span><br><span class="line">顺序语句｜求和，取Max；判定语句</span><br><span class="line">NlogN|最大子序列问题 一次N遍历&amp;一次二分查找</span><br><span class="line">logN｜二分搜索，欧几里得</span><br></pre></td></tr></table></figure>
+
+<h3 id="主定理-★"><a href="#主定理-★" class="headerlink" title="主定理 ★"></a>主定理 ★</h3><p>![image-20220102105905885](/Users/ralvine/Library/Application Support/typora-user-images/image-20220102105905885.png)</p>
+<p><strong>归纳法证明：</strong> （例）</p>
+<p>![image-20220104172830911](/Users/ralvine/Library/Application Support/typora-user-images/image-20220104172830911.png)</p>
+<p><strong>一般性证明：</strong>构造树，depth=log(b,n)，widget=a^(log(b,n))=n^(log(b,a))</p>
+<p><em>实例：二分查找</em></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">T(n) = T(n/2) + O(1)  </span><br><span class="line">T(n/2) = T(n/4) + O(1)    </span><br><span class="line">  ...</span><br><span class="line">T(2) = T(1) + O(1)     </span><br><span class="line">T(1) = O(1)</span><br><span class="line">a=1,b=2,k=0代入得O(logN);</span><br></pre></td></tr></table></figure>
+
+<p>另可直接证，由于为1/2,1/4…1/n,尾项2^k项为n，故共logn项，T(n)=logn*o(1)=logn</p>
+<h2 id="Vector-amp-List-amp-Stack-amp-Queues"><a href="#Vector-amp-List-amp-Stack-amp-Queues" class="headerlink" title="Vector &amp; List &amp; Stack &amp; Queues"></a>Vector &amp; List &amp; Stack &amp; Queues</h2><h3 id="iterator"><a href="#iterator" class="headerlink" title="iterator"></a>iterator</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">std::vector&lt;<span class="keyword">int</span>&gt; iterator a=A.<span class="built_in">begin</span>();</span><br><span class="line">i = <span class="built_in">find</span>(v.<span class="built_in">begin</span>(), v.<span class="built_in">end</span>(), <span class="number">1</span>);</span><br></pre></td></tr></table></figure>
+
+<h3 id="Vector-amp-List"><a href="#Vector-amp-List" class="headerlink" title="Vector &amp; List"></a>Vector &amp; List</h3><p>Array|经典数组<br>Vector|批量分配内存的数组，空间不够时再申请新的内存；模板化<T>；允许拷贝赋值<br>List|链表 Single/Double-Linked-List <strong>双链表</strong> 表头、尾、哨兵结点</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">a</span><span class="params">(<span class="number">10</span>,<span class="number">1</span>)</span></span>; <span class="comment">//10个初值为1的元素</span></span><br><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">a</span><span class="params">(b.begin(),b.begin+<span class="number">3</span>)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//共有</span></span><br><span class="line">a.<span class="built_in">clear</span>();a.<span class="built_in">empty</span>();</span><br><span class="line">a.<span class="built_in">front</span>();a.<span class="built_in">back</span>();</span><br><span class="line">a.<span class="built_in">push_back</span>(<span class="number">1</span>);a.<span class="built_in">size</span>();</span><br><span class="line">a.<span class="built_in">resize</span>(<span class="number">10</span>,<span class="number">2</span>);<span class="comment">//现有元素数目调整,多删少补,未给定参数2则随机</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// Vector</span></span><br><span class="line">a[i];a.<span class="built_in">insert</span>(a.<span class="built_in">begin</span>()+<span class="number">1</span>,<span class="number">5</span>);</span><br><span class="line">a.<span class="built_in">pop_back</span>();a.<span class="built_in">swap</span>(b);</span><br><span class="line">a.<span class="built_in">reserve</span>(<span class="number">100</span>);<span class="comment">//容量</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// List</span></span><br><span class="line">a.<span class="built_in">push_front</span>(val);a.<span class="built_in">insert</span>(single_val);</span><br><span class="line">a.<span class="built_in">remove</span>(val);a.<span class="built_in">remove_if</span>(condition);a.<span class="built_in">unique</span>();<span class="comment">//去重</span></span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>Access</th>
+<th>Insert</th>
+<th>Delete</th>
+<th>Search</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Array/Vector</td>
+<td>1</td>
+<td>n</td>
+<td>n</td>
+<td>n</td>
+</tr>
+<tr>
+<td>Single-linked-List</td>
+<td>n</td>
+<td>1</td>
+<td>1</td>
+<td>n</td>
+</tr>
+<tr>
+<td>Double-linked-List</td>
+<td>n</td>
+<td>1</td>
+<td>1</td>
+<td>n</td>
+</tr>
+</tbody></table>
+<h3 id="Stack-amp-Queue"><a href="#Stack-amp-Queue" class="headerlink" title="Stack &amp; Queue"></a>Stack &amp; Queue</h3><p><code>pop() push() size() swap() empty();</code>Stack:LIFO <code>top();</code> Queue:FIFO <code>front() back();</code></p>
+<h4 id="Stack-计算器"><a href="#Stack-计算器" class="headerlink" title="Stack 计算器"></a>Stack 计算器</h4><p>前缀/后缀。<strong>中缀转后缀：</strong><code>A+B*(C-D)-E/F</code>转为<code>ABCD−∗+EF/−</code></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">优先级设置 ‘*’ = ‘/’ &gt; ‘+’ = ‘-’ &gt;</span><br><span class="line">  style1:‘(’优先级最高，如直接读入；推入操作符时不弹</span><br><span class="line">  style2:‘(’优先级最低，强制直接读入</span><br><span class="line">数字直接放到[输出列]，右括号直接弹到左括号止；操作符：栈弹出直到遇到比自己优先级低的操作符再入栈。计算：顺序读取，数字入栈，符号弹出两数字运算，结果入栈</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="Trees"><a href="#Trees" class="headerlink" title="Trees"></a>Trees</h2><p>Binary Tree 二叉树平均深度O(√N)，表达式树应用；</p>
+<h3 id="Binary-Search-Tree"><a href="#Binary-Search-Tree" class="headerlink" title="Binary Search Tree"></a>Binary Search Tree</h3><p>左小右大；平均深度O(logN)最坏深度O(N-1)</p>
+<h4 id="构建"><a href="#构建" class="headerlink" title="构建"></a><strong>构建</strong></h4><p>contains｜findMin(Max)｜insert｜～:makeEmpty递归</p>
+<p>copy| clone，递归return new node; 重载运算符：this!=&amp;rhs则makeEmpty再clone rhs.root，最终return *this</p>
+<p>remove|(*&amp;t)t为结点地址；空,return;t&lt;&gt;x判断;t=x.</p>
+<p>双子:t-&gt;ele=findmax(t-&gt;right)-&gt;ele,remove(t-&gt;ele;t-&gt;right); // 右子找min代入t,删除该min</p>
+<p>单子/无子：T*oldNode=t,另引入的参数t=t-&gt;left/right相当于改结点地址为t左/右子，再删oldNode即删了原结点.</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// findmin: 递归或while 注意空树直接返回nullptr</span></span><br><span class="line"><span class="function">BinaryNode * <span class="title">findMin</span><span class="params">( BinaryNode *t )</span> <span class="keyword">const</span> </span>&#123;</span><br><span class="line">  <span class="keyword">if</span>( t == <span class="literal">nullptr</span> )</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">nullptr</span>;</span><br><span class="line">  <span class="keyword">if</span>( t-&gt;left == <span class="literal">nullptr</span> )</span><br><span class="line">    <span class="keyword">return</span> t;</span><br><span class="line">  <span class="keyword">return</span> <span class="built_in">findMin</span>( t-&gt;left );</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// insert</span></span><br><span class="line"><span class="number">1.</span><span class="keyword">if</span> t==<span class="literal">nullptr</span>:<span class="keyword">new</span> node&#123;x,<span class="literal">nullptr</span>,<span class="literal">nullptr</span>&#125;;</span><br><span class="line"><span class="number">2.</span><span class="keyword">else</span> compare x,t-&gt;ele,递归</span><br><span class="line"><span class="number">3.b</span><span class="function">alance <span class="keyword">and</span> update the <span class="title">height</span><span class="params">(max(subtree)+<span class="number">1</span>)</span>.</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="关于-struct-构造"><a href="#关于-struct-构造" class="headerlink" title="关于 struct 构造"></a>关于 struct 构造</h4><p>BinaryNode置于private；针对struct的操作也位于private部分</p>
+<p>外部操作→public函数→private函数</p>
+<h4 id="关于-function-参数"><a href="#关于-function-参数" class="headerlink" title="关于 function 参数"></a>关于 function 参数</h4><p>对Struct BinaryNode，由于其element为变量，left/right为指针，fuction引用时应采用(BinaryNode * &amp; t)，引用Node地址</p>
+<h4 id="时间分析"><a href="#时间分析" class="headerlink" title="时间分析"></a>时间分析</h4><p>内部路径长｜所有结点的深度和；递推关系、秩，D(N)=D(i)+D(N-i-1)+N-1 =&gt; O(NlogN),average</p>
+<p>任意结点预期深度logN；交替insert/remove O(N^2)，期望深度O(√N)</p>
+<h3 id="Balance-Tree"><a href="#Balance-Tree" class="headerlink" title="Balance Tree"></a>Balance Tree</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/// Height 处理</span></span><br><span class="line"><span class="comment">// Binary Tree</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">height</span><span class="params">( BinaryNode *t )</span> </span>&#123; </span><br><span class="line">  <span class="keyword">if</span>( t == <span class="literal">nullptr</span> )</span><br><span class="line">    <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">  <span class="keyword">else</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span> + <span class="built_in">max</span>(<span class="built_in">height</span>(t-&gt;left), <span class="built_in">height</span>(t-&gt;right));</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// AVL Tree: Struct AvlNode has added the val &#x27;height&#x27;.</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">height</span><span class="params">( AvlNode *t )</span> <span class="keyword">const</span> </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> t == <span class="literal">nullptr</span> ? <span class="number">-1</span> : t-&gt;height;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="AVL-Trees"><a href="#AVL-Trees" class="headerlink" title="AVL Trees"></a>AVL Trees</h4><p>每个结点的左子树和右子树高度最多差1（空树为-1）</p>
+<p><strong>Rotation的具体实现</strong></p>
+<table>
+<thead>
+<tr>
+<th>插入方式</th>
+<th>描述</th>
+<th>旋转方式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>LL</td>
+<td>在a的<strong>左子树</strong>根节点的<strong>左子树</strong>上插入节点而破坏平衡</td>
+<td>右旋转</td>
+</tr>
+<tr>
+<td>RR</td>
+<td>在a的<strong>右子树</strong>根节点的<strong>右子树</strong>上插入节点而破坏平衡</td>
+<td>左旋转</td>
+</tr>
+<tr>
+<td>LR</td>
+<td>在a的<strong>左子树</strong>根节点的<strong>右子树</strong>上插入节点而破坏平衡</td>
+<td>先左旋后右旋</td>
+</tr>
+<tr>
+<td>RL</td>
+<td>在a的<strong>右子树</strong>根节点的<strong>左子树</strong>上插入节点而破坏平衡</td>
+<td>先右旋后左旋</td>
+</tr>
+</tbody></table>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// insert. 伪代码</span></span><br><span class="line">x&lt;t-&gt;ele:左插入，<span class="built_in">insert</span>(x,t-&gt;left),此时判定</span><br><span class="line">  <span class="keyword">if</span> balance condition:height of left-right&gt;<span class="number">1</span>;</span><br><span class="line">    then <span class="keyword">if</span> x&lt;t-&gt;left-&gt;ele 即LL，对t调用右旋 <span class="comment">// 其余同理</span></span><br><span class="line"><span class="comment">// right rotation. (for LL-insert style)</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">rotateWithLeftChild</span><span class="params">( AvlNode * &amp; k2 )</span> </span>&#123;</span><br><span class="line">  AvlNode *k1 = k2-&gt;left;</span><br><span class="line">  k2-&gt;left = k1-&gt;right;</span><br><span class="line">  k1-&gt;right = k2;</span><br><span class="line">  <span class="comment">// after rotation , update the height.</span></span><br><span class="line">  k2-&gt;height = <span class="built_in">max</span>( <span class="built_in">height</span>( k2-&gt;left ), <span class="built_in">height</span>( k2-&gt;right ) ) + <span class="number">1</span>;</span><br><span class="line">  k1-&gt;height = <span class="built_in">max</span>( <span class="built_in">height</span>( k1-&gt;left ), k2-&gt;height ) + <span class="number">1</span>;</span><br><span class="line">  k2 = k1;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// LR-insert.</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">doubleWithLeftChild</span><span class="params">( AvlNode * &amp; k3 )</span> </span>&#123;</span><br><span class="line">  <span class="built_in">rotateWithRightChild</span>( k3-&gt;left );</span><br><span class="line">  <span class="built_in">rotateWithLeftChild</span>( k3 );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>时间复杂度分析</strong>:计算高度O(logN)；保证查询O(logN)避免Binary Tree最坏的N；但由于旋转存在，操作效率低，特别是remove时可能需要一直旋转到根；额外封装，繁琐</p>
+<p>*另一种写法：独立的balance操作</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// at the end of each insert or remove operation, you need to do &quot;balance(t)&quot;</span></span><br><span class="line"><span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">int</span> ALLOWED_IMBALANCE = <span class="number">1</span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">balance</span><span class="params">( AvlNode * &amp; t )</span> </span>&#123; </span><br><span class="line">  <span class="keyword">if</span>( t == <span class="literal">nullptr</span> ) </span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">  <span class="keyword">if</span>( <span class="built_in">height</span>( t-&gt;left ) - <span class="built_in">height</span>( t-&gt;right ) &gt; ALLOWED_IMBALANCE )</span><br><span class="line">    <span class="keyword">if</span>( <span class="built_in">height</span>( t-&gt;left-&gt;left ) &gt;= <span class="built_in">height</span>( t-&gt;left-&gt;right ) ) </span><br><span class="line">      <span class="built_in">rotateWithLeftChild</span>( t ); </span><br><span class="line">    <span class="keyword">else</span> </span><br><span class="line">      <span class="built_in">doubleWithLeftChild</span>( t );</span><br><span class="line">  <span class="keyword">else</span> <span class="keyword">if</span>( <span class="built_in">height</span>( t-&gt;right ) - <span class="built_in">height</span>( t-&gt;left ) &gt; ALLOWED_IMBALANCE ) </span><br><span class="line">    <span class="keyword">if</span>( <span class="built_in">height</span>( t-&gt;right-&gt;right ) &gt;= <span class="built_in">height</span>( t-&gt;right-&gt;left ) ) </span><br><span class="line">      <span class="built_in">rotateWithRightChild</span>( t ); </span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">      <span class="built_in">doubleWithRightChild</span>( t );</span><br><span class="line">  t-&gt;height = <span class="built_in">max</span>( <span class="built_in">height</span>( t-&gt;left ), <span class="built_in">height</span>( t-&gt;right ) ) + <span class="number">1</span>; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="Splay-Trees"><a href="#Splay-Trees" class="headerlink" title="Splay Trees*"></a>Splay Trees*</h4><p>保证从空树开始任意连续M次操作最多花费O(MlogN)的时间</p>
+<h3 id="Traversals"><a href="#Traversals" class="headerlink" title="Traversals"></a>Traversals</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 前序</span></span><br><span class="line">文件路径展开</span><br><span class="line"><span class="comment">// 中序 O(N)</span></span><br><span class="line"><span class="keyword">if</span>( t != <span class="literal">nullptr</span> ) &#123; </span><br><span class="line">    <span class="built_in">printTree</span>( t-&gt;left, out );</span><br><span class="line">    out &lt;&lt; t-&gt;element &lt;&lt; endl; </span><br><span class="line">    <span class="built_in">printTree</span>( t-&gt;right, out ); </span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 后序 O(N)</span></span><br><span class="line">高度计算</span><br><span class="line"><span class="comment">// 层序</span></span><br><span class="line"><span class="keyword">using</span> &lt;queue&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="B-Trees"><a href="#B-Trees" class="headerlink" title="B Trees*"></a>B Trees*</h3><h3 id="Sets-amp-Maps"><a href="#Sets-amp-Maps" class="headerlink" title="Sets &amp; Maps"></a>Sets &amp; Maps</h3><p>Sets｜排序、去重</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">set&lt;<span class="keyword">int</span>&gt; a;</span><br><span class="line">a.<span class="built_in">find</span>(val);<span class="comment">//logN</span></span><br><span class="line">a.<span class="built_in">erase</span>(val);a.<span class="built_in">swap</span>(b);a.<span class="built_in">clear</span>();</span><br></pre></td></tr></table></figure>
+
+<p>Maps｜key-value(&gt;=1)</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">map&lt;<span class="keyword">int</span>&gt; a;</span><br><span class="line">map&lt;<span class="keyword">int</span>&gt;::iterator b; <span class="comment">// key:b-&gt;first; value:b-&gt;second....</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="Hashing"><a href="#Hashing" class="headerlink" title="Hashing"></a>Hashing</h2><p>散列表；[insert/search/delete]average:O(1)；Key -&gt; Table；素数 TableSize；collision</p>
+<h3 id="Analysis"><a href="#Analysis" class="headerlink" title="Analysis"></a>Analysis</h3><p><strong>负数补偿？</strong>value&lt;0，then+tableSize</p>
+<p><strong>均匀分配键：</strong>单元数目有限，键数实际上无穷；习惯：0～tableSize-1</p>
+<p>装填因子；分离链接法（缺点：内存分配耗时）；除了链表，也可用二叉树/新散列表</p>
+<h3 id="开放寻址法"><a href="#开放寻址法" class="headerlink" title="开放寻址法"></a>开放寻址法</h3><p>冲突解决函数，𝝀&lt;0.5聚集效应,f(i)为冲突点与探查点的距离</p>
+<p>线性探测:f(i)=i；一次聚集-占据单元形成区块</p>
+<p>平方探测:f(i)=i^2<em>保证表的大小是素数，否则表被填满一半就找不到空单元了</em>；二次聚集</p>
+<p>双散列:f(i)=i*hash(x),结果不可以为0；example，hash(x)=R-(xmodR)</p>
+<h3 id="再散列"><a href="#再散列" class="headerlink" title="再散列"></a>再散列</h3><p>O(N);一半/插满的策略;</p>
+<p>途中策略：某一装填因子</p>
+<h3 id="可扩散列"><a href="#可扩散列" class="headerlink" title="可扩散列*"></a>可扩散列*</h3><h2 id="Priority-Queues-amp-Heaps"><a href="#Priority-Queues-amp-Heaps" class="headerlink" title="Priority Queues &amp; Heaps"></a>Priority Queues &amp; Heaps</h2><h3 id="Binary-Heap"><a href="#Binary-Heap" class="headerlink" title="Binary Heap"></a>Binary Heap</h3><p>完全二叉树；最小堆、最大堆；数组存储i,2i,2i+1；查找O(N)；堆序性质</p>
+<p><strong>为何选用Heap？</strong>Min/Max:O(1)</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">insert</span><span class="params">( <span class="keyword">const</span> Comparable &amp; x )</span> </span>&#123;</span><br><span class="line">  <span class="comment">// check size.</span></span><br><span class="line">  <span class="keyword">if</span>( currentSize == array.<span class="built_in">size</span>( ) - <span class="number">1</span> ) </span><br><span class="line">    array.<span class="built_in">resize</span>( array.<span class="built_in">size</span>( ) * <span class="number">2</span> );</span><br><span class="line">  <span class="comment">// Percolate up </span></span><br><span class="line">  <span class="keyword">int</span> hole = ++currentSize;</span><br><span class="line">  Comparable copy = x;</span><br><span class="line">  array[ <span class="number">0</span> ] = std::<span class="built_in">move</span>( copy );</span><br><span class="line">  <span class="keyword">for</span>( ; x &lt; array[ hole / <span class="number">2</span> ]; hole /= <span class="number">2</span> )</span><br><span class="line">    array[ hole ] = std::<span class="built_in">move</span>( array[ hole / <span class="number">2</span> ] ); <span class="comment">// 规避大量交换</span></span><br><span class="line">  array[ hole ] = std::<span class="built_in">move</span>( array[ <span class="number">0</span> ] );</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>
+
+<h3 id="Applications-of-Priority-Queues"><a href="#Applications-of-Priority-Queues" class="headerlink" title="Applications of Priority Queues"></a>Applications of Priority Queues</h3><h2 id="Sorting"><a href="#Sorting" class="headerlink" title="Sorting"></a>Sorting</h2><h3 id="Insertion-Sort"><a href="#Insertion-Sort" class="headerlink" title="Insertion Sort*"></a>Insertion Sort*</h3><h3 id="Quick-Sort"><a href="#Quick-Sort" class="headerlink" title="Quick Sort"></a>Quick Sort</h3><h4 id="Pivot策略"><a href="#Pivot策略" class="headerlink" title="Pivot策略"></a>Pivot策略</h4><p><strong>最好/坏可能性</strong></p>
+<p>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度<br>每次问题规模减半，a=2，b=2，d=1<br>复杂度为n^2 log(n)<br>最差情况下，复杂度为O(n^2)</p>
+<h4 id="A-Linear-Expected-Time-Algorithm-for-Selection"><a href="#A-Linear-Expected-Time-Algorithm-for-Selection" class="headerlink" title="A Linear-Expected-Time Algorithm for Selection"></a>A Linear-Expected-Time Algorithm for Selection</h4><h3 id="Linear-Time-Sorts-Bucket-Sort-and-Radix-Sort-复杂度分析"><a href="#Linear-Time-Sorts-Bucket-Sort-and-Radix-Sort-复杂度分析" class="headerlink" title="Linear-Time Sorts: Bucket Sort and Radix Sort 复杂度分析"></a>Linear-Time Sorts: Bucket Sort and Radix Sort 复杂度分析</h3><h3 id="计（基）数排序——非比较算法"><a href="#计（基）数排序——非比较算法" class="headerlink" title="计（基）数排序——非比较算法"></a>计（基）数排序——非比较算法</h3><p>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次<br>每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1<br>复杂度为n^1 log(n) = nlog(n)，近似为O(kN)，k为整数的位数</p>
+<h3 id="归并排序-堆排序"><a href="#归并排序-堆排序" class="headerlink" title="归并排序/堆排序"></a>归并排序/堆排序</h3><p><em>归并排序</em> ｜ 数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)<br>每次问题规模减半，a=2，b=2，d=1<br>复杂度为nlog(n)</p>
+<h2 id="图论算法"><a href="#图论算法" class="headerlink" title="图论算法"></a>图论算法</h2><p>G[graph] -&gt; V[vertex],E[edge(arc)],path；digraph 有向；Weight&amp;cost 权/值；Adjacent 邻接；cycle 回路：满足w1=wN length&gt;=1；loop 环：回到自身，length=0；Simple path 简单路径；强/弱连通、基础图/完全图</p>
+<h3 id="表示"><a href="#表示" class="headerlink" title="表示"></a>表示</h3><p>Adjacent Matrix：dense <code>A[u][v]</code></p>
+<p>Adjacent List：sparse O(|E|+|V|) </p>
+<h3 id="拓扑排序"><a href="#拓扑排序" class="headerlink" title="拓扑排序"></a>拓扑排序</h3><p>find indegree=0 v1 -&gt; delete v1, neighbors indegree-1 -&gt;find indegree=0 v2…</p>
+<p>![image-20211231162550699](/Users/ralvine/Library/Application Support/typora-user-images/image-20211231162550699.png)</p>
+<p>O(V^2) using <Queue></p>
+<h3 id="Dijkstras"><a href="#Dijkstras" class="headerlink" title="Dijkstras"></a>Dijkstras</h3><h3 id="最坏可能"><a href="#最坏可能" class="headerlink" title="最坏可能"></a>最坏可能</h3><h3 id="可对负边权使用的算法"><a href="#可对负边权使用的算法" class="headerlink" title="可对负边权使用的算法"></a>可对负边权使用的算法</h3><h3 id="最小生成树"><a href="#最小生成树" class="headerlink" title="最小生成树"></a>最小生成树</h3><p>如何扩张（Ch10）</p>
+<h3 id="深度优先-广度优先"><a href="#深度优先-广度优先" class="headerlink" title="深度优先 广度优先"></a>深度优先 广度优先</h3><h2 id="算法设计补充"><a href="#算法设计补充" class="headerlink" title="算法设计补充"></a>算法设计补充</h2><h3 id="贪心算法"><a href="#贪心算法" class="headerlink" title="贪心算法"></a>贪心算法</h3><p>ch10.1 分析复杂度</p>
+<h3 id="分治算法-Divide-and-Conquer"><a href="#分治算法-Divide-and-Conquer" class="headerlink" title="分治算法 Divide-and-Conquer"></a>分治算法 Divide-and-Conquer</h3><p>分而治之，递归</p>
+<h3 id="Dynamic-Programming"><a href="#Dynamic-Programming" class="headerlink" title="Dynamic Programming"></a>Dynamic Programming</h3><p>ch10.3 与d-c的比较（自底向上&amp;自顶向下）</p>
+<h3 id="回溯法"><a href="#回溯法" class="headerlink" title="回溯法"></a>回溯法</h3>
+    </div>
+
+    
+    
+    
+      
+
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div></div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/alipay.png" alt="ralvine 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>ralvine
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://ralvine.github.io/2022/01/24/ds-note/" title="数据结构与算法｜笔记">https://ralvine.github.io/2022/01/24/ds-note/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/CS-Learning/" rel="tag"><i class="fa fa-tag"></i> CS-Learning</a>
+              <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="tag"><i class="fa fa-tag"></i> 数据结构</a>
+              <a href="/tags/%E7%AE%97%E6%B3%95/" rel="tag"><i class="fa fa-tag"></i> 算法</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/01/24/fcpx/" rel="prev" title="Final Cut Pro 笔记">
+                  <i class="fa fa-chevron-left"></i> Final Cut Pro 笔记
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">京ICP备 不存在号-1:) </a><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=1234567890" rel="noopener" target="_blank">京公网安备 1234567890号 </a>
+  </div>
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class=""></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Ralvine</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="站点总字数">24k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">21 分钟</span>
+  </span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@next-theme/pjax@0.5.0/pjax.min.js" integrity="sha256-3NkoLDrmHLTYj7csHIZSr0MHAFTXth7Ua/DDt4MRUAg=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdn.jsdelivr.net/npm/pdfobject@2.2.7/pdfobject.min.js","integrity":"sha256-ph3Dk89VmuTVXG6x/RDzk53SU9LPdAh1tpv0UvnDZ2I="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdn.jsdelivr.net/npm/mermaid@8.13.8/dist/mermaid.min.js","integrity":"sha256-QmSAc2kIaUjleIJ46X7qPW2zrpCbXlMz3YIGgWpQ1Jo="}}</script>
+  <script src="/js/third-party/tags/mermaid.js"></script>
+
+
+
+  
+
+
+  <script class="next-config" data-name="leancloud_visitors" type="application/json">{"enable":true,"app_id":"IzyIL9f4U5hOKvIrVj1LBpce-gzGzoHsz","app_key":"19a1Go18aHmWb9UYyAc95muq","server_url":null,"security":false}</script>
+  <script src="/js/third-party/statistics/lean-analytics.js"></script>
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js","integrity":"sha256-r+3itOMtGGjap0x+10hu6jW/gZCzxHsoKrOd7gyRSGY="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.2.0/dist/quicklink.umd.js" integrity="sha256-4kQf9z5ntdQrzsBC3YSHnEz02Z9C1UeW/E9OgnvlzSY=" crossorigin="anonymous"></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"https://ralvine.github.io/2022/01/24/ds-note/"}</script>
+  <script src="/js/third-party/quicklink.js"></script>
+
+</body>
+</html>

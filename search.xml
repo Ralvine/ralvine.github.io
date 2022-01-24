@@ -1,737 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Surface Pro 2 评测备档</title>
-    <url>/2021/10/01/bilibili/</url>
-    <content><![CDATA[<blockquote>
-<p>这是由优酷用户@嘉峪出品 约八年前上传的微软 Surface Pro 2 评测视频。这是我最早了解到微软 Surface 系列产品，也是我彼时认为最优秀的一批关于该产品的测评。由于如今原视频失效，特在B站备份存档。（2021-10-01）</p>
-</blockquote>
+    <title>社会实践美食主题｜资料</title>
+    <url>/2022/01/17/act-food/</url>
+    <content><![CDATA[<center>撰写/杨钧尹  推文/郑恬欣  视频剪辑/李京蔚</center>
+
+<h2 id="策划"><a href="#策划" class="headerlink" title="策划"></a>策划</h2><p>以台州当地食物引入，1月19日当天发布视频及推文侧重介绍台州六种美食的制作过程，顺带以图文方式介绍未拍摄视频的几种美食。</p>
+<p>（考虑到后续仍需要提交实践简报，将其他各地的食物资料搜集拆分于1月20-22日上交，咱们19号的推文可以在最后做一个预告，20-22号的每篇专题推文底端加两个地区的美食介绍）</p>
 <span id="more"></span>
 
-<p><iframe src="//player.bilibili.com/player.html?aid=763293176&amp;cid=417794545&amp;page=1" frameborder="no" scrolling="no" width="95%" height="600"></iframe></p>
+<h2 id="台州（1月19日）"><a href="#台州（1月19日）" class="headerlink" title="台州（1月19日）"></a>台州（1月19日）</h2><p>标题：<strong>台州｜在江南水乡寻见山海风味</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>作为一座依山傍海、山水神秀的山海城市，台州“河网密布、港汊交纵”，水乡风韵不亚于苏杭，有“走遍苏杭、不如温黄”之说。这里的佛宗道源享誉海内外，是佛教<a href="https://baike.baidu.com/item/%E5%A4%A9%E5%8F%B0%E5%AE%97/85537">天台宗</a>和道教<a href="https://baike.baidu.com/item/%E5%8D%97%E5%AE%97/11010709">南宗</a>的发祥地。天台山以其深邃的文化内涵孕育出了博大精深的“和合文化”，而“山、海、经、佛、城、硐”也于此铺展开彪炳史册的浙东唐诗之路，描绘诗与远方的邂逅……</p>
+<p>台州的灵魂自然是美食。海鲜是大自然给予台州世代生活百姓的最佳馈赠。在这里，用番薯可以磨粉做面，大米也能够磨粉做圆，不管是素食爱好者还是肉食爱好者，都可以放开肚皮，拿起筷子，品尝原汁原味的食材，引爆舌尖上的激情，满足挑剔的味蕾。</p>
+<h3 id="“糯唧唧的天堂”（排版推文的时候可能要重新梳理一下，撰写时我们拍的六种食物最好加上制作过程简介，如果有采访可能需要加上采访内容）（另外麻烦推文配个图orz）"><a href="#“糯唧唧的天堂”（排版推文的时候可能要重新梳理一下，撰写时我们拍的六种食物最好加上制作过程简介，如果有采访可能需要加上采访内容）（另外麻烦推文配个图orz）" class="headerlink" title="“糯唧唧的天堂”（排版推文的时候可能要重新梳理一下，撰写时我们拍的六种食物最好加上制作过程简介，如果有采访可能需要加上采访内容）（另外麻烦推文配个图orz）"></a>“糯唧唧的天堂”（排版推文的时候可能要重新梳理一下，撰写时我们拍的六种食物最好加上制作过程简介，如果有采访可能需要加上采访内容）（另外麻烦推文配个图orz）</h3><p>在台州的餐桌上，海鲜在糯米、麻糍等米制品面前，也愧于自称常客。</p>
+<center>**（此处可以插入制作过程视频合集？）**</center>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Valine - A simple comment system based on Leancloud.</title>
-    <!--Leancloud 操作库:-->
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <!--Valine 的核心代码库:-->
-    <script src="./dist/Valine.min.js"></script>
-</head>
-<body>
-    <div class="comment"></div>
-    <script>
-        new Valine({
-            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
-            av: AV, 
-            el: '.comment', // 
-            app_id: 'Your APP ID', // 这里填写上面得到的APP ID
-            app_key: 'Your APP KEY', // 这里填写上面得到的APP KEY
-            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!' // [v1.0.7 new]留言框占位提示文字
-        });
-    </script>
-</body>
-</html>
-
+<ul>
+<li><strong>嵌糕</strong></li>
+</ul>
+<p>嵌糕是台州人不可割舍的美味，是一种特色的年糕美食，糯唧唧的年糕包裹上满满的內馅，如油条、洋葱、萝卜丝、肉等，再浇上馅糕的灵魂——猪肉汤，那年糕的味道直接升华，配上绿豆面汤或者豆腐生，那味道太“迷道”（美味）了！</p>
+<ul>
+<li><strong>乌饭麻糍</strong></li>
+</ul>
+<p>乌饭麻糍，是将糯米用乌饭树的嫩叶捣出的汁液浸泡至少12个小时，放入高蒸蒸熟，再用捣臼经过千百次的捶打方可制得。清香的麻糍蘸上加了桂花、薄荷的红糖汁。每年的四月初八，都要吃乌饭麻糍，据说小孩子吃了夏天就不会被蚊子咬。</p>
+<ul>
+<li><strong>“圆”</strong></li>
+</ul>
+<p>“家家捣米做米团，定是明日冬至节”。台州人过冬至节最有特色的吃食便是“擂圆”了。冬至对台州人来说是年终一个重要节气，做擂圆是取圆圆润润、团圆之意。</p>
+<p>擂圆，缘起临海，流行椒黄路三区。老临海人说，“擂圆”是台州最正宗的冬至圆：黄豆炒熟磨成豆黄粉，加入红糖、芝麻、桂花等拌匀备用；糯米粉做成乒乓球大小实心圆，入沸水煮熟捞起，扔在拌好的豆黄粉上滚一圈，擂圆就做好了。在黄岩、路桥人眼里，它又叫作“硬擂圆”。把糯米粉搓成长条后，打斜刀成三角状，入沸水，煮至圆浮到水面即熟。</p>
+<p>而咸口、馅料加成下的圆，则叫做“炊圆”。炊圆好吃与否关键在馅，将咸虾皮炒成金黄色，放切丁的豆腐干、胡萝卜、茭白、五花肉翻炒熟，加点葱花更香。做好圆窝，填馅，用虎口收成一尖角，再入蒸笼蒸熟，出锅后滚上一层草粉，炊圆就不黏手、不烫手了。</p>
+<ul>
+<li>炊饭</li>
+</ul>
+<p>台州炊饭有包炊饭和肉沫炊饭。包炊饭是在糯米饭中放入油条、咸菜、香肠、里脊肉等包裹成圆筒状；肉沫炊饭则是肉沫泡糯米饭，糯米的香甜可口加上咸咸的肉沫，鲜香味美。</p>
+<ul>
+<li>番薯庆糕</li>
+</ul>
+<p>番薯庆糕是台州的土特产。它纯粹是粗粮细做的典型代表。从名称上来说，番薯庆糕的叫法也颇为别致。番薯庆糕确切的叫法是“番薯蒸糕”，但台州的“蒸”、“庆”的读音几近相同。不知是谁，率先将番薯蒸糕写作“番薯庆糕”，“庆”字带有喜庆的色彩，为大家欣然接受。大小饭店的菜单上写的是“番薯庆糕”，当地村民自己印制的包装盒上用的也是“番薯庆糕”，2009年台州政府公布第三批非物质文化遗产名录时，也确认了这一约定俗成的叫法。</p>
+<h3 id="“不是虾”组合"><a href="#“不是虾”组合" class="headerlink" title="“不是虾”组合"></a>“不是虾”组合</h3><p><strong>泡虾</strong></p>
+<p>泡虾，不是虾。它的原料是小麦粉和肉碎，在高温的翻炸下，变得金黄，入口酥脆，略略焦酥的外壳搭配美味的肉馅，口感一绝。</p>
+<p><strong>麦虾</strong></p>
+<p>麦虾是浙江省台州市临海市的一道传统风味小吃，属于浙菜系；现在<a href="https://baike.baidu.com/item/%E5%8F%B0%E5%B7%9E/213188">台州</a>各县甚至在宁波、杭州、上海、金华等地，都可以随处看到“正宗<a href="https://baike.baidu.com/item/%E4%B8%B4%E6%B5%B7%E9%BA%A6%E8%99%BE/6884195">临海麦虾</a>店”的牌子。这些店顾客盈门，真可谓“临海麦虾，风靡江南”了。其实，旧时的“麦虾”是临海穷苦人家的主食。将麦粉搅拌成粉浆，但要求粉浆有韧度，以筷子插入其中而不倒为准，徐徐注入少量的水，刚好淹没粉浆，谓之“养浆”。麦虾的原料为虾、面粉、鸡蛋、油、盐、白萝卜丝、卤牛肉丝、香菇、黄酒等，口味清香鲜美。</p>
+<h3 id="主食与小吃的奇妙交集"><a href="#主食与小吃的奇妙交集" class="headerlink" title="主食与小吃的奇妙交集"></a>主食与小吃的奇妙交集</h3><ul>
+<li>食饼筒</li>
+</ul>
+<p>台州人有立夏、端午、五月十三吃锡饼（<a href="https://baike.baidu.com/item/%E9%BA%A6%E9%A5%BC">麦饼</a>、食饼筒）的风俗。台州人习惯在立夏这天吃锡饼，这一天也叫做“疰夏”，有俗谚曰：“疰夏呒麦饼，白落（碌）做世人。”意思是立夏这一天，如果不吃，那么就白白做一回人了，看得比什么都重。 [6] 叶泽诚先生收集的临海节俗竹枝词有一首《疰夏（立夏节）》这样写道：“食饼筒筒像卷，豆芽小菜炒麸筋。店家借根天平秤，秤过今年重几斤。”</p>
+<p>食饼筒主要做法是将面粉加水调成胶糊状，放入平底锅中配以油脂用工具将粉浆顺时针方向均匀地移动摊开、铺平、烙熟。取出面皮铺上炒粉丝包上各类菜肴，如：鸭蛋丝、黄鳝丝、豆芽、土豆丝、卤肉、洋葱等。</p>
+<ul>
+<li><strong>麦鼓头</strong></li>
+</ul>
+<p>麦鼓头是黄岩的特色烙饼。它选用猪肉、霉干菜（黄岩人称“菜瘪”）、虾皮、葱花制成。</p>
+<p>它的做法十分简单——将面粉揉成面团，摘取其中的一小块揉成小团，并捏成碗状。放入切细的馅料，封住口。用檊面杖卷成饼状后，就可放在平底锅中煎烤了。先用文火烤，待周边变成黄色、底下一面也呈黄色时，即可翻个身再烤另一面。这样翻来覆去，使两面均匀受热，饼内腊肉的油慢慢渗出，直至烙熟。</p>
+<ul>
+<li>蛋清羊尾</li>
+</ul>
+<p>蛋清羊尾又名蛋白夹沙，是浙江<a href="https://baike.baidu.com/item/%E4%B8%B4%E6%B5%B7/1425247">临海</a>列入《中国菜谱》浙江卷的传统特色名点。蛋清羊尾以<a href="https://baike.baidu.com/item/%E9%B8%A1%E8%9B%8B">鸡蛋</a>清、熟<a href="https://baike.baidu.com/item/%E7%8C%AA%E6%B2%B9/1969383">猪油</a>、鲜猪板油、<a href="https://baike.baidu.com/item/%E8%B1%86%E6%B2%99/8147208">豆沙</a>和 干糯米、白糖、干淀粉为原料，先取蛋清，用筷子不停地搅拌，直至用一根筷子插在其中而不倒下为度，再加入干淀粉搅匀，将预先制好的以猪网油包裹的豆沙丸子裹上蛋糊放进熟猪油里炸，丸子十分钟后会变的<a href="https://baike.baidu.com/item/%E8%83%96%E4%B9%8E%E4%B9%8E">胖乎乎</a>的、油黄黄的，待到三分嫩黄，便可捞起装盆，洒上白糖，就可上桌食用。色、香、味俱佳，油而不腻，甜而不馁。</p>
+<ul>
+<li><strong>姜汤面</strong></li>
+</ul>
+<p>姜汤面是浙江台州非常有代表性的面食小吃。姜汤面是原黄岩县民间世代流传的传统面食，其制作技艺被列入当地非遗。</p>
+<p>在黄岩，旧时女子产后，女子在家“坐月子”就是喝姜茶、吃姜汤面、姜米饭；亲戚朋友上门探望时也是用姜汤面招待。</p>
+<p>姜汤是姜汤面的灵魂。最好最正宗的姜汤是加入黄酒烹饪后晒干后的姜片放在水里熬几个小时熬出来的汤，这种姜汤有一种独特的醇香味。除此之外，它还有丰富的配料：一般都有<a href="https://baike.baidu.com/item/%E8%99%BE%E5%B9%B2/8554287">虾干</a>、鲜虾、猪肉丝、笋丝（茭白丝）、香菇、蘑菇、黄花菜、姜渣蛋、豆腐皮、小青菜（菠菜）、蛤蜊等。</p>
+<h2 id="1月20日"><a href="#1月20日" class="headerlink" title="1月20日"></a>1月20日</h2><h3 id="武义"><a href="#武义" class="headerlink" title="武义"></a>武义</h3><ul>
+<li><p>千层糕</p>
+<p>大米先是经过数日灰汤的浸泡，而后研磨成汁，粘稠适当，经大火蒸数小时，烧干部分水分，剩下部分烧干成型，再经一两日避风阴凉放置，即可食用。通常有切块炒或者煮两种做法，千层糕有类似于年糕的粘性，但却又独具风味，有着年糕未有的滑性，入口即感觉软黏可口，令人食指大动。</p>
+</li>
+<li><p>竹筒饭</p>
+<p>在竹筒里塞进<strong>湿米、香菇、猪肉、干菜</strong>等配料后封住凿口，再将它放到火堆上烤……武义的竹筒饭已经有200多年的历史。</p>
+</li>
+</ul>
+<h3 id="乐清"><a href="#乐清" class="headerlink" title="乐清"></a>乐清</h3><ul>
+<li><p>灯盏糕</p>
+<p>灯盏糕是浙江省<a href="https://baike.baidu.com/item/%E6%B8%A9%E5%B7%9E">温州</a>市和福建省闽西地区的一种传统特色名点，也是温州十大名小吃之一，同时该小吃也是福建闽西连城，长汀，闽北浦城等地的地方特色小吃。其历史悠久，最远可追溯至元末明初。一般是用大米、黄豆磨成稠浆，加入面粉，包裹萝卜丝为馅料，油炸而成。</p>
+<p>据说在元末明初刘伯温义军攻温州城的和城内<a href="https://baike.baidu.com/item/%E4%B9%89%E5%86%9B">义军</a>联络<a href="https://baike.baidu.com/item/%E6%9A%97%E5%8F%B7/5212">暗号</a>，为“等斩”糕（意为缚好内蒙古人），温州俗话“等斩”和“灯盏”是同音。另据传清<a href="https://baike.baidu.com/item/%E5%85%89%E7%BB%AA">光绪</a>末年，温州人陈大姆、陈碎姆两兄弟，在东门陡门头设摊炸灯盏糕。内馅是猪腿肉和白萝卜丝，外皮用黄豆、米粉浆和面粉拌和，采用鲜猪油炸制。因外形酷似古代扁圆形的菜油灯盏，故得名“灯盏糕”。</p>
+</li>
+</ul>
+<h2 id="1月21日"><a href="#1月21日" class="headerlink" title="1月21日"></a>1月21日</h2><h3 id="慈溪"><a href="#慈溪" class="headerlink" title="慈溪"></a>慈溪</h3><ul>
+<li><p>豆酥糖</p>
+<p>豆酥糖是<a href="https://baike.baidu.com/item/%E6%B5%99%E6%B1%9F/154399">浙江</a>宁式传统小吃，<a href="https://baike.baidu.com/item/%E8%8C%B6%E9%A3%9F/3197481">茶食</a>。<a href="https://baike.baidu.com/item/%E5%88%9B%E5%A7%8B/346485">创始</a>于<a href="https://baike.baidu.com/item/%E6%B8%85%E4%BB%A3/752212">清代</a>，一直是<a href="https://baike.baidu.com/item/%E5%AE%81%E6%B3%A2/209476">宁波</a>“<a href="https://baike.baidu.com/item/%E4%B8%89%E5%8C%97/12808246">三北</a>”的名点，故又称<a href="https://baike.baidu.com/item/%E4%B8%89%E5%8C%97%E8%B1%86%E9%85%A5%E7%B3%96/6422347">三北豆酥糖</a>。特点是<a href="https://baike.baidu.com/item/%E9%A6%99/2028784">香</a>、<a href="https://baike.baidu.com/item/%E7%94%9C/34056">甜</a>、<a href="https://baike.baidu.com/item/%E6%9D%BE/35367">松</a>，进口酥而易化，具有浓郁的<a href="https://baike.baidu.com/item/%E9%BB%84%E8%B1%86/747974">黄豆</a>香味，<a href="https://baike.baidu.com/item/%E9%85%A5%E6%9D%BE/3542881">酥松</a>，易溶化，无糖渣，不粘牙，有<a href="https://baike.baidu.com/item/%E9%BB%84%E8%B1%86/747974">黄豆</a>香味。</p>
+</li>
+<li><p>年糕饺</p>
+<p>这并不是用年糕做馅料的饺子，而是用年糕做面皮的一个饺子形状的包馅面食。</p>
+<p>年糕饺是<a href="https://baike.baidu.com/item/%E6%85%88%E6%BA%AA/431775">慈溪</a>地区有名的特色小吃，外皮是由软糯的年糕，用擀面杖将拳头大的熟年糕剂子擀成厚一点的面皮，里面放上馅料（传统的有荠菜香干陷、咸菜笋丁陷、白糖芝麻陷、榨菜陷，大头菜陷），像包饺子一样，把馅料包起来。</p>
+</li>
+</ul>
+<h3 id="余杭"><a href="#余杭" class="headerlink" title="余杭"></a>余杭</h3><ul>
+<li><p>定胜糕</p>
+<p>传说南宋定都杭州后，<a href="https://baike.baidu.com/item/%E5%B2%B3%E9%A3%9E/127844">岳飞</a>为保护国土多次领军出征，杭州百姓沿途都会送上定胜糕，盼胜利归来。将配置好的米粉放进特制的印版里，中间再放入红豆沙，蒸少许时间便大功告成。</p>
+</li>
+<li><p>龙井虾仁</p>
+<p>将茶饮与虾仁融合，整体清新软嫩，虾仁玉白，鲜嫩，芽叶清香，色泽雅丽，虾中有茶香，茶中有虾鲜，食后清口开胃，回味无穷。</p>
+</li>
+</ul>
+<h2 id="1月22日"><a href="#1月22日" class="headerlink" title="1月22日"></a>1月22日</h2><h3 id="蕲春"><a href="#蕲春" class="headerlink" title="蕲春"></a>蕲春</h3><ul>
+<li><p>蕲春酸米粉</p>
+<p>酸米粉是蕲春县的土特产品，选用优质早籼米经过自然发酵等15道民间传统工序精制而成，晶莹剔透、酸爽可口、风味独特。</p>
+</li>
+<li><p>蒿子粑</p>
+</li>
+</ul>
+<h3 id="青田"><a href="#青田" class="headerlink" title="青田"></a>青田</h3><ul>
+<li><p>糖糕<br>糖糕，一道特有的甜食，软硬适中，富有嚼劲。由糯米经过研磨，加上红糖，再加入些许红枣，加入水，经过几小时的大火蒸，烧干大部分水分。即可制成糖糕，可放数日不坏，切下一片即可食用。入口即品尝到糖糕的香甜软糯，软硬适中，越嚼越能品味出其中的甜味，同时红枣的香味也隐含其中，是一道家常的甜品。</p>
+</li>
+<li><p>海溪粉干</p>
+<p>海溪粉干是当地传统特色农产品，相传宋靖康年间，有一朱姓青田粉干人家因兵乱南逃至现青田县海溪乡，因担心爬山涉水时米袋里的米泄漏，就把米烧成饭，掐成团，再压成条状以便于携带。这种形式经过一代又一代百姓的工艺改进逐渐成为今天的海溪粉干。</p>
+<p>海溪粉干采用优质大米为原料，经传统手工工艺精制而成，细滑白皙，柔韧易炒，口感好，有嚼劲，烹饪后软而不料，不粘口，不糊汤，可煮可炒，方便可口。</p>
+</li>
+</ul>
 ]]></content>
       <categories>
-        <category>经典备份仓</category>
-      </categories>
-      <tags>
-        <tag>评测</tag>
-        <tag>科技</tag>
-        <tag>微软</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>TESTV数据分析</title>
-    <url>/2021/12/22/data-anay/</url>
-    <content><![CDATA[<h2 id="数据"><a href="#数据" class="headerlink" title="数据"></a>数据</h2><p>*数据截至2021年12月22日下午6时。</p>
-<center><strong>基本信息</strong></center>
-
-<table>
-<thead>
-<tr>
-<th>id</th>
-<th>平台</th>
-<th>粉丝数</th>
-<th>总播放数</th>
-<th>总获赞数</th>
-<th>所属分区</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>TESTV</td>
-<td>哔哩哔哩</td>
-<td>223.5万</td>
-<td>3.1亿</td>
-<td>841.1万</td>
-<td>科技区</td>
-</tr>
-</tbody></table>
-<center>主页签名｜我们不做评测，是体验！愉快的体验！</center>
-
-<span id="more"></span>
-
-<center><strong>投稿分析</strong></center>
-
-<p>·以播放量降序</p>
-<table>
-<thead>
-<tr>
-<th>分区</th>
-<th>时间</th>
-<th>话题</th>
-<th>类型</th>
-<th>播放数</th>
-<th>获赞数</th>
-<th>投币数</th>
-<th>收藏数</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>生活</td>
-<td>20/12/24</td>
-<td>反诈短片</td>
-<td>合作Vlog</td>
-<td>264.2万</td>
-<td>24.2万</td>
-<td>23.6万</td>
-<td>4.5万</td>
-</tr>
-<tr>
-<td>科技</td>
-<td>20/10/24</td>
-<td>购iPhone 12 Pro</td>
-<td>BB Time</td>
-<td>197.2万</td>
-<td>12.4万</td>
-<td>11.2万</td>
-<td>2.7万</td>
-</tr>
-<tr>
-<td>科技</td>
-<td>19/10/15</td>
-<td>Switch Lite掌机</td>
-<td>值不值得买</td>
-<td>189.2万</td>
-<td>5.2万</td>
-<td>3.7万</td>
-<td>1.6万</td>
-</tr>
-<tr>
-<td>科技</td>
-<td>20/12/1</td>
-<td>iPhone 12 mini</td>
-<td>值不值得买</td>
-<td>187万</td>
-<td>24.2万</td>
-<td>23.6万</td>
-<td>4.5万</td>
-</tr>
-<tr>
-<td>科技</td>
-<td>20/2/4</td>
-<td>华为MatePad Pro</td>
-<td>值不值得买</td>
-<td>171.3万</td>
-<td>3.9万</td>
-<td>1.3万</td>
-<td>5621</td>
-</tr>
-<tr>
-<td>科技</td>
-<td>18/11/2</td>
-<td>iPhone XR</td>
-<td>值不值得买</td>
-<td>169.8万</td>
-<td>1.3万</td>
-<td>6521</td>
-<td>3730</td>
-</tr>
-<tr>
-<td>生活</td>
-<td>17/4/7</td>
-<td>Switch</td>
-<td>值不值得买</td>
-<td>160万</td>
-<td>9030</td>
-<td>4275</td>
-<td>5724</td>
-</tr>
-</tbody></table>
-<p>·其他类型的高收藏量视频</p>
-<table>
-<thead>
-<tr>
-<th>分区</th>
-<th></th>
-<th>标题</th>
-<th>类型</th>
-<th>播放数</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>美食</td>
-<td></td>
-<td>229元火锅烧烤一体机 在家吃烤肉 好用吗</td>
-<td>BB Time</td>
-<td>60.5万</td>
-</tr>
-<tr>
-<td>游戏</td>
-<td></td>
-<td>不是鱼露 是鲈鱼 马壮实与TESTV动森联机治疗鲈鱼</td>
-<td>游戏Vlog</td>
-<td>49.9万</td>
-</tr>
-<tr>
-<td>科技</td>
-<td></td>
-<td>鸭掌猪脚超豪华螺蛳粉 到柳州打卡的螺蛳粉老店</td>
-<td>旅行Vlog</td>
-<td>34万</td>
-</tr>
-<tr>
-<td>汽车</td>
-<td></td>
-<td>7天探险大西北 航拍青海湖竟发现这么美</td>
-<td>Vlog 软广</td>
-<td>31.1万</td>
-</tr>
-<tr>
-<td>生活</td>
-<td></td>
-<td>勒是重庆城 背后的故事</td>
-<td>BB Time</td>
-<td>22.7万</td>
-</tr>
-</tbody></table>
-<h2 id="分析与建议"><a href="#分析与建议" class="headerlink" title="分析与建议"></a>分析与建议</h2><p>@Testv官方频道 是创办于2015年的数码类自媒体。发展历程和大多数数码评测机构、科技类自媒体一样，从早年的优酷转战如今b站，积累了百万级的粉丝量。在分家事件后，官方频道着眼于数码产品评测本身，除值不值得买核心节目之外，另有日常Vlog节目BB Time。</p>
-<p>Testv的视频创作类型广泛，譬如游戏实况、旅行Vlog、重庆历史/日常、产品评测，但从播放量、收藏量可以看出，其具有核心竞争力的内容仍然是值不值得买的数码产品评测与建议节目。</p>
-<p>“值不值得买”系列中，Apple与华为的最新产品往往能获得最多的播放量，可见科技区的投稿效果较为依赖产品迭代的热点。</p>
-<p>但另一方面，作为曾以销售重庆特产零食作为辅助收入来源的频道，加之作为自媒体在影视创作领域相对于个人up主的优势，其旅行、美食乃至人文类视频也能获得不错的观众反馈。正如科技区个人up主@木羽说科技 的经验所呈现，用户更倾向于观看<strong>轻松氛围 偏向日常体验</strong>的数码类视频。</p>
-<p>因此，对TESTV来说，在确保跟进科技数码领域热点的基础上，可以更多地拍摄关于入手新产品、体验小众产品的视频，并在美食、游戏等领域尝试制作更为精良的Vlog，在保证现有用户留存的基础上，利用频道自身的回旋余地探索更多视频内容的创作方向。</p>
-]]></content>
-      <categories>
-        <category>工作</category>
-      </categories>
-      <tags>
-        <tag>哔哩哔哩</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「开端」纪录</title>
-    <url>/2022/01/15/kaiduan/</url>
-    <content><![CDATA[<p><img src="https://gitee.com/parallelcoder_admin/blog_file/raw/master/kaiduan.jpg" alt="avatar"></p>
-<blockquote class="blockquote-center">
-<p><font face="仿宋">善良不是廉价的美德,它是要和能力相匹配的,要不然就是添乱。</font></p>
-
-</blockquote>
-
-<span id="more"></span>
-
-<hr>
-<h3 id="观评"><a href="#观评" class="headerlink" title="观评"></a>观评</h3><p>熟悉类似影片的朋友或许会和我一样，在起初不自觉地给这部剧打上刻板的标签。</p>
-<p>或是探讨宿命、平行宇宙与世界本原的科学幻想（源代码），或是关乎执念、困囿于时线循环的惊悚篇章（恐怖游轮）。</p>
-<p>而《开端》以戏谑的姿态回应了这份偏见，或曰桎梏。</p>
-<p>在开端的叙事架构之中，循环本身被抽离了意义。不在乎为何循环，也不在乎“他”或者“她”为何被卷入循环；对创作者而言，他们所要传达的是光怪陆离表象之下的现实主义内核，其承载者正是这辆公交车和它的乘客们。</p>
-<p>如果说《一出好戏》以荒岛求生的俗套框架掩藏导演真正渴望演绎的人性实验，那么《开端》就是一副当代社会底层人物的群像，借由他们的话语阐述善、自由与正义。</p>
-<blockquote>
-<p><font face="仿宋">他原本逃避着李诗情太过清澈的目光，现在却根本移不开眼。这个女孩身上那些之前还让他‘诟病’的天真，现在却是如此让人惊心动魄。那些天真是她的武器，也是她的铠甲，让肖鹤云溃不成军。</font></p>
-</blockquote>
-<p>得以循环的李诗情和肖鹤云，一位学生，一位社畜；是参与者，也是旁观者。前者急于报警、着眼于救人的天真与单纯打动了“成为社会螺丝钉多年”而圆滑现实、心念逃避的后者；后者又以职业本能的逻辑理性释然了拘于感性的前者。而插曲般呈现的卢笛故事线，则讲述了缺乏尊严，控制欲覆压之下成长的年轻人何以找寻自我的价值。些数矛盾的价值内核确是不谋而合的。</p>
-<blockquote>
-<p><font face="仿宋">她装心脏不舒服的时候，阿姨积极拿药，肖鹤云让司机开门。</font></p>
-<p><font face="仿宋">她装被「色狼」欺负的时候，网红大哥积极留证，耳机肌肉男上前制服“坏蛋”。</font></p>
-<p><font face="仿宋">她装和肖鹤云吵架踢坏了别人瓜，网红大哥仗义执言，瓜农大叔把瓜分给大家以德报怨。</font></p>
-<p><font face="仿宋">她装没有卫生巾的时候，无家可归的大叔在行李箱里翻出卫生巾。</font></p>
-<p><font face="仿宋">他们不是冷漠的陌生人，只是没有应付突发状况的勇气和反应，也有正常人面对危险恐惧与却步。</font></p>
-<p><font face="仿宋">他们只是没有下一次循环的普通人。</font></p>
-</blockquote>
-<p align="right"><font face="仿宋">（载于<a href="https://movie.douban.com/review/14143283/?_dtcc=1">豆瓣</a>）</font></p>
-
-<hr>
-<h3 id="摘录"><a href="#摘录" class="headerlink" title="摘录"></a>摘录</h3><blockquote>
-<p><font face="仿宋">其实我也想要活下去，我也是人，我也怕死。其实之前每一次我都特别想要下车。我还偷偷想过，我是不是可以趁着循环的机会做一点出格的、放飞自我的事情，就像我可以不用担心花钱，也不用担心长胖，然后大吃大喝；或者是晚上可以不回宿舍，然后去网吧刷夜……可是，我能想到的让我高兴的事情也就是这样了。我就是一个普通人。我想象力有限。但是我觉得，如果能救下这一车人，就是我能想到最出格、最放飞自我的事情。而且他们现在对我来说，已经不再是普通的陌生人。（李诗情）</font></p>
-</blockquote>
-<blockquote>
-<p><font face="仿宋">爸爸，妈妈，我今天差一点坐上那辆爆炸的公交车。就差一点。我在想，如果这次死神抓住了我，你们以后会如何回忆我呢。一个不服管教、奇装异服、没有朋友，总是对你们抱怨、与社会格格不入的哮喘患者。我的内心其实比你们同事家的孩子都要丰富、充实，我早已找到了活着的意义。“我将守护我的次元，献出我的心。”唯一的遗憾，是可能没人为我颁发勋章，挂在客厅的墙上，让你们炫耀。如果有一天我没能回家，请你们到这个地址，动漫城九栋二零一，密码六个六，进去之后，你们就会知道我的秘密。别对我失望。你们应该这么想，我试着拥有过我想要的生活了。我拥有过快乐。谢谢你们一直保护着我。我想说，我很爱你们，很幸福，很知足，我对自己爹生活很满意。其实我最大心愿，是让你们看到我眼中的世界，是多么的精彩啊。（卢笛）</font></p>
-</blockquote>
-<hr>
-<h3 id="影音"><a href="#影音" class="headerlink" title="影音"></a>影音</h3><p>图片参见<a href="https://movie.douban.com/subject/35332289/all_photos">此处</a>。</p>
-]]></content>
-      <categories>
-        <category>纪录</category>
-      </categories>
-      <tags>
-        <tag>剧评</tag>
-        <tag>悬疑剧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>笔记</title>
-    <url>/2022/01/15/mqz/</url>
-    <content><![CDATA[<p>刚才我说了，大家都只会说不的时候，结果可能是最保守的势力来管理社会，受益最多的就是既得利益集团。世界上很多国家统治集团就是利用这一点才能长期管理社会的，抓住一两个敏感的点去挑逗民众的愤怒情绪，让大家在反对某件事的过程中团结起来。民众反对来反对去，貌似输出了很多政治诉求，最后一看，政治诉求都相互抵消了，台上还是那些人，还是几十年前那些利益集团。台湾省已经在这个陷阱里出不来了，中国大陆千万不能掉进这种政治陷阱。一定要主动创造一套新制度，保卫好我们的现代化发展道路。</p>
-<p>这是演讲的一个主要观点，我希望不管是对这次演讲持支持或是反对的人，都能更多说一说“我希望怎样”，而不是“我反对什么”。</p>
-]]></content>
-      <tags>
-        <tag>剧评</tag>
-        <tag>政治剧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>团队实践活动日程（草案）</title>
-    <url>/2022/01/15/plan-demo/</url>
-    <content><![CDATA[<p><a href="https://gitee.com/parallelcoder_admin/blog_file/raw/master/demo.pdf">Download(demo.pdf)</a></p>
-<hr>
-<h4 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h4><table>
-<thead>
-<tr>
-<th>日期</th>
-<th>分工</th>
-<th></th>
-<th>成果</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1/17</td>
-<td>各组</td>
-<td>搜集八地家乡基本资料</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>甬杭组 瓯婺组</td>
-<td>家乡历史名人[仅搜集资料]（杭州 宁波 金华 温州）</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>台州组</td>
-<td>博物馆或遗址参观剪辑视频（台州）</td>
-<td>[视频]博物馆专题</td>
-</tr>
-<tr>
-<td>1/18</td>
-<td>丽水组 甬杭组</td>
-<td>方言调研（宁波 杭州 丽水）</td>
-<td>[调研报告/录制采访视频]</td>
-</tr>
-<tr>
-<td></td>
-<td>黄冈组</td>
-<td>地域比较[策划常用语收集各组录制素材]</td>
-<td>[视频]地域比较视频，也可以用其他方式呈现</td>
-</tr>
-<tr>
-<td></td>
-<td>台州组 瓯婺组</td>
-<td>推文文案 推文排版</td>
-<td>[推文]方言专题，汇总上述内容</td>
-</tr>
-<tr>
-<td>1/19</td>
-<td>瓯婺组</td>
-<td>美食制作视频（温州 金华）</td>
-<td>[视频]美食制作视频</td>
-</tr>
-<tr>
-<td></td>
-<td>黄冈组 丽水组</td>
-<td>特色美食介绍（黄冈 丽水）</td>
-<td>[推文]美食专题-1</td>
-</tr>
-<tr>
-<td></td>
-<td>甬杭组 台州组</td>
-<td>推文排版 实践中期简报撰写</td>
-<td></td>
-</tr>
-<tr>
-<td>1/20</td>
-<td>台州组 黄冈组 丽水组</td>
-<td>家乡历史名人（黄岩 温岭 黄冈 丽水）</td>
-<td>[推文]历史名人专题（整合1/17资料）</td>
-</tr>
-<tr>
-<td></td>
-<td>瓯婺组</td>
-<td>博物馆或遗址参观剪辑视频（温州 金华）</td>
-<td>[视频]博物馆专题</td>
-</tr>
-<tr>
-<td></td>
-<td>甬杭组</td>
-<td>推文排版</td>
-<td></td>
-</tr>
-<tr>
-<td>1/21</td>
-<td>甬杭组</td>
-<td>美食制作视频（宁波 杭州）</td>
-<td>[视频]美食制作视频</td>
-</tr>
-<tr>
-<td></td>
-<td>台州组</td>
-<td>特色美食介绍（黄岩温岭）</td>
-<td>[推文]美食专题-2</td>
-</tr>
-<tr>
-<td></td>
-<td>黄冈组 丽水组</td>
-<td>博物馆或遗址参观剪辑视频（黄冈丽水）</td>
-<td>[视频]博物馆专题</td>
-</tr>
-<tr>
-<td></td>
-<td>瓯婺组</td>
-<td>推文排版</td>
-<td></td>
-</tr>
-<tr>
-<td>1/22</td>
-<td>瓯婺组 丽水组</td>
-<td>特色艺术形式（温州金华丽水）</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>甬杭组</td>
-<td>文化古镇（宁波杭州）</td>
-<td>[视频]古镇视频</td>
-</tr>
-<tr>
-<td></td>
-<td>黄冈组 台州组</td>
-<td>推文文案 推文排版</td>
-<td>[推文]艺术专题（特色艺术与古镇）</td>
-</tr>
-<tr>
-<td>1/23</td>
-<td>各组</td>
-<td>写一段心得用于总结推文</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>甬杭组</td>
-<td>博物馆或遗址参观 剪辑视频（宁波 杭州）</td>
-<td>[视频]博物馆专题</td>
-</tr>
-<tr>
-<td></td>
-<td>台州组</td>
-<td>艺术鉴赏分享（黄岩 温岭）</td>
-<td>[PPT]艺术鉴赏</td>
-</tr>
-<tr>
-<td></td>
-<td>丽水组 黄冈组 瓯婺组</td>
-<td>实践简报撰写 推文排版 总结推文文案</td>
-<td>[推文]总结推文</td>
-</tr>
-</tbody></table>
-<p><i>每日需上传团队安全简报。</i></p>
-<hr>
-<h4 id="活动分组"><a href="#活动分组" class="headerlink" title="活动分组"></a>活动分组</h4><p>台州组：杨钧尹（队长）、李京蔚、郑恬欣</p>
-<p>甬杭组：方思梦、莫欣澜</p>
-<p>黄冈组：彭鑫霖</p>
-<p>瓯婺组：潘致宇、陈可</p>
-<p>丽水组：林昊润</p>
-<hr>
-<h4 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h4><table>
-<thead>
-<tr>
-<th>活动主题</th>
-<th>具体内容</th>
-<th></th>
-<th>呈现形式</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>探寻家乡方言</td>
-<td>方言调研</td>
-<td>实地或问卷调查方言传承情况；采访相关人士了解其历史特色。</td>
-<td>·调研报告或采访稿·视频</td>
-</tr>
-<tr>
-<td></td>
-<td>地域比较*</td>
-<td>用八地方言表达一组常用语并剪辑成视频或制作科普视频，公开发布。</td>
-<td></td>
-</tr>
-<tr>
-<td>探寻家乡历史</td>
-<td>博物馆或遗址参观</td>
-<td>实地参观博物馆展厅，探寻当地历史，以视频方式记录，辅以旁白或字幕介绍，公开发布。</td>
-<td>·视频</td>
-</tr>
-<tr>
-<td>探寻家乡美食</td>
-<td>美食制作视频</td>
-<td>深入街巷，实地拍摄美食的制作过程，制作短视频。</td>
-<td>·视频·推文</td>
-</tr>
-<tr>
-<td></td>
-<td>特色美食介绍*</td>
-<td>搜集当地几种代表性小吃的介绍与文化内涵。</td>
-<td></td>
-</tr>
-<tr>
-<td>探寻家乡名人</td>
-<td>家乡历史名人*</td>
-<td>通过知网等网站以文献学习为手段探究家乡传统文化的起源、发展等各个方面；撰写分享心得。</td>
-<td>·推文</td>
-</tr>
-<tr>
-<td>文艺作品中的家乡</td>
-<td>艺术鉴赏分享*</td>
-<td>观看并赏析与本地民俗有关的文化作品；记录后进行交流分享，汇总成一份包含海报、心得、推荐词的演示文稿。</td>
-<td>·PPT</td>
-</tr>
-<tr>
-<td>寻访历史活化石</td>
-<td>文化古镇</td>
-<td>深入调查当地历史比较悠久的古村古镇，或是一条古街，了解历史，感受古镇的韵味，制成专题视频与推文。</td>
-<td>·视频·照片集</td>
-</tr>
-<tr>
-<td>探寻家乡艺术</td>
-<td>特色艺术形式*</td>
-<td>当地独特的艺术（如金华婺剧）。</td>
-<td>·推文</td>
-</tr>
-</tbody></table>
-<p><i>[注]以*标注的是能够在线上直接完成的活动；“推文”指就该活动发布的专题推文。</i></p>
-<hr>
-]]></content>
-      <categories>
-        <category>档案</category>
+        <category>文档</category>
       </categories>
       <tags>
         <tag>社会实践</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>写作语法手册</title>
-    <url>/2021/01/01/note0/</url>
-    <content><![CDATA[<p>下面展示一些写作时需要的语法。</p>
-<span id="more"></span>
-
-<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题？"><a href="#六级标题？" class="headerlink" title="六级标题？"></a>六级标题？</h6><h2 id="标记"><a href="#标记" class="headerlink" title="标记"></a>标记</h2><p><u>下划线</u>、<em>斜体</em>、<strong>加粗</strong>、<em><strong>粗斜体</strong></em>、==高亮==、<del>删除线</del>、<a href="haha">链接</a>、注释<a href="%E6%B3%A8%E9%87%8A1">^1</a></p>
-<p><font color=#0099ff size=4 face="黑体">字体</font></p>
-<ul>
-<li><p><input disabled="" type="checkbox">  任务</p>
-</li>
-<li><p><input checked="" disabled="" type="checkbox">  已完成</p>
-</li>
-</ul>
-<ol>
-<li>有序列表项</li>
-<li>第二项</li>
-</ol>
-<p><code>单行代码</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">多行</span><br><span class="line">代码</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>单引用</p>
-</blockquote>
-<blockquote>
-<blockquote>
-<p>嵌套引用</p>
-</blockquote>
-</blockquote>
-<h2 id="对齐"><a href="#对齐" class="headerlink" title="对齐"></a>对齐</h2><center>中心对齐</center>
-<p align="right">右对齐</p>
-
-<ul>
-<li>列表<ul>
-<li>二级列表<ul>
-<li>三级列表</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="绘制"><a href="#绘制" class="headerlink" title="绘制"></a>绘制</h2><p>分割线&gt;</p>
-<hr>
-<p>分割线&lt;</p>
-<table>
-<thead>
-<tr>
-<th>biao</th>
-<th>ge</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td>2</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-        <tag>CSS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>团队实践活动内容分工</title>
-    <url>/2022/01/15/plan-formal/</url>
-    <content><![CDATA[<p><strong>社会实践细化日程及各组主题分工安排</strong></p>
-<table>
-<thead>
-<tr>
-<th>组</th>
-<th>主题</th>
-<th align="left">内容</th>
-<th align="right">呈现/DDL</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>台州</td>
-<td>美食</td>
-<td align="left"><strong>考察｜</strong>台州当地美食介绍及制作过程拍摄</td>
-<td align="right">视频+推文[台州+各地] 1/19</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td align="left"><strong>搜集｜</strong>团队各地美食搜集</td>
-<td align="right"></td>
-</tr>
-<tr>
-<td>甬杭</td>
-<td>历史</td>
-<td align="left"><strong>考察</strong>｜古镇探访</td>
-<td align="right">视频+推文[杭州] 1/20</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td align="left"><strong>搜集｜</strong>当地历史/古镇资料搜集</td>
-<td align="right">视频+推文[宁波] 1/22</td>
-</tr>
-<tr>
-<td>瓯婺</td>
-<td>艺术</td>
-<td align="left"><strong>考察/采访</strong></td>
-<td align="right">视频[采访/考察]+推文 1/21</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td align="left"><strong>搜集｜</strong>当地艺术形式/非遗资料</td>
-<td align="right">视频[采访/考察]+推文 1/23</td>
-</tr>
-<tr>
-<td>黄冈</td>
-<td>名家</td>
-<td align="left"><strong>搜集｜</strong>团队各地名人/风俗资料收集</td>
-<td align="right">推文 1/17</td>
-</tr>
-<tr>
-<td>丽水</td>
-<td>方言</td>
-<td align="left"><strong>搜集｜</strong>当地方言传承情况/采访（计划中）</td>
-<td align="right">推文 1/18</td>
-</tr>
-</tbody></table>
-<p>*请记得过程中搜集的资料作好保存，最终社会实践报告需要采用。</p>
-]]></content>
-      <categories>
-        <category>档案</category>
-      </categories>
-      <tags>
-        <tag>社会实践</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「极限挑战」观看纪录</title>
-    <url>/2022/01/21/jxtz/</url>
-    <content><![CDATA[<h4 id="第一季"><a href="#第一季" class="headerlink" title="第一季"></a>第一季</h4><ul>
-<li><p><input checked="" disabled="" type="checkbox">  01 时间战争</p>
-</li>
-<li><p><input disabled="" type="checkbox">  02 继承者们</p>
-</li>
-<li><p><input disabled="" type="checkbox">  03 上海滩2015</p>
-</li>
-<li><p><input disabled="" type="checkbox">  04 海岛求生记</p>
-</li>
-<li><p><input checked="" disabled="" type="checkbox">  05 疯狂的石头2之血战到底</p>
-</li>
-<li><p><input checked="" disabled="" type="checkbox">  06 悠长假期之猫鼠大战</p>
-</li>
-<li><p><input checked="" disabled="" type="checkbox">  07 悠长假期之冰封王座</p>
-</li>
-<li><p><input disabled="" type="checkbox">  08 迷失青岛</p>
-</li>
-<li><p><input checked="" disabled="" type="checkbox">  09 职场宫心计</p>
-</li>
-<li><p><input checked="" disabled="" type="checkbox">  10 挫冰进行曲</p>
-</li>
-<li><p><input checked="" disabled="" type="checkbox">  11 异次元特工</p>
-</li>
-<li><p><input checked="" disabled="" type="checkbox">  12 冲出黎明</p>
-</li>
-</ul>
-<h4 id="第二季"><a href="#第二季" class="headerlink" title="第二季"></a>第二季</h4><ul>
-<li><input checked="" disabled="" type="checkbox"> 01 与你同行</li>
-<li><input disabled="" type="checkbox"> 02 真-三国无双</li>
-<li><input checked="" disabled="" type="checkbox"> 03 说走就走的旅行</li>
-<li><input checked="" disabled="" type="checkbox"> 04 百元的幸福</li>
-<li><input checked="" disabled="" type="checkbox"> 05 花样男子</li>
-<li><input checked="" disabled="" type="checkbox"> 06 纵贯线</li>
-<li><input disabled="" type="checkbox"> 07 继承者们2</li>
-<li><input checked="" disabled="" type="checkbox"> 08 笑容保卫战</li>
-<li><input checked="" disabled="" type="checkbox"> 09 龟兔赛跑</li>
-<li><input checked="" disabled="" type="checkbox"> 10 暗战</li>
-<li><input checked="" disabled="" type="checkbox"> 11 漫步人生路</li>
-<li><input disabled="" type="checkbox"> 12 欢乐颂</li>
-<li><input disabled="" type="checkbox"> 公益晚会</li>
-</ul>
-<h4 id="第三季"><a href="#第三季" class="headerlink" title="第三季"></a>第三季</h4><ul>
-<li><input checked="" disabled="" type="checkbox"> 01 唤醒城市的人</li>
-<li><input checked="" disabled="" type="checkbox"> 02 藏龙卧虎</li>
-<li><input disabled="" type="checkbox"> 03 大时代</li>
-<li><input checked="" disabled="" type="checkbox"> 04 全民目击</li>
-<li><input checked="" disabled="" type="checkbox"> 05 最可爱的人-上</li>
-<li><input checked="" disabled="" type="checkbox"> 06 最可爱的人-下</li>
-<li><input disabled="" type="checkbox"> 07 勇士荣耀</li>
-<li><input disabled="" type="checkbox"> 08 继承者们3</li>
-<li><input checked="" disabled="" type="checkbox"> 09 暗花</li>
-<li><input checked="" disabled="" type="checkbox"> 10 长大成人</li>
-<li><input disabled="" type="checkbox"> 11 路人甲乙丙</li>
-<li><input disabled="" type="checkbox"> 12 合伙人</li>
-</ul>
-<h4 id="第四季"><a href="#第四季" class="headerlink" title="第四季"></a>第四季</h4><ul>
-<li><input disabled="" type="checkbox"> 01 知识改变命运-上</li>
-<li><input disabled="" type="checkbox"> 02 知识改变命运-下</li>
-<li><input disabled="" type="checkbox"> 03 向往的生活</li>
-<li><input disabled="" type="checkbox"> 04 温州一家人（继承者们4）</li>
-<li><input checked="" disabled="" type="checkbox"> 05 暗算</li>
-<li><input disabled="" type="checkbox"> 06 欢迎来到东升村-上</li>
-<li><input disabled="" type="checkbox"> 07 欢迎来到东升村-下</li>
-<li><input disabled="" type="checkbox"> 08 风生水起</li>
-<li><input checked="" disabled="" type="checkbox"> 09 孤城</li>
-<li><input checked="" disabled="" type="checkbox"> 10 都是夜归人</li>
-<li><input disabled="" type="checkbox"> 11 无忧岛-一出好戏</li>
-<li><input disabled="" type="checkbox"> 12 无忧岛-时间之外</li>
-</ul>
-]]></content>
-      <categories>
-        <category>纪录</category>
-      </categories>
-      <tags>
-        <tag>极限挑战</tag>
-        <tag>综艺</tag>
       </tags>
   </entry>
   <entry>
@@ -997,6 +378,1085 @@
 ]]></content>
       <categories>
         <category>工作</category>
+      </categories>
+      <tags>
+        <tag>社会实践</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>TESTV数据分析</title>
+    <url>/2021/12/22/data-anay/</url>
+    <content><![CDATA[<h2 id="数据"><a href="#数据" class="headerlink" title="数据"></a>数据</h2><p>*数据截至2021年12月22日下午6时。</p>
+<center><strong>基本信息</strong></center>
+
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>平台</th>
+<th>粉丝数</th>
+<th>总播放数</th>
+<th>总获赞数</th>
+<th>所属分区</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>TESTV</td>
+<td>哔哩哔哩</td>
+<td>223.5万</td>
+<td>3.1亿</td>
+<td>841.1万</td>
+<td>科技区</td>
+</tr>
+</tbody></table>
+<center>主页签名｜我们不做评测，是体验！愉快的体验！</center>
+
+<span id="more"></span>
+
+<center><strong>投稿分析</strong></center>
+
+<p>·以播放量降序</p>
+<table>
+<thead>
+<tr>
+<th>分区</th>
+<th>时间</th>
+<th>话题</th>
+<th>类型</th>
+<th>播放数</th>
+<th>获赞数</th>
+<th>投币数</th>
+<th>收藏数</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>生活</td>
+<td>20/12/24</td>
+<td>反诈短片</td>
+<td>合作Vlog</td>
+<td>264.2万</td>
+<td>24.2万</td>
+<td>23.6万</td>
+<td>4.5万</td>
+</tr>
+<tr>
+<td>科技</td>
+<td>20/10/24</td>
+<td>购iPhone 12 Pro</td>
+<td>BB Time</td>
+<td>197.2万</td>
+<td>12.4万</td>
+<td>11.2万</td>
+<td>2.7万</td>
+</tr>
+<tr>
+<td>科技</td>
+<td>19/10/15</td>
+<td>Switch Lite掌机</td>
+<td>值不值得买</td>
+<td>189.2万</td>
+<td>5.2万</td>
+<td>3.7万</td>
+<td>1.6万</td>
+</tr>
+<tr>
+<td>科技</td>
+<td>20/12/1</td>
+<td>iPhone 12 mini</td>
+<td>值不值得买</td>
+<td>187万</td>
+<td>24.2万</td>
+<td>23.6万</td>
+<td>4.5万</td>
+</tr>
+<tr>
+<td>科技</td>
+<td>20/2/4</td>
+<td>华为MatePad Pro</td>
+<td>值不值得买</td>
+<td>171.3万</td>
+<td>3.9万</td>
+<td>1.3万</td>
+<td>5621</td>
+</tr>
+<tr>
+<td>科技</td>
+<td>18/11/2</td>
+<td>iPhone XR</td>
+<td>值不值得买</td>
+<td>169.8万</td>
+<td>1.3万</td>
+<td>6521</td>
+<td>3730</td>
+</tr>
+<tr>
+<td>生活</td>
+<td>17/4/7</td>
+<td>Switch</td>
+<td>值不值得买</td>
+<td>160万</td>
+<td>9030</td>
+<td>4275</td>
+<td>5724</td>
+</tr>
+</tbody></table>
+<p>·其他类型的高收藏量视频</p>
+<table>
+<thead>
+<tr>
+<th>分区</th>
+<th></th>
+<th>标题</th>
+<th>类型</th>
+<th>播放数</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>美食</td>
+<td></td>
+<td>229元火锅烧烤一体机 在家吃烤肉 好用吗</td>
+<td>BB Time</td>
+<td>60.5万</td>
+</tr>
+<tr>
+<td>游戏</td>
+<td></td>
+<td>不是鱼露 是鲈鱼 马壮实与TESTV动森联机治疗鲈鱼</td>
+<td>游戏Vlog</td>
+<td>49.9万</td>
+</tr>
+<tr>
+<td>科技</td>
+<td></td>
+<td>鸭掌猪脚超豪华螺蛳粉 到柳州打卡的螺蛳粉老店</td>
+<td>旅行Vlog</td>
+<td>34万</td>
+</tr>
+<tr>
+<td>汽车</td>
+<td></td>
+<td>7天探险大西北 航拍青海湖竟发现这么美</td>
+<td>Vlog 软广</td>
+<td>31.1万</td>
+</tr>
+<tr>
+<td>生活</td>
+<td></td>
+<td>勒是重庆城 背后的故事</td>
+<td>BB Time</td>
+<td>22.7万</td>
+</tr>
+</tbody></table>
+<h2 id="分析与建议"><a href="#分析与建议" class="headerlink" title="分析与建议"></a>分析与建议</h2><p>@Testv官方频道 是创办于2015年的数码类自媒体。发展历程和大多数数码评测机构、科技类自媒体一样，从早年的优酷转战如今b站，积累了百万级的粉丝量。在分家事件后，官方频道着眼于数码产品评测本身，除值不值得买核心节目之外，另有日常Vlog节目BB Time。</p>
+<p>Testv的视频创作类型广泛，譬如游戏实况、旅行Vlog、重庆历史/日常、产品评测，但从播放量、收藏量可以看出，其具有核心竞争力的内容仍然是值不值得买的数码产品评测与建议节目。</p>
+<p>“值不值得买”系列中，Apple与华为的最新产品往往能获得最多的播放量，可见科技区的投稿效果较为依赖产品迭代的热点。</p>
+<p>但另一方面，作为曾以销售重庆特产零食作为辅助收入来源的频道，加之作为自媒体在影视创作领域相对于个人up主的优势，其旅行、美食乃至人文类视频也能获得不错的观众反馈。正如科技区个人up主@木羽说科技 的经验所呈现，用户更倾向于观看<strong>轻松氛围 偏向日常体验</strong>的数码类视频。</p>
+<p>因此，对TESTV来说，在确保跟进科技数码领域热点的基础上，可以更多地拍摄关于入手新产品、体验小众产品的视频，并在美食、游戏等领域尝试制作更为精良的Vlog，在保证现有用户留存的基础上，利用频道自身的回旋余地探索更多视频内容的创作方向。</p>
+]]></content>
+      <categories>
+        <category>工作</category>
+      </categories>
+      <tags>
+        <tag>哔哩哔哩</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Surface Pro 2 评测备档</title>
+    <url>/2021/10/01/bilibili/</url>
+    <content><![CDATA[<blockquote>
+<p>这是由优酷用户@嘉峪出品 约八年前上传的微软 Surface Pro 2 评测视频。这是我最早了解到微软 Surface 系列产品，也是我彼时认为最优秀的一批关于该产品的测评。由于如今原视频失效，特在B站备份存档。（2021-10-01）</p>
+</blockquote>
+<span id="more"></span>
+
+<p><iframe src="//player.bilibili.com/player.html?aid=763293176&amp;cid=417794545&amp;page=1" frameborder="no" scrolling="no" width="95%" height="600"></iframe></p>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Valine - A simple comment system based on Leancloud.</title>
+    <!--Leancloud 操作库:-->
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <!--Valine 的核心代码库:-->
+    <script src="./dist/Valine.min.js"></script>
+</head>
+<body>
+    <div class="comment"></div>
+    <script>
+        new Valine({
+            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+            av: AV, 
+            el: '.comment', // 
+            app_id: 'Your APP ID', // 这里填写上面得到的APP ID
+            app_key: 'Your APP KEY', // 这里填写上面得到的APP KEY
+            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!' // [v1.0.7 new]留言框占位提示文字
+        });
+    </script>
+</body>
+</html>
+
+]]></content>
+      <categories>
+        <category>经典备份仓</category>
+      </categories>
+      <tags>
+        <tag>评测</tag>
+        <tag>科技</tag>
+        <tag>微软</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构与算法｜笔记</title>
+    <url>/2022/01/24/ds-note/</url>
+    <content><![CDATA[<blockquote class="blockquote-center">
+<p>Ch3-Lists&amp;Stacks&amp;Queues:1<br>Ch4-Trees:2<br>Ch5-Hashing:1<br>Ch6-PriorityQueues&amp;Heaps:1<br>Ch7-Sorting:1.5<br>Ch9-GraphAlgorithms:1.5<br>*主定理</p>
+
+</blockquote>
+
+<span id="more"></span>
+
+<h2 id="类模板及语法基础"><a href="#类模板及语法基础" class="headerlink" title="类模板及语法基础"></a>类模板及语法基础</h2><p><em>Point:关键字</em></p>
+<h3 id="动态内存与释放"><a href="#动态内存与释放" class="headerlink" title="动态内存与释放"></a>动态内存与释放</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">char</span>* name; <span class="keyword">delete</span> [] name;</span><br><span class="line"><span class="built_in">Birds</span>() &#123;name=<span class="keyword">new</span> <span class="keyword">char</span>[<span class="number">256</span>]&#125;</span><br></pre></td></tr></table></figure>
+<p>利用指针实现动态内存分配。同值对象指向相同address</p>
+<p>Shell命令查看内存泄漏状况<code>valgrind filename</code></p>
+<p>释放内存：及时delete变量。由于为指针，要防止指向新地址时原内存未被释放。</p>
+<h3 id="template"><a href="#template" class="headerlink" title="template"></a>template</h3><p>编译时自动填充typename<br>在类外撰写类成员函数时需要添加<br>可指定T的具体类型</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</span><br><span class="line">Array&lt;T&gt;::<span class="built_in">FunctionName</span>(<span class="keyword">const</span> Array&lt;T&gt;&amp; _obj) &#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="关键字修饰符"><a href="#关键字修饰符" class="headerlink" title="关键字修饰符"></a>关键字修饰符</h3><h4 id="const"><a href="#const" class="headerlink" title="const"></a>const</h4><p>对成员函数：修饰非静态数据，只读化。应尽可能将该成员函数声明为const 成员函数，除非成员函数需要修改数据成员。const可访问非常量数据，反之不可。指针数据可以被const 函数修改。<br><code>Class:: func() const &#123;&#125;</code></p>
+<p>对形参：指针传递，禁止修改指针指向地址内存数据；值传递不需要const保护。</p>
+<p><code>void copyMemory(const T* _s,T* _d,int _n);</code></p>
+<h4 id="Static"><a href="#Static" class="headerlink" title="Static"></a>Static</h4><p>静态变量，延长生命周期又相较全局变量保留了一定的访问范围。需要一个数据对象为整个类而非某个对象服务,同时又力求不破坏类的封装性,即要求此成员隐藏在类的内部时使用。</p>
+<h4 id="this"><a href="#this" class="headerlink" title="*this"></a>*this</h4><p>指向obj自身的指针</p>
+<h4 id="Explicit-显式转换"><a href="#Explicit-显式转换" class="headerlink" title="Explicit 显式转换"></a>Explicit 显式转换</h4><p>explicit 对单参数构造函数限制隐式转换<br>防止编译器进行类型等方式的强制转换。</p>
+<h3 id="宏定义"><a href="#宏定义" class="headerlink" title="宏定义"></a>宏定义</h3><p>用于简化重复语句<code>#define TEMP template&lt;typename T&gt;</code></p>
+<p>编译处理</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">ifndef</span> xxx</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> xxx</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></span><br></pre></td></tr></table></figure>
+
+<h3 id="传递-引用"><a href="#传递-引用" class="headerlink" title="传递 引用"></a>传递 引用</h3><h4 id="形参的值传递-指针传递-引用传递"><a href="#形参的值传递-指针传递-引用传递" class="headerlink" title="形参的值传递 指针传递 引用传递"></a>形参的值传递 指针传递 引用传递</h4><p>默认为值传递，开辟新函数，储存实参数据；指针实质存在一层中介地址，引用传递直接对传入对象进行修改；*&amp;obj适用于struct对象，对其属性变量进行修改</p>
+<p>（1）T* a： 传递实参指针地址，及最终指向数据地址，但可以利用*a修改地址内存数据<br>（2）T&amp; a：左值引用，实参的别名</p>
+<h4 id="左值-右值引用"><a href="#左值-右值引用" class="headerlink" title="左值 右值引用"></a>左值 右值引用</h4><p>右值引用&amp;&amp;：防止传递给形参T&amp; a的是常量（此时函数无法修改a）</p>
+<p><strong>看能不能对表达式取地址，如果能，则为左值，否则为右值</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> c = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> &amp;d = c; <span class="comment">// error.</span></span><br><span class="line"><span class="keyword">int</span> &amp;&amp;d = <span class="number">10</span>;</span><br></pre></td></tr></table></figure>
+
+<p><strong>约定</strong> rhs：引用；lhs：赋值</p>
+<h4 id="std-move"><a href="#std-move" class="headerlink" title="std::move"></a>std::move</h4><p>强制将左值转换为右值引用，如push_back避免开辟新内存</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">AvlNode</span>(<span class="keyword">const</span> Comparable &amp; ele, AvlNode *lt, AvlNode *rt, <span class="keyword">int</span> h = <span class="number">0</span>): element&#123;ele&#125;, left&#123;lt&#125;, right&#123;rt&#125;, height&#123;h&#125; &#123;&#125;</span><br><span class="line"><span class="built_in">AvlNode</span>(Comparable &amp;&amp; ele, AvlNode *lt, AvlNode *rt, <span class="keyword">int</span> h = <span class="number">0</span>): element&#123;std::<span class="built_in">move</span>(ele)&#125;, left&#123;lt&#125;, right&#123;rt&#125;, height&#123;h&#125; &#123;&#125; <span class="comment">//参数无地址，临时ele=参数</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Class-amp-Struct-封装"><a href="#Class-amp-Struct-封装" class="headerlink" title="Class &amp; Struct 封装"></a>Class &amp; Struct 封装</h3><p>外部只提供相应功能的接口，不允许直接对底层对象进行修改。</p>
+<h4 id="复制构造函数"><a href="#复制构造函数" class="headerlink" title="复制构造函数"></a>复制构造函数</h4><p>将b中成员属性复制到c： <code>Birds c(b);</code><br>类中处理：定义拷贝函数；否则：缺省。<br>需要开辟新的动态内存</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Birds</span>(Birds _obj) &#123;</span><br><span class="line">name=<span class="keyword">new</span> <span class="keyword">char</span> [<span class="number">256</span>]; </span><br><span class="line"><span class="keyword">for</span>循环迭代载入name[i]=_obj.name[i];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="函数化"><a href="#函数化" class="headerlink" title="函数化"></a>函数化</h4><p>如复制构造函数中的copyMemory，便于多核并行运算。</p>
+<h4 id="struct-定义传入参数"><a href="#struct-定义传入参数" class="headerlink" title="struct 定义传入参数"></a>struct 定义传入参数</h4><p>使得struct能够直接在定义时传入相应参数</p>
+<p><code>BinaryNode(const Comparable&amp; theElement, BinaryNode *lt, BinaryNode *rt): element(theElement),left(lt),right(rt) &#123;&#125;</code></p>
+<h4 id="Operator-重载运算符"><a href="#Operator-重载运算符" class="headerlink" title="Operator 重载运算符"></a>Operator 重载运算符</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">const Array&amp; operator=(const Array&amp; _obj)</span><br></pre></td></tr></table></figure>
+
+<h4 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h4><p>doxymacs/doxygen格式的注释：<br>可以通过命令提取所有相应注释以html方式直观显示。</p>
+<h3 id="Standard-Template-Library"><a href="#Standard-Template-Library" class="headerlink" title="Standard Template Library"></a>Standard Template Library</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// get random number.</span></span><br><span class="line"><span class="built_in">srand</span>((<span class="keyword">unsigned</span>)<span class="built_in">time</span>(<span class="literal">nullptr</span>)); <span class="comment">// 随机种子</span></span><br><span class="line">a=<span class="built_in">rand</span>()%<span class="number">10</span>;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="built_in">abs</span>();<span class="built_in">min</span>();<span class="built_in">max</span>();<span class="built_in">swap</span>(a,b);</span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="built_in">sqrt</span>();<span class="built_in">sin</span>();<span class="built_in">cos</span>();<span class="built_in">tan</span>();<span class="built_in">pow</span>();</span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;ctime&gt;</span></span></span><br><span class="line"><span class="keyword">clock_t</span> start = <span class="built_in">clock</span>();</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="复杂度"><a href="#复杂度" class="headerlink" title="复杂度"></a>复杂度</h2><h3 id="big-O"><a href="#big-O" class="headerlink" title="big O"></a>big O</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="number">1000</span>N=<span class="built_in">O</span>(N^<span class="number">2</span>); (logN)^k=<span class="built_in">O</span>(N); </span><br><span class="line"><span class="number">1</span> &lt; logN &lt; N &lt; NlogN &lt; N^<span class="number">2</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>循环｜内语句*迭代次数；嵌套循环</span><br><span class="line">顺序语句｜求和，取Max；判定语句</span><br><span class="line">NlogN|最大子序列问题 一次N遍历&amp;一次二分查找</span><br><span class="line">logN｜二分搜索，欧几里得</span><br></pre></td></tr></table></figure>
+
+<h3 id="主定理-★"><a href="#主定理-★" class="headerlink" title="主定理 ★"></a>主定理 ★</h3><p>![image-20220102105905885](/Users/ralvine/Library/Application Support/typora-user-images/image-20220102105905885.png)</p>
+<p><strong>归纳法证明：</strong> （例）</p>
+<p>![image-20220104172830911](/Users/ralvine/Library/Application Support/typora-user-images/image-20220104172830911.png)</p>
+<p><strong>一般性证明：</strong>构造树，depth=log(b,n)，widget=a^(log(b,n))=n^(log(b,a))</p>
+<p><em>实例：二分查找</em></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">T(n) = T(n/2) + O(1)  </span><br><span class="line">T(n/2) = T(n/4) + O(1)    </span><br><span class="line">  ...</span><br><span class="line">T(2) = T(1) + O(1)     </span><br><span class="line">T(1) = O(1)</span><br><span class="line">a=1,b=2,k=0代入得O(logN);</span><br></pre></td></tr></table></figure>
+
+<p>另可直接证，由于为1/2,1/4…1/n,尾项2^k项为n，故共logn项，T(n)=logn*o(1)=logn</p>
+<h2 id="Vector-amp-List-amp-Stack-amp-Queues"><a href="#Vector-amp-List-amp-Stack-amp-Queues" class="headerlink" title="Vector &amp; List &amp; Stack &amp; Queues"></a>Vector &amp; List &amp; Stack &amp; Queues</h2><h3 id="iterator"><a href="#iterator" class="headerlink" title="iterator"></a>iterator</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">std::vector&lt;<span class="keyword">int</span>&gt; iterator a=A.<span class="built_in">begin</span>();</span><br><span class="line">i = <span class="built_in">find</span>(v.<span class="built_in">begin</span>(), v.<span class="built_in">end</span>(), <span class="number">1</span>);</span><br></pre></td></tr></table></figure>
+
+<h3 id="Vector-amp-List"><a href="#Vector-amp-List" class="headerlink" title="Vector &amp; List"></a>Vector &amp; List</h3><p>Array|经典数组<br>Vector|批量分配内存的数组，空间不够时再申请新的内存；模板化<T>；允许拷贝赋值<br>List|链表 Single/Double-Linked-List <strong>双链表</strong> 表头、尾、哨兵结点</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">a</span><span class="params">(<span class="number">10</span>,<span class="number">1</span>)</span></span>; <span class="comment">//10个初值为1的元素</span></span><br><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">a</span><span class="params">(b.begin(),b.begin+<span class="number">3</span>)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//共有</span></span><br><span class="line">a.<span class="built_in">clear</span>();a.<span class="built_in">empty</span>();</span><br><span class="line">a.<span class="built_in">front</span>();a.<span class="built_in">back</span>();</span><br><span class="line">a.<span class="built_in">push_back</span>(<span class="number">1</span>);a.<span class="built_in">size</span>();</span><br><span class="line">a.<span class="built_in">resize</span>(<span class="number">10</span>,<span class="number">2</span>);<span class="comment">//现有元素数目调整,多删少补,未给定参数2则随机</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// Vector</span></span><br><span class="line">a[i];a.<span class="built_in">insert</span>(a.<span class="built_in">begin</span>()+<span class="number">1</span>,<span class="number">5</span>);</span><br><span class="line">a.<span class="built_in">pop_back</span>();a.<span class="built_in">swap</span>(b);</span><br><span class="line">a.<span class="built_in">reserve</span>(<span class="number">100</span>);<span class="comment">//容量</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// List</span></span><br><span class="line">a.<span class="built_in">push_front</span>(val);a.<span class="built_in">insert</span>(single_val);</span><br><span class="line">a.<span class="built_in">remove</span>(val);a.<span class="built_in">remove_if</span>(condition);a.<span class="built_in">unique</span>();<span class="comment">//去重</span></span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>Access</th>
+<th>Insert</th>
+<th>Delete</th>
+<th>Search</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Array/Vector</td>
+<td>1</td>
+<td>n</td>
+<td>n</td>
+<td>n</td>
+</tr>
+<tr>
+<td>Single-linked-List</td>
+<td>n</td>
+<td>1</td>
+<td>1</td>
+<td>n</td>
+</tr>
+<tr>
+<td>Double-linked-List</td>
+<td>n</td>
+<td>1</td>
+<td>1</td>
+<td>n</td>
+</tr>
+</tbody></table>
+<h3 id="Stack-amp-Queue"><a href="#Stack-amp-Queue" class="headerlink" title="Stack &amp; Queue"></a>Stack &amp; Queue</h3><p><code>pop() push() size() swap() empty();</code>Stack:LIFO <code>top();</code> Queue:FIFO <code>front() back();</code></p>
+<h4 id="Stack-计算器"><a href="#Stack-计算器" class="headerlink" title="Stack 计算器"></a>Stack 计算器</h4><p>前缀/后缀。<strong>中缀转后缀：</strong><code>A+B*(C-D)-E/F</code>转为<code>ABCD−∗+EF/−</code></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">优先级设置 ‘*’ = ‘/’ &gt; ‘+’ = ‘-’ &gt;</span><br><span class="line">  style1:‘(’优先级最高，如直接读入；推入操作符时不弹</span><br><span class="line">  style2:‘(’优先级最低，强制直接读入</span><br><span class="line">数字直接放到[输出列]，右括号直接弹到左括号止；操作符：栈弹出直到遇到比自己优先级低的操作符再入栈。计算：顺序读取，数字入栈，符号弹出两数字运算，结果入栈</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="Trees"><a href="#Trees" class="headerlink" title="Trees"></a>Trees</h2><p>Binary Tree 二叉树平均深度O(√N)，表达式树应用；</p>
+<h3 id="Binary-Search-Tree"><a href="#Binary-Search-Tree" class="headerlink" title="Binary Search Tree"></a>Binary Search Tree</h3><p>左小右大；平均深度O(logN)最坏深度O(N-1)</p>
+<h4 id="构建"><a href="#构建" class="headerlink" title="构建"></a><strong>构建</strong></h4><p>contains｜findMin(Max)｜insert｜～:makeEmpty递归</p>
+<p>copy| clone，递归return new node; 重载运算符：this!=&amp;rhs则makeEmpty再clone rhs.root，最终return *this</p>
+<p>remove|(*&amp;t)t为结点地址；空,return;t&lt;&gt;x判断;t=x.</p>
+<p>双子:t-&gt;ele=findmax(t-&gt;right)-&gt;ele,remove(t-&gt;ele;t-&gt;right); // 右子找min代入t,删除该min</p>
+<p>单子/无子：T*oldNode=t,另引入的参数t=t-&gt;left/right相当于改结点地址为t左/右子，再删oldNode即删了原结点.</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// findmin: 递归或while 注意空树直接返回nullptr</span></span><br><span class="line"><span class="function">BinaryNode * <span class="title">findMin</span><span class="params">( BinaryNode *t )</span> <span class="keyword">const</span> </span>&#123;</span><br><span class="line">  <span class="keyword">if</span>( t == <span class="literal">nullptr</span> )</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">nullptr</span>;</span><br><span class="line">  <span class="keyword">if</span>( t-&gt;left == <span class="literal">nullptr</span> )</span><br><span class="line">    <span class="keyword">return</span> t;</span><br><span class="line">  <span class="keyword">return</span> <span class="built_in">findMin</span>( t-&gt;left );</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// insert</span></span><br><span class="line"><span class="number">1.</span><span class="keyword">if</span> t==<span class="literal">nullptr</span>:<span class="keyword">new</span> node&#123;x,<span class="literal">nullptr</span>,<span class="literal">nullptr</span>&#125;;</span><br><span class="line"><span class="number">2.</span><span class="keyword">else</span> compare x,t-&gt;ele,递归</span><br><span class="line"><span class="number">3.b</span><span class="function">alance <span class="keyword">and</span> update the <span class="title">height</span><span class="params">(max(subtree)+<span class="number">1</span>)</span>.</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="关于-struct-构造"><a href="#关于-struct-构造" class="headerlink" title="关于 struct 构造"></a>关于 struct 构造</h4><p>BinaryNode置于private；针对struct的操作也位于private部分</p>
+<p>外部操作→public函数→private函数</p>
+<h4 id="关于-function-参数"><a href="#关于-function-参数" class="headerlink" title="关于 function 参数"></a>关于 function 参数</h4><p>对Struct BinaryNode，由于其element为变量，left/right为指针，fuction引用时应采用(BinaryNode * &amp; t)，引用Node地址</p>
+<h4 id="时间分析"><a href="#时间分析" class="headerlink" title="时间分析"></a>时间分析</h4><p>内部路径长｜所有结点的深度和；递推关系、秩，D(N)=D(i)+D(N-i-1)+N-1 =&gt; O(NlogN),average</p>
+<p>任意结点预期深度logN；交替insert/remove O(N^2)，期望深度O(√N)</p>
+<h3 id="Balance-Tree"><a href="#Balance-Tree" class="headerlink" title="Balance Tree"></a>Balance Tree</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/// Height 处理</span></span><br><span class="line"><span class="comment">// Binary Tree</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">height</span><span class="params">( BinaryNode *t )</span> </span>&#123; </span><br><span class="line">  <span class="keyword">if</span>( t == <span class="literal">nullptr</span> )</span><br><span class="line">    <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">  <span class="keyword">else</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span> + <span class="built_in">max</span>(<span class="built_in">height</span>(t-&gt;left), <span class="built_in">height</span>(t-&gt;right));</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// AVL Tree: Struct AvlNode has added the val &#x27;height&#x27;.</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">height</span><span class="params">( AvlNode *t )</span> <span class="keyword">const</span> </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> t == <span class="literal">nullptr</span> ? <span class="number">-1</span> : t-&gt;height;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="AVL-Trees"><a href="#AVL-Trees" class="headerlink" title="AVL Trees"></a>AVL Trees</h4><p>每个结点的左子树和右子树高度最多差1（空树为-1）</p>
+<p><strong>Rotation的具体实现</strong></p>
+<table>
+<thead>
+<tr>
+<th>插入方式</th>
+<th>描述</th>
+<th>旋转方式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>LL</td>
+<td>在a的<strong>左子树</strong>根节点的<strong>左子树</strong>上插入节点而破坏平衡</td>
+<td>右旋转</td>
+</tr>
+<tr>
+<td>RR</td>
+<td>在a的<strong>右子树</strong>根节点的<strong>右子树</strong>上插入节点而破坏平衡</td>
+<td>左旋转</td>
+</tr>
+<tr>
+<td>LR</td>
+<td>在a的<strong>左子树</strong>根节点的<strong>右子树</strong>上插入节点而破坏平衡</td>
+<td>先左旋后右旋</td>
+</tr>
+<tr>
+<td>RL</td>
+<td>在a的<strong>右子树</strong>根节点的<strong>左子树</strong>上插入节点而破坏平衡</td>
+<td>先右旋后左旋</td>
+</tr>
+</tbody></table>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// insert. 伪代码</span></span><br><span class="line">x&lt;t-&gt;ele:左插入，<span class="built_in">insert</span>(x,t-&gt;left),此时判定</span><br><span class="line">  <span class="keyword">if</span> balance condition:height of left-right&gt;<span class="number">1</span>;</span><br><span class="line">    then <span class="keyword">if</span> x&lt;t-&gt;left-&gt;ele 即LL，对t调用右旋 <span class="comment">// 其余同理</span></span><br><span class="line"><span class="comment">// right rotation. (for LL-insert style)</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">rotateWithLeftChild</span><span class="params">( AvlNode * &amp; k2 )</span> </span>&#123;</span><br><span class="line">  AvlNode *k1 = k2-&gt;left;</span><br><span class="line">  k2-&gt;left = k1-&gt;right;</span><br><span class="line">  k1-&gt;right = k2;</span><br><span class="line">  <span class="comment">// after rotation , update the height.</span></span><br><span class="line">  k2-&gt;height = <span class="built_in">max</span>( <span class="built_in">height</span>( k2-&gt;left ), <span class="built_in">height</span>( k2-&gt;right ) ) + <span class="number">1</span>;</span><br><span class="line">  k1-&gt;height = <span class="built_in">max</span>( <span class="built_in">height</span>( k1-&gt;left ), k2-&gt;height ) + <span class="number">1</span>;</span><br><span class="line">  k2 = k1;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// LR-insert.</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">doubleWithLeftChild</span><span class="params">( AvlNode * &amp; k3 )</span> </span>&#123;</span><br><span class="line">  <span class="built_in">rotateWithRightChild</span>( k3-&gt;left );</span><br><span class="line">  <span class="built_in">rotateWithLeftChild</span>( k3 );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>时间复杂度分析</strong>:计算高度O(logN)；保证查询O(logN)避免Binary Tree最坏的N；但由于旋转存在，操作效率低，特别是remove时可能需要一直旋转到根；额外封装，繁琐</p>
+<p>*另一种写法：独立的balance操作</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// at the end of each insert or remove operation, you need to do &quot;balance(t)&quot;</span></span><br><span class="line"><span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">int</span> ALLOWED_IMBALANCE = <span class="number">1</span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">balance</span><span class="params">( AvlNode * &amp; t )</span> </span>&#123; </span><br><span class="line">  <span class="keyword">if</span>( t == <span class="literal">nullptr</span> ) </span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">  <span class="keyword">if</span>( <span class="built_in">height</span>( t-&gt;left ) - <span class="built_in">height</span>( t-&gt;right ) &gt; ALLOWED_IMBALANCE )</span><br><span class="line">    <span class="keyword">if</span>( <span class="built_in">height</span>( t-&gt;left-&gt;left ) &gt;= <span class="built_in">height</span>( t-&gt;left-&gt;right ) ) </span><br><span class="line">      <span class="built_in">rotateWithLeftChild</span>( t ); </span><br><span class="line">    <span class="keyword">else</span> </span><br><span class="line">      <span class="built_in">doubleWithLeftChild</span>( t );</span><br><span class="line">  <span class="keyword">else</span> <span class="keyword">if</span>( <span class="built_in">height</span>( t-&gt;right ) - <span class="built_in">height</span>( t-&gt;left ) &gt; ALLOWED_IMBALANCE ) </span><br><span class="line">    <span class="keyword">if</span>( <span class="built_in">height</span>( t-&gt;right-&gt;right ) &gt;= <span class="built_in">height</span>( t-&gt;right-&gt;left ) ) </span><br><span class="line">      <span class="built_in">rotateWithRightChild</span>( t ); </span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">      <span class="built_in">doubleWithRightChild</span>( t );</span><br><span class="line">  t-&gt;height = <span class="built_in">max</span>( <span class="built_in">height</span>( t-&gt;left ), <span class="built_in">height</span>( t-&gt;right ) ) + <span class="number">1</span>; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="Splay-Trees"><a href="#Splay-Trees" class="headerlink" title="Splay Trees*"></a>Splay Trees*</h4><p>保证从空树开始任意连续M次操作最多花费O(MlogN)的时间</p>
+<h3 id="Traversals"><a href="#Traversals" class="headerlink" title="Traversals"></a>Traversals</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 前序</span></span><br><span class="line">文件路径展开</span><br><span class="line"><span class="comment">// 中序 O(N)</span></span><br><span class="line"><span class="keyword">if</span>( t != <span class="literal">nullptr</span> ) &#123; </span><br><span class="line">    <span class="built_in">printTree</span>( t-&gt;left, out );</span><br><span class="line">    out &lt;&lt; t-&gt;element &lt;&lt; endl; </span><br><span class="line">    <span class="built_in">printTree</span>( t-&gt;right, out ); </span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 后序 O(N)</span></span><br><span class="line">高度计算</span><br><span class="line"><span class="comment">// 层序</span></span><br><span class="line"><span class="keyword">using</span> &lt;queue&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="B-Trees"><a href="#B-Trees" class="headerlink" title="B Trees*"></a>B Trees*</h3><h3 id="Sets-amp-Maps"><a href="#Sets-amp-Maps" class="headerlink" title="Sets &amp; Maps"></a>Sets &amp; Maps</h3><p>Sets｜排序、去重</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">set&lt;<span class="keyword">int</span>&gt; a;</span><br><span class="line">a.<span class="built_in">find</span>(val);<span class="comment">//logN</span></span><br><span class="line">a.<span class="built_in">erase</span>(val);a.<span class="built_in">swap</span>(b);a.<span class="built_in">clear</span>();</span><br></pre></td></tr></table></figure>
+
+<p>Maps｜key-value(&gt;=1)</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">map&lt;<span class="keyword">int</span>&gt; a;</span><br><span class="line">map&lt;<span class="keyword">int</span>&gt;::iterator b; <span class="comment">// key:b-&gt;first; value:b-&gt;second....</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="Hashing"><a href="#Hashing" class="headerlink" title="Hashing"></a>Hashing</h2><p>散列表；[insert/search/delete]average:O(1)；Key -&gt; Table；素数 TableSize；collision</p>
+<h3 id="Analysis"><a href="#Analysis" class="headerlink" title="Analysis"></a>Analysis</h3><p><strong>负数补偿？</strong>value&lt;0，then+tableSize</p>
+<p><strong>均匀分配键：</strong>单元数目有限，键数实际上无穷；习惯：0～tableSize-1</p>
+<p>装填因子；分离链接法（缺点：内存分配耗时）；除了链表，也可用二叉树/新散列表</p>
+<h3 id="开放寻址法"><a href="#开放寻址法" class="headerlink" title="开放寻址法"></a>开放寻址法</h3><p>冲突解决函数，𝝀&lt;0.5聚集效应,f(i)为冲突点与探查点的距离</p>
+<p>线性探测:f(i)=i；一次聚集-占据单元形成区块</p>
+<p>平方探测:f(i)=i^2<em>保证表的大小是素数，否则表被填满一半就找不到空单元了</em>；二次聚集</p>
+<p>双散列:f(i)=i*hash(x),结果不可以为0；example，hash(x)=R-(xmodR)</p>
+<h3 id="再散列"><a href="#再散列" class="headerlink" title="再散列"></a>再散列</h3><p>O(N);一半/插满的策略;</p>
+<p>途中策略：某一装填因子</p>
+<h3 id="可扩散列"><a href="#可扩散列" class="headerlink" title="可扩散列*"></a>可扩散列*</h3><h2 id="Priority-Queues-amp-Heaps"><a href="#Priority-Queues-amp-Heaps" class="headerlink" title="Priority Queues &amp; Heaps"></a>Priority Queues &amp; Heaps</h2><h3 id="Binary-Heap"><a href="#Binary-Heap" class="headerlink" title="Binary Heap"></a>Binary Heap</h3><p>完全二叉树；最小堆、最大堆；数组存储i,2i,2i+1；查找O(N)；堆序性质</p>
+<p><strong>为何选用Heap？</strong>Min/Max:O(1)</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">insert</span><span class="params">( <span class="keyword">const</span> Comparable &amp; x )</span> </span>&#123;</span><br><span class="line">  <span class="comment">// check size.</span></span><br><span class="line">  <span class="keyword">if</span>( currentSize == array.<span class="built_in">size</span>( ) - <span class="number">1</span> ) </span><br><span class="line">    array.<span class="built_in">resize</span>( array.<span class="built_in">size</span>( ) * <span class="number">2</span> );</span><br><span class="line">  <span class="comment">// Percolate up </span></span><br><span class="line">  <span class="keyword">int</span> hole = ++currentSize;</span><br><span class="line">  Comparable copy = x;</span><br><span class="line">  array[ <span class="number">0</span> ] = std::<span class="built_in">move</span>( copy );</span><br><span class="line">  <span class="keyword">for</span>( ; x &lt; array[ hole / <span class="number">2</span> ]; hole /= <span class="number">2</span> )</span><br><span class="line">    array[ hole ] = std::<span class="built_in">move</span>( array[ hole / <span class="number">2</span> ] ); <span class="comment">// 规避大量交换</span></span><br><span class="line">  array[ hole ] = std::<span class="built_in">move</span>( array[ <span class="number">0</span> ] );</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>
+
+<h3 id="Applications-of-Priority-Queues"><a href="#Applications-of-Priority-Queues" class="headerlink" title="Applications of Priority Queues"></a>Applications of Priority Queues</h3><h2 id="Sorting"><a href="#Sorting" class="headerlink" title="Sorting"></a>Sorting</h2><h3 id="Insertion-Sort"><a href="#Insertion-Sort" class="headerlink" title="Insertion Sort*"></a>Insertion Sort*</h3><h3 id="Quick-Sort"><a href="#Quick-Sort" class="headerlink" title="Quick Sort"></a>Quick Sort</h3><h4 id="Pivot策略"><a href="#Pivot策略" class="headerlink" title="Pivot策略"></a>Pivot策略</h4><p><strong>最好/坏可能性</strong></p>
+<p>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度<br>每次问题规模减半，a=2，b=2，d=1<br>复杂度为n^2 log(n)<br>最差情况下，复杂度为O(n^2)</p>
+<h4 id="A-Linear-Expected-Time-Algorithm-for-Selection"><a href="#A-Linear-Expected-Time-Algorithm-for-Selection" class="headerlink" title="A Linear-Expected-Time Algorithm for Selection"></a>A Linear-Expected-Time Algorithm for Selection</h4><h3 id="Linear-Time-Sorts-Bucket-Sort-and-Radix-Sort-复杂度分析"><a href="#Linear-Time-Sorts-Bucket-Sort-and-Radix-Sort-复杂度分析" class="headerlink" title="Linear-Time Sorts: Bucket Sort and Radix Sort 复杂度分析"></a>Linear-Time Sorts: Bucket Sort and Radix Sort 复杂度分析</h3><h3 id="计（基）数排序——非比较算法"><a href="#计（基）数排序——非比较算法" class="headerlink" title="计（基）数排序——非比较算法"></a>计（基）数排序——非比较算法</h3><p>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次<br>每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1<br>复杂度为n^1 log(n) = nlog(n)，近似为O(kN)，k为整数的位数</p>
+<h3 id="归并排序-堆排序"><a href="#归并排序-堆排序" class="headerlink" title="归并排序/堆排序"></a>归并排序/堆排序</h3><p><em>归并排序</em> ｜ 数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)<br>每次问题规模减半，a=2，b=2，d=1<br>复杂度为nlog(n)</p>
+<h2 id="图论算法"><a href="#图论算法" class="headerlink" title="图论算法"></a>图论算法</h2><p>G[graph] -&gt; V[vertex],E[edge(arc)],path；digraph 有向；Weight&amp;cost 权/值；Adjacent 邻接；cycle 回路：满足w1=wN length&gt;=1；loop 环：回到自身，length=0；Simple path 简单路径；强/弱连通、基础图/完全图</p>
+<h3 id="表示"><a href="#表示" class="headerlink" title="表示"></a>表示</h3><p>Adjacent Matrix：dense <code>A[u][v]</code></p>
+<p>Adjacent List：sparse O(|E|+|V|) </p>
+<h3 id="拓扑排序"><a href="#拓扑排序" class="headerlink" title="拓扑排序"></a>拓扑排序</h3><p>find indegree=0 v1 -&gt; delete v1, neighbors indegree-1 -&gt;find indegree=0 v2…</p>
+<p>![image-20211231162550699](/Users/ralvine/Library/Application Support/typora-user-images/image-20211231162550699.png)</p>
+<p>O(V^2) using <Queue></p>
+<h3 id="Dijkstras"><a href="#Dijkstras" class="headerlink" title="Dijkstras"></a>Dijkstras</h3><h3 id="最坏可能"><a href="#最坏可能" class="headerlink" title="最坏可能"></a>最坏可能</h3><h3 id="可对负边权使用的算法"><a href="#可对负边权使用的算法" class="headerlink" title="可对负边权使用的算法"></a>可对负边权使用的算法</h3><h3 id="最小生成树"><a href="#最小生成树" class="headerlink" title="最小生成树"></a>最小生成树</h3><p>如何扩张（Ch10）</p>
+<h3 id="深度优先-广度优先"><a href="#深度优先-广度优先" class="headerlink" title="深度优先 广度优先"></a>深度优先 广度优先</h3><h2 id="算法设计补充"><a href="#算法设计补充" class="headerlink" title="算法设计补充"></a>算法设计补充</h2><h3 id="贪心算法"><a href="#贪心算法" class="headerlink" title="贪心算法"></a>贪心算法</h3><p>ch10.1 分析复杂度</p>
+<h3 id="分治算法-Divide-and-Conquer"><a href="#分治算法-Divide-and-Conquer" class="headerlink" title="分治算法 Divide-and-Conquer"></a>分治算法 Divide-and-Conquer</h3><p>分而治之，递归</p>
+<h3 id="Dynamic-Programming"><a href="#Dynamic-Programming" class="headerlink" title="Dynamic Programming"></a>Dynamic Programming</h3><p>ch10.3 与d-c的比较（自底向上&amp;自顶向下）</p>
+<h3 id="回溯法"><a href="#回溯法" class="headerlink" title="回溯法"></a>回溯法</h3>]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>CS-Learning</tag>
+        <tag>数据结构</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>社会实践｜总结报告分工</title>
+    <url>/2022/01/23/act-result/</url>
+    <content><![CDATA[<p>1、摘要、关键词，最终排版（1人）</p>
+<p>2、基本概况：概述、人员分工分组情况、前期准备（1人）</p>
+<p>3、实践过程：</p>
+<p>｜3.1美食｜3.2历史｜3.3艺术｜3.4名家｜3.5方言｜五大板块（5人，每组出一人）</p>
+<ul>
+<li>以论述形式阐述本组这七天大致做了哪些工作</li>
+<li>阐明对该主题的总结成果，附上相应的图文资料，<em><strong>逻辑清晰，表达书面，结构完整</strong></em>。</li>
+<li>字数自定，其中引用的资料尽量注明来源，采访/网络资料请完整附于行文中间</li>
+</ul>
+<p>4、实践结果：综合各地各主题实践资料，比较共性与个性，并简要阐明我们的呈现成果（视频/推文附代表性截图与链接）；总结（1人）</p>
+]]></content>
+      <tags>
+        <tag>社会实践</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Final Cut Pro 笔记</title>
+    <url>/2022/01/24/fcpx/</url>
+    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV15T4y127n4">教程来源</a></p>
+<span id="more"></span>
+
+<h3 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h3><ul>
+<li><p>资源库</p>
+</li>
+<li><p>I/O</p>
+</li>
+<li><p>Q</p>
+</li>
+<li><p>插件</p>
+<ul>
+<li>删除 Motion Template</li>
+</ul>
+</li>
+<li><p>磁性时间线</p>
+<ul>
+<li>主故事线/支线</li>
+</ul>
+</li>
+</ul>
+<h3 id="调色"><a href="#调色" class="headerlink" title="调色"></a>调色</h3>]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>FinalCutPro</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「极限挑战」观看纪录</title>
+    <url>/2022/01/21/jxtz/</url>
+    <content><![CDATA[<h4 id="第一季"><a href="#第一季" class="headerlink" title="第一季"></a>第一季</h4><ul>
+<li><p><input checked="" disabled="" type="checkbox">  01 时间战争</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  02 继承者们</p>
+</li>
+<li><p><input disabled="" type="checkbox">  03 上海滩2015</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  04 海岛求生记</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  05 疯狂的石头2之血战到底</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  06 悠长假期之猫鼠大战</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  07 悠长假期之冰封王座</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  08 迷失青岛</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  09 职场宫心计</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  10 挫冰进行曲</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  11 异次元特工</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  12 冲出黎明</p>
+</li>
+</ul>
+<h4 id="第二季"><a href="#第二季" class="headerlink" title="第二季"></a>第二季</h4><ul>
+<li><input checked="" disabled="" type="checkbox"> 01 与你同行</li>
+<li><input disabled="" type="checkbox"> 02 真-三国无双</li>
+<li><input checked="" disabled="" type="checkbox"> 03 说走就走的旅行</li>
+<li><input checked="" disabled="" type="checkbox"> 04 百元的幸福</li>
+<li><input checked="" disabled="" type="checkbox"> 05 花样男子</li>
+<li><input checked="" disabled="" type="checkbox"> 06 纵贯线</li>
+<li><input checked="" disabled="" type="checkbox"> 07 继承者们2</li>
+<li><input checked="" disabled="" type="checkbox"> 08 笑容保卫战</li>
+<li><input checked="" disabled="" type="checkbox"> 09 龟兔赛跑</li>
+<li><input checked="" disabled="" type="checkbox"> 10 暗战</li>
+<li><input checked="" disabled="" type="checkbox"> 11 漫步人生路</li>
+<li><input checked="" disabled="" type="checkbox"> 12 欢乐颂</li>
+<li><input checked="" disabled="" type="checkbox"> 公益晚会</li>
+</ul>
+<h4 id="第三季"><a href="#第三季" class="headerlink" title="第三季"></a>第三季</h4><ul>
+<li><input checked="" disabled="" type="checkbox"> 01 唤醒城市的人</li>
+<li><input checked="" disabled="" type="checkbox"> 02 藏龙卧虎</li>
+<li><input checked="" disabled="" type="checkbox"> 03 大时代</li>
+<li><input checked="" disabled="" type="checkbox"> 04 全民目击</li>
+<li><input checked="" disabled="" type="checkbox"> 05 最可爱的人-上</li>
+<li><input checked="" disabled="" type="checkbox"> 06 最可爱的人-下</li>
+<li><input disabled="" type="checkbox"> 07 勇士荣耀</li>
+<li><input disabled="" type="checkbox"> 08 继承者们3</li>
+<li><input checked="" disabled="" type="checkbox"> 09 暗花</li>
+<li><input checked="" disabled="" type="checkbox"> 10 长大成人</li>
+<li><input disabled="" type="checkbox"> 11 路人甲乙丙</li>
+<li><input disabled="" type="checkbox"> 12 合伙人</li>
+</ul>
+<h4 id="第四季"><a href="#第四季" class="headerlink" title="第四季"></a>第四季</h4><ul>
+<li><input disabled="" type="checkbox"> 01 知识改变命运-上</li>
+<li><input disabled="" type="checkbox"> 02 知识改变命运-下</li>
+<li><input disabled="" type="checkbox"> 03 向往的生活</li>
+<li><input disabled="" type="checkbox"> 04 温州一家人（继承者们4）</li>
+<li><input checked="" disabled="" type="checkbox"> 05 暗算</li>
+<li><input disabled="" type="checkbox"> 06 欢迎来到东升村-上</li>
+<li><input disabled="" type="checkbox"> 07 欢迎来到东升村-下</li>
+<li><input disabled="" type="checkbox"> 08 风生水起</li>
+<li><input checked="" disabled="" type="checkbox"> 09 孤城</li>
+<li><input checked="" disabled="" type="checkbox"> 10 都是夜归人</li>
+<li><input disabled="" type="checkbox"> 11 无忧岛-一出好戏</li>
+<li><input disabled="" type="checkbox"> 12 无忧岛-时间之外</li>
+</ul>
+]]></content>
+      <categories>
+        <category>纪录</category>
+      </categories>
+      <tags>
+        <tag>极限挑战</tag>
+        <tag>综艺</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>笔记</title>
+    <url>/2022/01/15/mqz/</url>
+    <content><![CDATA[<p>刚才我说了，大家都只会说不的时候，结果可能是最保守的势力来管理社会，受益最多的就是既得利益集团。世界上很多国家统治集团就是利用这一点才能长期管理社会的，抓住一两个敏感的点去挑逗民众的愤怒情绪，让大家在反对某件事的过程中团结起来。民众反对来反对去，貌似输出了很多政治诉求，最后一看，政治诉求都相互抵消了，台上还是那些人，还是几十年前那些利益集团。台湾省已经在这个陷阱里出不来了，中国大陆千万不能掉进这种政治陷阱。一定要主动创造一套新制度，保卫好我们的现代化发展道路。</p>
+<p>这是演讲的一个主要观点，我希望不管是对这次演讲持支持或是反对的人，都能更多说一说“我希望怎样”，而不是“我反对什么”。</p>
+]]></content>
+      <tags>
+        <tag>剧评</tag>
+        <tag>政治剧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「开端」纪录</title>
+    <url>/2022/01/15/kaiduan/</url>
+    <content><![CDATA[<p><img src="https://gitee.com/parallelcoder_admin/blog_file/raw/master/kaiduan.jpg" alt="avatar"></p>
+<blockquote class="blockquote-center">
+<p><font face="仿宋">善良不是廉价的美德,它是要和能力相匹配的,要不然就是添乱。</font></p>
+
+</blockquote>
+
+<span id="more"></span>
+
+<hr>
+<h3 id="观评"><a href="#观评" class="headerlink" title="观评"></a>观评</h3><p>熟悉类似影片的朋友或许会和我一样，在起初不自觉地给这部剧打上刻板的标签。</p>
+<p>或是探讨宿命、平行宇宙与世界本原的科学幻想（源代码），或是关乎执念、困囿于时线循环的惊悚篇章（恐怖游轮）。</p>
+<p>而《开端》以戏谑的姿态回应了这份偏见，或曰桎梏。</p>
+<p>在开端的叙事架构之中，循环本身被抽离了意义。不在乎为何循环，也不在乎“他”或者“她”为何被卷入循环；对创作者而言，他们所要传达的是光怪陆离表象之下的现实主义内核，其承载者正是这辆公交车和它的乘客们。</p>
+<p>如果说《一出好戏》以荒岛求生的俗套框架掩藏导演真正渴望演绎的人性实验，那么《开端》就是一副当代社会底层人物的群像，借由他们的话语阐述善、自由与正义。</p>
+<blockquote>
+<p><font face="仿宋">他原本逃避着李诗情太过清澈的目光，现在却根本移不开眼。这个女孩身上那些之前还让他‘诟病’的天真，现在却是如此让人惊心动魄。那些天真是她的武器，也是她的铠甲，让肖鹤云溃不成军。</font></p>
+</blockquote>
+<p>得以循环的李诗情和肖鹤云，一位学生，一位社畜；是参与者，也是旁观者。前者急于报警、着眼于救人的天真与单纯打动了“成为社会螺丝钉多年”而圆滑现实、心念逃避的后者；后者又以职业本能的逻辑理性释然了拘于感性的前者。而插曲般呈现的卢笛故事线，则讲述了缺乏尊严，控制欲覆压之下成长的年轻人何以找寻自我的价值。些数矛盾的价值内核确是不谋而合的。</p>
+<blockquote>
+<p><font face="仿宋">她装心脏不舒服的时候，阿姨积极拿药，肖鹤云让司机开门。</font></p>
+<p><font face="仿宋">她装被「色狼」欺负的时候，网红大哥积极留证，耳机肌肉男上前制服“坏蛋”。</font></p>
+<p><font face="仿宋">她装和肖鹤云吵架踢坏了别人瓜，网红大哥仗义执言，瓜农大叔把瓜分给大家以德报怨。</font></p>
+<p><font face="仿宋">她装没有卫生巾的时候，无家可归的大叔在行李箱里翻出卫生巾。</font></p>
+<p><font face="仿宋">他们不是冷漠的陌生人，只是没有应付突发状况的勇气和反应，也有正常人面对危险恐惧与却步。</font></p>
+<p><font face="仿宋">他们只是没有下一次循环的普通人。</font></p>
+</blockquote>
+<p align="right"><font face="仿宋">（载于<a href="https://movie.douban.com/review/14143283/?_dtcc=1">豆瓣</a>）</font></p>
+
+<hr>
+<h3 id="摘录"><a href="#摘录" class="headerlink" title="摘录"></a>摘录</h3><blockquote>
+<p><font face="仿宋">其实我也想要活下去，我也是人，我也怕死。其实之前每一次我都特别想要下车。我还偷偷想过，我是不是可以趁着循环的机会做一点出格的、放飞自我的事情，就像我可以不用担心花钱，也不用担心长胖，然后大吃大喝；或者是晚上可以不回宿舍，然后去网吧刷夜……可是，我能想到的让我高兴的事情也就是这样了。我就是一个普通人。我想象力有限。但是我觉得，如果能救下这一车人，就是我能想到最出格、最放飞自我的事情。而且他们现在对我来说，已经不再是普通的陌生人。（李诗情）</font></p>
+</blockquote>
+<blockquote>
+<p><font face="仿宋">爸爸，妈妈，我今天差一点坐上那辆爆炸的公交车。就差一点。我在想，如果这次死神抓住了我，你们以后会如何回忆我呢。一个不服管教、奇装异服、没有朋友，总是对你们抱怨、与社会格格不入的哮喘患者。我的内心其实比你们同事家的孩子都要丰富、充实，我早已找到了活着的意义。“我将守护我的次元，献出我的心。”唯一的遗憾，是可能没人为我颁发勋章，挂在客厅的墙上，让你们炫耀。如果有一天我没能回家，请你们到这个地址，动漫城九栋二零一，密码六个六，进去之后，你们就会知道我的秘密。别对我失望。你们应该这么想，我试着拥有过我想要的生活了。我拥有过快乐。谢谢你们一直保护着我。我想说，我很爱你们，很幸福，很知足，我对自己爹生活很满意。其实我最大心愿，是让你们看到我眼中的世界，是多么的精彩啊。（卢笛）</font></p>
+</blockquote>
+<hr>
+<h3 id="影音"><a href="#影音" class="headerlink" title="影音"></a>影音</h3><p>图片参见<a href="https://movie.douban.com/subject/35332289/all_photos">此处</a>。</p>
+]]></content>
+      <categories>
+        <category>纪录</category>
+      </categories>
+      <tags>
+        <tag>剧评</tag>
+        <tag>悬疑剧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>写作语法手册</title>
+    <url>/2021/01/01/note0/</url>
+    <content><![CDATA[<p>下面展示一些写作时需要的语法。</p>
+<span id="more"></span>
+
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题？"><a href="#六级标题？" class="headerlink" title="六级标题？"></a>六级标题？</h6><h2 id="标记"><a href="#标记" class="headerlink" title="标记"></a>标记</h2><p><u>下划线</u>、<em>斜体</em>、<strong>加粗</strong>、<em><strong>粗斜体</strong></em>、==高亮==、<del>删除线</del>、<a href="haha">链接</a>、注释<a href="%E6%B3%A8%E9%87%8A1">^1</a></p>
+<p><font color=#0099ff size=4 face="黑体">字体</font></p>
+<ul>
+<li><p><input disabled="" type="checkbox">  任务</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  已完成</p>
+</li>
+</ul>
+<ol>
+<li>有序列表项</li>
+<li>第二项</li>
+</ol>
+<p><code>单行代码</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">多行</span><br><span class="line">代码</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>单引用</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>嵌套引用</p>
+</blockquote>
+</blockquote>
+<h2 id="对齐"><a href="#对齐" class="headerlink" title="对齐"></a>对齐</h2><center>中心对齐</center>
+<p align="right">右对齐</p>
+
+<ul>
+<li>列表<ul>
+<li>二级列表<ul>
+<li>三级列表</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="绘制"><a href="#绘制" class="headerlink" title="绘制"></a>绘制</h2><p>分割线&gt;</p>
+<hr>
+<p>分割线&lt;</p>
+<table>
+<thead>
+<tr>
+<th>biao</th>
+<th>ge</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>2</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>国家重点实验室绩效考核｜资料搜集</title>
+    <url>/2022/01/22/lib-data/</url>
+    <content><![CDATA[<h2 id="现行考核方式"><a href="#现行考核方式" class="headerlink" title="现行考核方式"></a>现行考核方式</h2><h3 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h3><p>党的十九大提出关于“全面实施绩效管理”的战略部署。</p>
+<p>2008年以来，学科国家重点实验室的开放运行、仪器设备更新和自主创新研究由<strong>国务院科技部与财政部</strong>设立国家重点实验室专项经费支持，因此科技部是重点实验室的宏观管理部门，财政部是重点实验室专项预算管理部门。财政部有权对国家重点实验室进行定期评估。</p>
+<p>国家重点实验室现行绩效评价的原则是<strong>符合基础研究特点和规律</strong>。[^1]</p>
+<p><strong>定期评估考核制度</strong>，建立与实验室发展目标相一致的评估考核指标体系和以创新质量和学术贡献为核心的评价机制。</p>
+<p><strong>完善第三方评估</strong>，探索国际同行专业化评价，强化实验室学术竞争力的国际比对和实验室任务完成情况定性与定量相结合的综合评价，引导实验室在学科目标上更加聚焦原始创新，促使更多实验室不断成为领跑者和并跑者，增强国际影响力，实现国家重点实验室的优化调整、良性循环。</p>
+<span id="more"></span>
+
+<h3 id="科技部考核"><a href="#科技部考核" class="headerlink" title="科技部考核"></a>科技部考核</h3><h4 id="考核内容-2"><a href="#考核内容-2" class="headerlink" title="考核内容[^2]"></a>考核内容[^2]</h4><p>检查实验室 5 年的整体运行状况，引导实验室的定位和发展方向，促进实验室建设与发展，并为国家相关管理部门的决策提供依据。</p>
+<p>评估的主要指标为：<strong>研究水平与贡献、队伍建设与人才培养、开放交流与运行管理</strong>。</p>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>权重</th>
+<th>要点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>研究水平与贡献</td>
+<td>50%</td>
+<td>总体定位和研究方向、承担任务、代表性研究成果</td>
+</tr>
+<tr>
+<td>队伍建设与人才培养</td>
+<td>30%</td>
+<td>队伍结构与团队建设、实验室主任与学术带头人、人才培养</td>
+</tr>
+<tr>
+<td>开放交流与运行管理</td>
+<td>20%</td>
+<td>对外开放、学术交流、运行管理、依托单位的支持</td>
+</tr>
+</tbody></table>
+<p>科技部审核评估报告，结合年度考核情况确定 评估结果。评估结果分为优秀、良好、较差三类。评估结果为“较差”的实验室，将不再列入“国 家重点实验室”序列。连续两次评估结果为“优秀”的实验室可通过 主管部门申请免参加一次评估，其结果视为“良好”;连续三次评估结果为“优秀”的实验室可申请免参加一次评估，其结果视为 “优秀”。其他申请不参加评估或中途退出评估的实验室, 视为放 弃“国家重点实验室”资格。</p>
+<h4 id="考核方式"><a href="#考核方式" class="headerlink" title="考核方式"></a>考核方式</h4><p>具体评估工作由科技部<strong>委托评估机构实施</strong>。</p>
+<p>评估机构的主要职责是：</p>
+<blockquote>
+<p>拟定评估细则和评估方案，受理评估申请，组织专家评估，提交评估报告，建立评估工作档案并定期向科技部移交。</p>
+</blockquote>
+<p>评估专家由本领域学术水平高、公道正派、熟悉实验室工作的一线科学家和少数科研管理专家组成;应用基础研究 比重大的领域应当聘请部分来自产业界的专家。</p>
+<p>每年11月1日前，科技部确定次年计划评估的实验室名单，并通知主管部门和评估机构。实验室主管部门在实验室评估名单下达后3个 月内，向评估机构提交经审核的《国家重点实验室评估申请书》。评估机构制定详细的评估方案，报科技部审批。 科技部在收到评估方案后的 15 个工作日内批复。评估机构组织专家评估，分现场评估和复评两个阶段，于上半年完成评估工作。</p>
+<p>现场评估按学科领域相同或相近的原则将实验室 分成若干组，专家组到现场对实验室进行考察，同一组实验室的 现场评估原则上由同一批专家完成。每组专家总数一般 7-9 人。实验室年度报告和年度考核情况作为评估的重要 参考材料。评估机构应在现场评估 5 个工作日之前，将《国家重点实验室评估申请书》、实验室年度报告和年度考核情况提交该 组评估专家审阅。</p>
+<p>现场评估由专家组主持，主要工作内容包括：</p>
+<blockquote>
+<p>审阅《国家重点实验室评估申请书》及实验室年度报告和年度考核情况、听取实验室主任报告和代表性成果学术报告、核实科研成果和专项经费使用效果、了解人才队伍建设和对外开放情况、考察仪器设备运行和共享情况、召开座谈会和进行个别访谈等。</p>
+</blockquote>
+<p>专家组在小组现场考察结束后，根据评估指标体系对实验室记名打分，并研究提出书面评估意见。评估意见应明 确指出实验室存在的问题和改进建议。复评在现场评估基础上，采取集中开会的形式对 现场评估排序前 30%和后 20%的实验室(按四舍五入取整数)进行评议。复评专家组在现场评估结束后确定。专家组不 少于 12 人，其中参加了现场评估的专家不少于 50%。</p>
+<p>复评确定本领域实验室的初步评估结果。复评主要内容包括:专家组听取<strong>实验室主任报告</strong>（主要介绍实验室的代表性成果、优势和特色、国内外的地位和影响、存在的问题和不足、发 展规划和设想等。实验室主任报告可以旁听）;审阅评估材料和现场评估书面意见;根据评估指标体系对实 验室记名打分。复评在现场评估基础上，采取集中开会的形式对 现场评估排序前 30%和后 20%的实验室(按四舍五入取整数)进行评议。复评专家组在现场评估结束后确定。专家组不 少于 12 人，其中参加了现场评估的专家不少于 50%。</p>
+<p>复评结束后，评估机构向科技部提交评估报告 和其他相关档案资料。评估报告要在对评估过程中产生的大量材 料进行分析研究的基础上，对评估工作进行系统总结，并提出意见和建议。</p>
+<h4 id="制度安排"><a href="#制度安排" class="headerlink" title="制度安排"></a>制度安排</h4><p>评估实行严格的<strong>回避制度和专家信誉记录制度</strong>。与实验室有直接利害关系者不得参加评估。实验室可提出希 望回避的专家名单并说明理由，与评估申请书一起上报。</p>
+<h3 id="财政部预算评审中心考核-3"><a href="#财政部预算评审中心考核-3" class="headerlink" title="财政部预算评审中心考核[^3]"></a>财政部预算评审中心考核[^3]</h3><h4 id="评价目的"><a href="#评价目的" class="headerlink" title="评价目的"></a>评价目的</h4><p>全面了解专项决策管理机制、管理水平、专项产出与效果、经费使用情况，总结重点实验室专项管理经验、实施存在问题，为中央财政继续稳定支持重点实验室的发展提供决策依据，提高专项资金的使用效益。</p>
+<h4 id="考核标准"><a href="#考核标准" class="headerlink" title="考核标准"></a>考核标准</h4><p>主要包括<strong>决策、管理、产出、效果</strong>四个方面，满分为100分。</p>
+<p>一是决策（20分）。主要评价项目政策相符性、定位聚焦度、布局合理性、边界清晰度、资金分配合理性、资金到位率等工作情况。</p>
+<p>二是管理（20分）。主要评价管理制度合理性、制度执行有效性、动态调整科学性、管理制度合理性、资金使用合规性、财务监控有效性、预算执行率等工作开展情况。</p>
+<p>三是产出（30分）。主要评价ESI高被引论文数量变动率、国家级奖项占比变动率、原创性成果数量变动率、正高级人员占比变动率、青年人才占比变动率、仪器设备使用与共享情况。</p>
+<p>四是效果（30分）。主要评价专项资金对重点实验室发展的支撑作用、行业发展支撑作用、学科创新引领作用等情况。</p>
+<h4 id="工作方式"><a href="#工作方式" class="headerlink" title="工作方式"></a>工作方式</h4><p>工作组遴选8个领域的23家国家重点实验室进行实地调研，组织44人次的专家开展现场和非现场评价，并对专项进行综合评价，形成专项的总体评价结论。</p>
+<h4 id="结果参考（以2013-2017年评价报告为例）"><a href="#结果参考（以2013-2017年评价报告为例）" class="headerlink" title="结果参考（以2013-2017年评价报告为例）"></a>结果参考（以2013-2017年评价报告为例）</h4><p>决策指标分析。该指标分值20分，评价得分17分。该专项立项符合国家相关政策、发展规划；大部分重点实验室领域划分、布局较合理，边界较清晰。但部分领域定位聚焦度不够，部分领域布局有待优化。</p>
+<p>管理指标分析。该指标分值20分，评价得分16.96分。该专项业务管理制度健全，但需要及时进行制度修订并改进评估制度；相关机构能够有效履行职责；专项动态调整有待进一步规范。在财务管理方面，该专项财务制度健全，预算执行率较好；资金使用较规范；财务监控措施有效。</p>
+<p>产出指标分析。该指标分值30分，评价得分26分。重点实验室取得了一系列代表性研究成果。专项的实施对人才培养和引进方面发挥的作用较大,但2017年实验室正高及44岁青年人才占比有所下降。</p>
+<p>效果指标分析。该指标分值30分，评价得分28分。国家重点实验室对行业发展起到了重大支撑作用。但部分基础研究领域重点实验室研究水平与国际先进水平相比尚有差距。重点实验室通过向社会公众开放、举办丰富多样的科普活动， 对科学传播和普及具有重要推动作用。</p>
+<h2 id="可能存在的问题（小方向）"><a href="#可能存在的问题（小方向）" class="headerlink" title="可能存在的问题（小方向）"></a>可能存在的问题（小方向）</h2><ul>
+<li>绩效评价上，对短期效益不显著的、非应用领域的成果激励不足[^4]</li>
+<li>绩效考核形式单一化，指标维度较简单</li>
+<li>缺少投入-产出评估中外部环境的影响，重课题成果</li>
+<li>……</li>
+</ul>
+<h2 id="采访内容"><a href="#采访内容" class="headerlink" title="采访内容"></a>采访内容</h2><ul>
+<li>现行考核模式重是否忽略了能够体现实验室创新科研能力的某些因素</li>
+<li>现行绩效评价的侧重点在哪些领域</li>
+<li>……</li>
+</ul>
+<p>[^1]: 科技部财政部关于加强国家重点实验室建设发展的若干意见. <a href="http://www.mof.gov.cn/gp/xxgkml/kjs/201806/t20180626_2939860.htm">http://www.mof.gov.cn/gp/xxgkml/kjs/201806/t20180626_2939860.htm</a><br>[^2]: 国家重点实验室评估规则. <a href="http://www.most.gov.cn/tztg/200812/P020081230612646401100.pdf">http://www.most.gov.cn/tztg/200812/P020081230612646401100.pdf</a><br>[^3]: 科技部公布253个学科国家重点实验室专项绩效评价报告. <a href="http://www.yidianzixun.com/article/0Jc2W4aI">http://www.yidianzixun.com/article/0Jc2W4aI</a><br>[^4]:国家重点实验室科技研究绩效及评价.</p>
+]]></content>
+      <categories>
+        <category>文档</category>
+      </categories>
+      <tags>
+        <tag>管理学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>团队实践活动内容分工</title>
+    <url>/2022/01/15/plan-formal/</url>
+    <content><![CDATA[<p><strong>社会实践细化日程及各组主题分工安排</strong></p>
+<table>
+<thead>
+<tr>
+<th>组</th>
+<th>主题</th>
+<th align="left">内容</th>
+<th align="right">呈现/DDL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>台州</td>
+<td>美食</td>
+<td align="left"><strong>考察｜</strong>台州当地美食介绍及制作过程拍摄</td>
+<td align="right">视频+推文[台州+各地] 1/19</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="left"><strong>搜集｜</strong>团队各地美食搜集</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>甬杭</td>
+<td>历史</td>
+<td align="left"><strong>考察</strong>｜古镇探访</td>
+<td align="right">视频+推文[杭州] 1/20</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="left"><strong>搜集｜</strong>当地历史/古镇资料搜集</td>
+<td align="right">视频+推文[宁波] 1/22</td>
+</tr>
+<tr>
+<td>瓯婺</td>
+<td>艺术</td>
+<td align="left"><strong>考察/采访</strong></td>
+<td align="right">视频[采访/考察]+推文 1/21</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="left"><strong>搜集｜</strong>当地艺术形式/非遗资料</td>
+<td align="right">视频[采访/考察]+推文 1/23</td>
+</tr>
+<tr>
+<td>黄冈</td>
+<td>名家</td>
+<td align="left"><strong>搜集｜</strong>团队各地名人/风俗资料收集</td>
+<td align="right">推文 1/17</td>
+</tr>
+<tr>
+<td>丽水</td>
+<td>方言</td>
+<td align="left"><strong>搜集｜</strong>当地方言传承情况/采访（计划中）</td>
+<td align="right">推文 1/18</td>
+</tr>
+</tbody></table>
+<p>*请记得过程中搜集的资料作好保存，最终社会实践报告需要采用。</p>
+]]></content>
+      <categories>
+        <category>档案</category>
+      </categories>
+      <tags>
+        <tag>社会实践</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>团队实践活动日程（草案）</title>
+    <url>/2022/01/15/plan-demo/</url>
+    <content><![CDATA[<p><a href="https://gitee.com/parallelcoder_admin/blog_file/raw/master/demo.pdf">Download(demo.pdf)</a></p>
+<hr>
+<h4 id="日程"><a href="#日程" class="headerlink" title="日程"></a>日程</h4><table>
+<thead>
+<tr>
+<th>日期</th>
+<th>分工</th>
+<th></th>
+<th>成果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1/17</td>
+<td>各组</td>
+<td>搜集八地家乡基本资料</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>甬杭组 瓯婺组</td>
+<td>家乡历史名人[仅搜集资料]（杭州 宁波 金华 温州）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>台州组</td>
+<td>博物馆或遗址参观剪辑视频（台州）</td>
+<td>[视频]博物馆专题</td>
+</tr>
+<tr>
+<td>1/18</td>
+<td>丽水组 甬杭组</td>
+<td>方言调研（宁波 杭州 丽水）</td>
+<td>[调研报告/录制采访视频]</td>
+</tr>
+<tr>
+<td></td>
+<td>黄冈组</td>
+<td>地域比较[策划常用语收集各组录制素材]</td>
+<td>[视频]地域比较视频，也可以用其他方式呈现</td>
+</tr>
+<tr>
+<td></td>
+<td>台州组 瓯婺组</td>
+<td>推文文案 推文排版</td>
+<td>[推文]方言专题，汇总上述内容</td>
+</tr>
+<tr>
+<td>1/19</td>
+<td>瓯婺组</td>
+<td>美食制作视频（温州 金华）</td>
+<td>[视频]美食制作视频</td>
+</tr>
+<tr>
+<td></td>
+<td>黄冈组 丽水组</td>
+<td>特色美食介绍（黄冈 丽水）</td>
+<td>[推文]美食专题-1</td>
+</tr>
+<tr>
+<td></td>
+<td>甬杭组 台州组</td>
+<td>推文排版 实践中期简报撰写</td>
+<td></td>
+</tr>
+<tr>
+<td>1/20</td>
+<td>台州组 黄冈组 丽水组</td>
+<td>家乡历史名人（黄岩 温岭 黄冈 丽水）</td>
+<td>[推文]历史名人专题（整合1/17资料）</td>
+</tr>
+<tr>
+<td></td>
+<td>瓯婺组</td>
+<td>博物馆或遗址参观剪辑视频（温州 金华）</td>
+<td>[视频]博物馆专题</td>
+</tr>
+<tr>
+<td></td>
+<td>甬杭组</td>
+<td>推文排版</td>
+<td></td>
+</tr>
+<tr>
+<td>1/21</td>
+<td>甬杭组</td>
+<td>美食制作视频（宁波 杭州）</td>
+<td>[视频]美食制作视频</td>
+</tr>
+<tr>
+<td></td>
+<td>台州组</td>
+<td>特色美食介绍（黄岩温岭）</td>
+<td>[推文]美食专题-2</td>
+</tr>
+<tr>
+<td></td>
+<td>黄冈组 丽水组</td>
+<td>博物馆或遗址参观剪辑视频（黄冈丽水）</td>
+<td>[视频]博物馆专题</td>
+</tr>
+<tr>
+<td></td>
+<td>瓯婺组</td>
+<td>推文排版</td>
+<td></td>
+</tr>
+<tr>
+<td>1/22</td>
+<td>瓯婺组 丽水组</td>
+<td>特色艺术形式（温州金华丽水）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>甬杭组</td>
+<td>文化古镇（宁波杭州）</td>
+<td>[视频]古镇视频</td>
+</tr>
+<tr>
+<td></td>
+<td>黄冈组 台州组</td>
+<td>推文文案 推文排版</td>
+<td>[推文]艺术专题（特色艺术与古镇）</td>
+</tr>
+<tr>
+<td>1/23</td>
+<td>各组</td>
+<td>写一段心得用于总结推文</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>甬杭组</td>
+<td>博物馆或遗址参观 剪辑视频（宁波 杭州）</td>
+<td>[视频]博物馆专题</td>
+</tr>
+<tr>
+<td></td>
+<td>台州组</td>
+<td>艺术鉴赏分享（黄岩 温岭）</td>
+<td>[PPT]艺术鉴赏</td>
+</tr>
+<tr>
+<td></td>
+<td>丽水组 黄冈组 瓯婺组</td>
+<td>实践简报撰写 推文排版 总结推文文案</td>
+<td>[推文]总结推文</td>
+</tr>
+</tbody></table>
+<p><i>每日需上传团队安全简报。</i></p>
+<hr>
+<h4 id="活动分组"><a href="#活动分组" class="headerlink" title="活动分组"></a>活动分组</h4><p>台州组：杨钧尹（队长）、李京蔚、郑恬欣</p>
+<p>甬杭组：方思梦、莫欣澜</p>
+<p>黄冈组：彭鑫霖</p>
+<p>瓯婺组：潘致宇、陈可</p>
+<p>丽水组：林昊润</p>
+<hr>
+<h4 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h4><table>
+<thead>
+<tr>
+<th>活动主题</th>
+<th>具体内容</th>
+<th></th>
+<th>呈现形式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>探寻家乡方言</td>
+<td>方言调研</td>
+<td>实地或问卷调查方言传承情况；采访相关人士了解其历史特色。</td>
+<td>·调研报告或采访稿·视频</td>
+</tr>
+<tr>
+<td></td>
+<td>地域比较*</td>
+<td>用八地方言表达一组常用语并剪辑成视频或制作科普视频，公开发布。</td>
+<td></td>
+</tr>
+<tr>
+<td>探寻家乡历史</td>
+<td>博物馆或遗址参观</td>
+<td>实地参观博物馆展厅，探寻当地历史，以视频方式记录，辅以旁白或字幕介绍，公开发布。</td>
+<td>·视频</td>
+</tr>
+<tr>
+<td>探寻家乡美食</td>
+<td>美食制作视频</td>
+<td>深入街巷，实地拍摄美食的制作过程，制作短视频。</td>
+<td>·视频·推文</td>
+</tr>
+<tr>
+<td></td>
+<td>特色美食介绍*</td>
+<td>搜集当地几种代表性小吃的介绍与文化内涵。</td>
+<td></td>
+</tr>
+<tr>
+<td>探寻家乡名人</td>
+<td>家乡历史名人*</td>
+<td>通过知网等网站以文献学习为手段探究家乡传统文化的起源、发展等各个方面；撰写分享心得。</td>
+<td>·推文</td>
+</tr>
+<tr>
+<td>文艺作品中的家乡</td>
+<td>艺术鉴赏分享*</td>
+<td>观看并赏析与本地民俗有关的文化作品；记录后进行交流分享，汇总成一份包含海报、心得、推荐词的演示文稿。</td>
+<td>·PPT</td>
+</tr>
+<tr>
+<td>寻访历史活化石</td>
+<td>文化古镇</td>
+<td>深入调查当地历史比较悠久的古村古镇，或是一条古街，了解历史，感受古镇的韵味，制成专题视频与推文。</td>
+<td>·视频·照片集</td>
+</tr>
+<tr>
+<td>探寻家乡艺术</td>
+<td>特色艺术形式*</td>
+<td>当地独特的艺术（如金华婺剧）。</td>
+<td>·推文</td>
+</tr>
+</tbody></table>
+<p><i>[注]以*标注的是能够在线上直接完成的活动；“推文”指就该活动发布的专题推文。</i></p>
+<hr>
+]]></content>
+      <categories>
+        <category>档案</category>
       </categories>
       <tags>
         <tag>社会实践</tag>
