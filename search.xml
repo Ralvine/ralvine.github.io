@@ -402,51 +402,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Surface Pro 2 评测备档</title>
-    <url>/2021/10/01/bilibili/</url>
-    <content><![CDATA[<blockquote>
-<p>这是由优酷用户@嘉峪出品 约八年前上传的微软 Surface Pro 2 评测视频。这是我最早了解到微软 Surface 系列产品，也是我彼时认为最优秀的一批关于该产品的测评。由于如今原视频失效，特在B站备份存档。（2021-10-01）</p>
-</blockquote>
-<span id="more"></span>
-
-<p><iframe src="//player.bilibili.com/player.html?aid=763293176&amp;cid=417794545&amp;page=1" frameborder="no" scrolling="no" width="95%" height="600"></iframe></p>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Valine - A simple comment system based on Leancloud.</title>
-    <!--Leancloud 操作库:-->
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <!--Valine 的核心代码库:-->
-    <script src="./dist/Valine.min.js"></script>
-</head>
-<body>
-    <div class="comment"></div>
-    <script>
-        new Valine({
-            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
-            av: AV, 
-            el: '.comment', // 
-            app_id: 'Your APP ID', // 这里填写上面得到的APP ID
-            app_key: 'Your APP KEY', // 这里填写上面得到的APP KEY
-            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!' // [v1.0.7 new]留言框占位提示文字
-        });
-    </script>
-</body>
-</html>
-
-]]></content>
-      <categories>
-        <category>经典备份仓</category>
-      </categories>
-      <tags>
-        <tag>评测</tag>
-        <tag>科技</tag>
-        <tag>微软</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>TESTV数据分析</title>
     <url>/2021/12/22/data-anay/</url>
     <content><![CDATA[<h2 id="数据"><a href="#数据" class="headerlink" title="数据"></a>数据</h2><p>*数据截至2021年12月22日下午6时。</p>
@@ -879,6 +834,89 @@
       </tags>
   </entry>
   <entry>
+    <title>CSS 语法小记</title>
+    <url>/2022/01/26/html-css/</url>
+    <content><![CDATA[<h2 id="HTML-MarkDown-对照表"><a href="#HTML-MarkDown-对照表" class="headerlink" title="HTML-MarkDown 对照表"></a>HTML-MarkDown 对照表</h2><table>
+<thead>
+<tr>
+<th>描述</th>
+<th>markdown</th>
+<th>HTML TAG</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>标题</td>
+<td><code># 一级标题</code> <code>## 二级标题</code>…</td>
+<td>h1,h2…h6</td>
+</tr>
+<tr>
+<td>粗体</td>
+<td><code>**粗体**</code></td>
+<td>b , strong</td>
+</tr>
+<tr>
+<td>斜体</td>
+<td><code>*斜体*</code></td>
+<td>em, i</td>
+</tr>
+<tr>
+<td>分割线</td>
+<td><code>---</code></td>
+<td>hr</td>
+</tr>
+<tr>
+<td>无序列表</td>
+<td><code>* 1</code> <code>- 1</code> <code>+ 1</code></td>
+<td>ul</td>
+</tr>
+<tr>
+<td>有序列表</td>
+<td><code>1.</code></td>
+<td>ol</td>
+</tr>
+<tr>
+<td>引用</td>
+<td><code>&gt;</code></td>
+<td>blockquote</td>
+</tr>
+<tr>
+<td>超链接</td>
+<td><code>[url](url)</code></td>
+<td>a</td>
+</tr>
+<tr>
+<td>图片</td>
+<td><code>![img](imgUrl)</code></td>
+<td>img</td>
+</tr>
+<tr>
+<td>表格</td>
+<td>见下</td>
+<td>table</td>
+</tr>
+<tr>
+<td>代码段</td>
+<td>见下</td>
+<td>code</td>
+</tr>
+<tr>
+<td>段落</td>
+<td>无特殊表示</td>
+<td>p</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>CS-Learning</tag>
+        <tag>HTML</tag>
+        <tag>Markdown</tag>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Final Cut Pro 笔记</title>
     <url>/2022/01/24/fcpx/</url>
     <content><![CDATA[<blockquote class="blockquote-center">
@@ -972,52 +1010,209 @@
       </tags>
   </entry>
   <entry>
-    <title>「开端」纪录</title>
-    <url>/2022/01/15/kaiduan/</url>
-    <content><![CDATA[<p><img src="https://gitee.com/parallelcoder_admin/blog_file/raw/master/kaiduan.jpg" alt="avatar"></p>
-<blockquote class="blockquote-center">
-<p><font face="仿宋">善良不是廉价的美德,它是要和能力相匹配的,要不然就是添乱。</font></p>
+    <title>ICM-E题草稿</title>
+    <url>/2022/02/22/icm/</url>
+    <content><![CDATA[<h3 id="碳固存演算"><a href="#碳固存演算" class="headerlink" title="碳固存演算"></a>碳固存演算</h3><p>为了有效评估复杂环境与不同森林管理计划等因素扰动下森林的固碳能力及其趋势，我们建立了碳固存模型，用以确定森林及其产品在一定时间内能够固存二氧化碳的量值。</p>
+<h4 id="森林碳固存机制分析"><a href="#森林碳固存机制分析" class="headerlink" title="森林碳固存机制分析"></a>森林碳固存机制分析</h4><p>对森林固碳的估测首先基于该生态系统在碳循环体系中的具体固碳方式。</p>
+<p><img src="/Users/ralvine/Desktop/figures/%E7%BB%98%E5%9B%BE4.png" alt="绘图4 (/Users/ralvine/Desktop/figures/绘图4.png)"></p>
+<center>figure1:森林系统的碳流动机制
 
-</blockquote>
 
-<span id="more"></span>
+<p>从内生因素角度看，森林固碳的核心是占据其主体的乔木等大型植被通过光合作用捕获大气中的二氧化碳，并在其生命周期中将碳有效固存于体内。此外，森林中广袤覆盖着的灌木、水源也能够起到碳固存的作用。</p>
+<p>然而，许多研究表明[^1]森林系统在长时间的演化过程中由于环境因素的限制会趋于相应的稳态。如果森林规模达到一定阈值，树木的年龄结构分布趋于稳定，其死亡后分解作用导致的碳释放与新生树木的碳吸收终会达到一个相对稳定的上限；而植被、水源等要素的容纳上限与树本身的储碳量限制也会决定该系统实际碳封存的上限。</p>
+<p>外部因素被区分为非线性干扰与随机扰动。引入包括但不限于采伐的森林管理战略会显著且深远地改变森林乔木层的规模与结构，进而影响碳固存。被采伐的树木作为木材原料被加工成具有不同平均寿命的森林产品，从而得以独立于生命周期的循环体系；与此同时，采伐对森林规模带来的消极影响与森林规模自然增长率呈现相关性，具体体现于森林恢复过程中。随机扰动主要来自于病虫害、火灾等意外事件中，可以作为估算模型的选择性扰动变量。</p>
+<center>figure2:碳封存因素交互体系
 
-<hr>
-<h3 id="观评"><a href="#观评" class="headerlink" title="观评"></a>观评</h3><p>熟悉类似影片的朋友或许会和我一样，在起初不自觉地给这部剧打上刻板的标签。</p>
-<p>或是探讨宿命、平行宇宙与世界本原的科学幻想（源代码），或是关乎执念、困囿于时线循环的惊悚篇章（恐怖游轮）。</p>
-<p>而《开端》以戏谑的姿态回应了这份偏见，或曰桎梏。</p>
-<p>在开端的叙事架构之中，循环本身被抽离了意义。不在乎为何循环，也不在乎“他”或者“她”为何被卷入循环；对创作者而言，他们所要传达的是光怪陆离表象之下的现实主义内核，其承载者正是这辆公交车和它的乘客们。</p>
-<p>如果说《一出好戏》以荒岛求生的俗套框架掩藏导演真正渴望演绎的人性实验，那么《开端》就是一副当代社会底层人物的群像，借由他们的话语阐述善、自由与正义。</p>
-<blockquote>
-<p><font face="仿宋">他原本逃避着李诗情太过清澈的目光，现在却根本移不开眼。这个女孩身上那些之前还让他‘诟病’的天真，现在却是如此让人惊心动魄。那些天真是她的武器，也是她的铠甲，让肖鹤云溃不成军。</font></p>
-</blockquote>
-<p>得以循环的李诗情和肖鹤云，一位学生，一位社畜；是参与者，也是旁观者。前者急于报警、着眼于救人的天真与单纯打动了“成为社会螺丝钉多年”而圆滑现实、心念逃避的后者；后者又以职业本能的逻辑理性释然了拘于感性的前者。而插曲般呈现的卢笛故事线，则讲述了缺乏尊严，控制欲覆压之下成长的年轻人何以找寻自我的价值。些数矛盾的价值内核确是不谋而合的。</p>
-<blockquote>
-<p><font face="仿宋">她装心脏不舒服的时候，阿姨积极拿药，肖鹤云让司机开门。</font></p>
-<p><font face="仿宋">她装被「色狼」欺负的时候，网红大哥积极留证，耳机肌肉男上前制服“坏蛋”。</font></p>
-<p><font face="仿宋">她装和肖鹤云吵架踢坏了别人瓜，网红大哥仗义执言，瓜农大叔把瓜分给大家以德报怨。</font></p>
-<p><font face="仿宋">她装没有卫生巾的时候，无家可归的大叔在行李箱里翻出卫生巾。</font></p>
-<p><font face="仿宋">他们不是冷漠的陌生人，只是没有应付突发状况的勇气和反应，也有正常人面对危险恐惧与却步。</font></p>
-<p><font face="仿宋">他们只是没有下一次循环的普通人。</font></p>
-</blockquote>
-<p align="right"><font face="仿宋">（载于<a href="https://movie.douban.com/review/14143283/?_dtcc=1">豆瓣</a>）</font></p>
 
-<hr>
-<h3 id="摘录"><a href="#摘录" class="headerlink" title="摘录"></a>摘录</h3><blockquote>
-<p><font face="仿宋">其实我也想要活下去，我也是人，我也怕死。其实之前每一次我都特别想要下车。我还偷偷想过，我是不是可以趁着循环的机会做一点出格的、放飞自我的事情，就像我可以不用担心花钱，也不用担心长胖，然后大吃大喝；或者是晚上可以不回宿舍，然后去网吧刷夜……可是，我能想到的让我高兴的事情也就是这样了。我就是一个普通人。我想象力有限。但是我觉得，如果能救下这一车人，就是我能想到最出格、最放飞自我的事情。而且他们现在对我来说，已经不再是普通的陌生人。（李诗情）</font></p>
-</blockquote>
-<blockquote>
-<p><font face="仿宋">爸爸，妈妈，我今天差一点坐上那辆爆炸的公交车。就差一点。我在想，如果这次死神抓住了我，你们以后会如何回忆我呢。一个不服管教、奇装异服、没有朋友，总是对你们抱怨、与社会格格不入的哮喘患者。我的内心其实比你们同事家的孩子都要丰富、充实，我早已找到了活着的意义。“我将守护我的次元，献出我的心。”唯一的遗憾，是可能没人为我颁发勋章，挂在客厅的墙上，让你们炫耀。如果有一天我没能回家，请你们到这个地址，动漫城九栋二零一，密码六个六，进去之后，你们就会知道我的秘密。别对我失望。你们应该这么想，我试着拥有过我想要的生活了。我拥有过快乐。谢谢你们一直保护着我。我想说，我很爱你们，很幸福，很知足，我对自己爹生活很满意。其实我最大心愿，是让你们看到我眼中的世界，是多么的精彩啊。（卢笛）</font></p>
-</blockquote>
-<hr>
-<h3 id="影音"><a href="#影音" class="headerlink" title="影音"></a>影音</h3><p>图片参见<a href="https://movie.douban.com/subject/35332289/all_photos">此处</a>。</p>
+<h4 id="基本假设"><a href="#基本假设" class="headerlink" title="基本假设"></a>基本假设</h4><p>本模型定义了以下符号：<br>$$<br>(1)M-规模，即面积(hm^2)\<br>(2)V-固碳能力，反映基础条件下的CO_{2}封存能力(Mg\cdot y^{-1}\cdot hm^{-2})\<br>(3)\alpha-自然规模正向变化率，反映无森林管理状态下的森林规模自然变化率(hm^2\cdot y^{-1})\<br>(4)H-干预因子，表示平均每年对树木进行的活动强度。用数据的正负代表造林或砍伐。\<br>(5)Y-物种的平均寿命<br>$$<br>鉴于本模型所估算的林碳封存能力具有空间（森林规模）与时间（年以上跨度）的双重宏观特性，以及简化过程的需要，我们进行了一些假设。依据Logistic模型与现实经验，我们将森林视作一个近似稳态的系统，其物种分布在自然状态下不会发生剧烈的波动。</p>
+<p>(1)忽略土壤与草本层固碳与意外事件的影响。土壤固碳主要是植被固碳的延伸，其有机质的积累与内部微生物的分解作用同时进行且一般可以视作为动态平衡；草本层的生命周期迭代也被纳入这一平衡体系。未发生的意外事件存在较大的随机性且无法预测或量化发生概率。</p>
+<p>(2)灌木层的规模基本恒定，固碳能力选取平均值为定值。</p>
+<p>(3)树木被简单划分为三级年龄结构：生长期，成熟期，衰老期。对应下标分别记作1至3，对森林的管理方式被简化为干预因子H，表示每年对三类龄级树木的砍伐或再生强度。</p>
+<p>(4)气候（包括温度与降水）、地理位置（纬度）与地形等因素如分析所示，最终导致树种的差异与自然规模正向变化率\alpha的不同。树种被简化为几种基本类型，以提升模型的普适性。</p>
+<p><img src="/Users/ralvine/Desktop/figures/image-20220221104252358.png" alt="image-20220221104252358"></p>
+<p>FIGURE3:Aboveground carbon sequestration rate of forests[^6]</p>
+<p>(5)仅考虑不同树种存在固碳能力V的差异。森林中的不同树种作为独立的群体，服从统一的生态学规律；而同树种中年龄分布及其固碳能力的连续性弱化了龄级结构对总体碳汇能力的影响。</p>
+<p>(6)假设森林产品寿命远大于树木死亡后的分解时间。森林产品长期固碳对树木死亡的释碳有迟滞作用。</p>
+<h4 id="计算逻辑-7-8"><a href="#计算逻辑-7-8" class="headerlink" title="计算逻辑[^7][^8]"></a>计算逻辑[^7][^8]</h4><p>乔木层需要考虑到森林管理行为对年龄结构的影响。</p>
+<p>基于假设，取森林的总碳吸收量为各部分树种的累加；具有绝对优势树种的森林，可以仅考虑占据优势的树种：<br>$$<br>C(t)=\sum_{i=0}^mC_{i}(t)<br>$$<br>接下来对每一具体的树种进行讨论。将该树种三类龄级规模与干预因子建立矩阵：<br>$$<br>M=(M_{1},M_{2},M_{3})^T;H=(H_{1},H_{2},H_{3})^T<br>$$<br>每经过单位时间，龄级完成一次迭代，可以用离散模型表示：<br>$$<br>\left{\begin{array}{l}<br> M_{1}(t)=\alpha+H_{1}\<br> M_{2}(t)=M_{1}(t-1)+H_{2}\<br> M_{3}(t)=M_{2}(t-1)+H_{3}\<br>  \end{array}\right.<br>$$<br>则该树种各年份碳封存量为：<br>$$<br>C_{i}(t)=(M_{1,t-1}+M_{2,t-1}+M_{3,t-1})*V_{i}<br>$$<br>因此，整片森林经过n年的碳封存总量为：<br>$$<br>C(t)=\sum_{i=1}^mC_{i}(t)=\sum_{i=1}^m\sum_{j=1}^{t}C_{i}(j)=\sum_{i=1}^m\sum_{j=1}^{t}C_{i}(M_{1,j-1}+M_{2,j-1}+M_{3,j-1})*V_{i}<br>$$<br>最后，将时间单位由每一龄级持续时间修正为现实年份，得到结果<br>$$<br>C(t)=\frac{1}{3}\sum_{i=1}^m\sum_{j=1}^{t}C_{i}(M_{1,j-1}+M_{2,j-1}+M_{3,j-1})\cdot V_{i}\cdot Y_{i}<br>$$</p>
+<h4 id="参数的获得"><a href="#参数的获得" class="headerlink" title="参数的获得"></a>参数的获得</h4><p>(1)由森林管理者通过惯例的森林资源清查获得的数据，包括：</p>
+<ul>
+<li>森林具有的树种类型数量：m</li>
+<li>不同类型和龄级树木的规模面积：</li>
+</ul>
+<p>$$<br>M_{i,k}(t=0), k=1,2,3,i=1,2,…,m<br>$$</p>
+<ul>
+<li><p>$$<br>\alpha：取森林之前连续n个年份面积的平均变化率\sum_{j=0}^{n}\frac{\triangle M_{j}}{n}<br>$$</p>
+</li>
+<li><p>各类型树木的平均寿命</p>
+</li>
+</ul>
+<p>(2)需换算的数据：</p>
+<ul>
+<li>砍伐强度H：可以通过计划砍伐周期T与对各龄级森林的砍伐规模或比率（当下规模总量的k倍）算得<br>$$<br>H_{i}=\frac{k_{i}M}{T}<br>$$</li>
+</ul>
+<p>(3)对照参照系数表：</p>
+<table>
+<thead>
+<tr>
+<th>树种类型</th>
+<th>固碳能力V</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>针阔混交林</td>
+<td>32.91</td>
+</tr>
+<tr>
+<td>暗针叶林</td>
+<td>21.92</td>
+</tr>
+<tr>
+<td>岳桦林</td>
+<td>8.39</td>
+</tr>
+<tr>
+<td>落叶松林</td>
+<td>15.46</td>
+</tr>
+<tr>
+<td>阔叶林</td>
+<td>23.13</td>
+</tr>
+</tbody></table>
+<ul>
+<li><p>参照系数表的制定以各类树种每年固碳量的研究数据[^9]作为基准值，同时参考了世界各国碳储量变化与气候带（不同类型树种）大致分布的数据，确保固碳能力平均值与现实估算量基本耦合。</p>
+<p>其中，上述数据首先基于IPCC 材积源生物量法（volume-biomass method)和生物量转换因子法[^10][^11]，测得某树种的碳储量：<br>$$<br>C_{i}=B\cdot (1+R_{SR})\<br>其中，R_{SR}是林木地下生物量与地上生物量的比值,B是该树种生物量<br>$$<br>则固碳能力为：<br>$$<br>V_{i}=\frac{C_{i}(target\space year)-C_{i}(current)}{(target\space year-current)\cdot M_{i}}<br>$$</p>
+</li>
+</ul>
+<h4 id="基于碳固存模型的管理方案评估"><a href="#基于碳固存模型的管理方案评估" class="headerlink" title="基于碳固存模型的管理方案评估"></a>基于碳固存模型的管理方案评估</h4><p>我们利用递归法可以解得上述模型在目标年份的碳封存量。为了寻找最优的管理方案，我们从树种-龄级-强度三个维度对森林管理中砍伐或造林行为进行评估。</p>
+<p>不同类型的树种存在碳固存能力的差异。为树种规模与目标值的关系，在其他条件不变的情况下，代入碳固存模型公式，则<br>$$<br>每一树种总规模为M_{i}=\sum_{j=1}^{t}(M_{1,j-1}+M_{2,j-1}+M_{3,j-1})<br>$$<br>从而将碳固存简化为<br>$$<br>C(t)=\frac{1}{3}\sum_{i=1}^mC_{i}\cdot M_{i}\cdot V_{i}\cdot Y_{i}<br>$$</p>
+<p>我们对常量t采用上述模型以获得大量离散数据，模型计算时的预设值考虑到了当今全球普遍的砍伐与种植策略，砍伐龄级限定于衰老期，而种植龄级限定于生长期。</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Name</th>
+<th>Value</th>
+<th>Step</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>常量</td>
+<td>\alpha</td>
+<td>1%</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>t</td>
+<td>30</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>V</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>变量</td>
+<td>H1/M(0)</td>
+<td>0~+10%</td>
+<td>0.1%</td>
+</tr>
+<tr>
+<td></td>
+<td>H3/M(0)</td>
+<td>-10%~0</td>
+<td>0.1%</td>
+</tr>
+</tbody></table>
+<p>![image-20220221152323211](/Users/ralvine/Library/Application Support/typora-user-images/image-20220221152323211.png</p>
+<p><img src="/Users/ralvine/Desktop/figures/image-20220221153218512.png" alt="image-20220221153218512"></p>
+<p>同年造林占砍伐比重与森林在t年内碳固存变化效益的关系</p>
+<p>最终给出实现碳固存效益最优的方案：</p>
+<p>1.砍伐强度在森林的自然正向变化率的大约5倍以内。这有利于通过森林产品的长期固碳效应增强总碳固存量。</p>
+<p>2.在砍伐区造林，这最有利于植被的恢复与提升森林的碳固存能力。</p>
+<p>3.应当适度种植碳固存能力较强的树木并砍伐碳固存能力较弱的树木。</p>
 ]]></content>
       <categories>
-        <category>纪录</category>
+        <category>档案</category>
       </categories>
       <tags>
-        <tag>剧评</tag>
-        <tag>悬疑剧</tag>
+        <tag>数学建模</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数学建模</title>
+    <url>/2021/01/29/model/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>少数与多数问题</p>
+<p>秘密共享</p>
+<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题？"><a href="#六级标题？" class="headerlink" title="六级标题？"></a>六级标题？</h6><h2 id="标记"><a href="#标记" class="headerlink" title="标记"></a>标记</h2><p><u>下划线</u>、<em>斜体</em>、<strong>加粗</strong>、<em><strong>粗斜体</strong></em>、==高亮==、<del>删除线</del>、<a href="haha">链接</a>、注释<a href="%E6%B3%A8%E9%87%8A1">^1</a></p>
+<p><font color=#0099ff size=4 face="黑体">字体</font></p>
+<ul>
+<li><p><input disabled="" type="checkbox">  任务</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  已完成</p>
+</li>
+</ul>
+<ol>
+<li>有序列表项</li>
+<li>第二项</li>
+</ol>
+<p><code>单行代码</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">多行</span><br><span class="line">代码</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>单引用</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>嵌套引用</p>
+</blockquote>
+</blockquote>
+<h2 id="对齐"><a href="#对齐" class="headerlink" title="对齐"></a>对齐</h2><center>中心对齐</center>
+<p align="right">右对齐</p>
+
+<ul>
+<li>列表<ul>
+<li>二级列表<ul>
+<li>三级列表</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="绘制"><a href="#绘制" class="headerlink" title="绘制"></a>绘制</h2><p>分割线&gt;</p>
+<hr>
+<p>分割线&lt;</p>
+<table>
+<thead>
+<tr>
+<th>biao</th>
+<th>ge</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>2</td>
+</tr>
+</tbody></table>
+<p><strong>来源</strong></p>
+<ul>
+<li><p>数学建模(H) - 谈之奕</p>
+</li>
+<li><p>数学建模 - 司守奎</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>数学建模</tag>
       </tags>
   </entry>
   <entry>
@@ -1037,9 +1232,11 @@
 <li><input checked="" disabled="" type="checkbox"> 11 异次元特工</li>
 <li><input checked="" disabled="" type="checkbox"> 12 冲出黎明</li>
 </ul>
+<span id="more"></span>
+
 <h4 id="第二季"><a href="#第二季" class="headerlink" title="第二季"></a>第二季</h4><ul>
 <li><input checked="" disabled="" type="checkbox"> 01 与你同行</li>
-<li><input disabled="" type="checkbox"> 02 真-三国无双</li>
+<li><input checked="" disabled="" type="checkbox"> 02 真-三国无双</li>
 <li><input checked="" disabled="" type="checkbox"> 03 说走就走的旅行</li>
 <li><input checked="" disabled="" type="checkbox"> 04 百元的幸福</li>
 <li><input checked="" disabled="" type="checkbox"> 05 花样男子</li>
@@ -1072,12 +1269,12 @@
 <li><input disabled="" type="checkbox"> 03 向往的生活</li>
 <li><input disabled="" type="checkbox"> 04 温州一家人（继承者们4）</li>
 <li><input checked="" disabled="" type="checkbox"> 05 暗算</li>
-<li><input disabled="" type="checkbox"> 06 欢迎来到东升村-上</li>
-<li><input disabled="" type="checkbox"> 07 欢迎来到东升村-下</li>
-<li><input disabled="" type="checkbox"> 08 风生水起</li>
+<li><input checked="" disabled="" type="checkbox"> 06 欢迎来到东升村-上</li>
+<li><input checked="" disabled="" type="checkbox"> 07 欢迎来到东升村-下</li>
+<li><input checked="" disabled="" type="checkbox"> 08 风生水起</li>
 <li><input checked="" disabled="" type="checkbox"> 09 孤城</li>
 <li><input checked="" disabled="" type="checkbox"> 10 都是夜归人</li>
-<li><input disabled="" type="checkbox"> 11 无忧岛-一出好戏</li>
+<li><input checked="" disabled="" type="checkbox"> 11 无忧岛-一出好戏</li>
 <li><input disabled="" type="checkbox"> 12 无忧岛-时间之外</li>
 </ul>
 ]]></content>
@@ -1087,6 +1284,17 @@
       <tags>
         <tag>极限挑战</tag>
         <tag>综艺</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>笔记</title>
+    <url>/2022/01/15/mqz/</url>
+    <content><![CDATA[<p>刚才我说了，大家都只会说不的时候，结果可能是最保守的势力来管理社会，受益最多的就是既得利益集团。世界上很多国家统治集团就是利用这一点才能长期管理社会的，抓住一两个敏感的点去挑逗民众的愤怒情绪，让大家在反对某件事的过程中团结起来。民众反对来反对去，貌似输出了很多政治诉求，最后一看，政治诉求都相互抵消了，台上还是那些人，还是几十年前那些利益集团。台湾省已经在这个陷阱里出不来了，中国大陆千万不能掉进这种政治陷阱。一定要主动创造一套新制度，保卫好我们的现代化发展道路。</p>
+<p>这是演讲的一个主要观点，我希望不管是对这次演讲持支持或是反对的人，都能更多说一说“我希望怎样”，而不是“我反对什么”。</p>
+]]></content>
+      <tags>
+        <tag>剧评</tag>
+        <tag>政治剧</tag>
       </tags>
   </entry>
   <entry>
@@ -1179,79 +1387,74 @@
       </tags>
   </entry>
   <entry>
-    <title>笔记</title>
-    <url>/2022/01/15/mqz/</url>
-    <content><![CDATA[<p>刚才我说了，大家都只会说不的时候，结果可能是最保守的势力来管理社会，受益最多的就是既得利益集团。世界上很多国家统治集团就是利用这一点才能长期管理社会的，抓住一两个敏感的点去挑逗民众的愤怒情绪，让大家在反对某件事的过程中团结起来。民众反对来反对去，貌似输出了很多政治诉求，最后一看，政治诉求都相互抵消了，台上还是那些人，还是几十年前那些利益集团。台湾省已经在这个陷阱里出不来了，中国大陆千万不能掉进这种政治陷阱。一定要主动创造一套新制度，保卫好我们的现代化发展道路。</p>
-<p>这是演讲的一个主要观点，我希望不管是对这次演讲持支持或是反对的人，都能更多说一说“我希望怎样”，而不是“我反对什么”。</p>
-]]></content>
-      <tags>
-        <tag>剧评</tag>
-        <tag>政治剧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>写作语法手册</title>
-    <url>/2021/01/01/note0/</url>
-    <content><![CDATA[<p>下面展示一些写作时需要的语法。</p>
-<span id="more"></span>
-
-<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题？"><a href="#六级标题？" class="headerlink" title="六级标题？"></a>六级标题？</h6><h2 id="标记"><a href="#标记" class="headerlink" title="标记"></a>标记</h2><p><u>下划线</u>、<em>斜体</em>、<strong>加粗</strong>、<em><strong>粗斜体</strong></em>、==高亮==、<del>删除线</del>、<a href="haha">链接</a>、注释<a href="%E6%B3%A8%E9%87%8A1">^1</a></p>
-<p><font color=#0099ff size=4 face="黑体">字体</font></p>
-<ul>
-<li><p><input disabled="" type="checkbox">  任务</p>
-</li>
-<li><p><input checked="" disabled="" type="checkbox">  已完成</p>
-</li>
-</ul>
-<ol>
-<li>有序列表项</li>
-<li>第二项</li>
-</ol>
-<p><code>单行代码</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">多行</span><br><span class="line">代码</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>单引用</p>
-</blockquote>
-<blockquote>
-<blockquote>
-<p>嵌套引用</p>
-</blockquote>
-</blockquote>
-<h2 id="对齐"><a href="#对齐" class="headerlink" title="对齐"></a>对齐</h2><center>中心对齐</center>
-<p align="right">右对齐</p>
-
-<ul>
-<li>列表<ul>
-<li>二级列表<ul>
-<li>三级列表</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="绘制"><a href="#绘制" class="headerlink" title="绘制"></a>绘制</h2><p>分割线&gt;</p>
-<hr>
-<p>分割线&lt;</p>
+    <title>团队实践活动内容分工</title>
+    <url>/2022/01/15/plan-formal/</url>
+    <content><![CDATA[<p><strong>社会实践细化日程及各组主题分工安排</strong></p>
 <table>
 <thead>
 <tr>
-<th>biao</th>
-<th>ge</th>
+<th>组</th>
+<th>主题</th>
+<th align="left">内容</th>
+<th align="right">呈现/DDL</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>1</td>
-<td>2</td>
+<td>台州</td>
+<td>美食</td>
+<td align="left"><strong>考察｜</strong>台州当地美食介绍及制作过程拍摄</td>
+<td align="right">视频+推文[台州+各地] 1/19</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="left"><strong>搜集｜</strong>团队各地美食搜集</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>甬杭</td>
+<td>历史</td>
+<td align="left"><strong>考察</strong>｜古镇探访</td>
+<td align="right">视频+推文[杭州] 1/20</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="left"><strong>搜集｜</strong>当地历史/古镇资料搜集</td>
+<td align="right">视频+推文[宁波] 1/22</td>
+</tr>
+<tr>
+<td>瓯婺</td>
+<td>艺术</td>
+<td align="left"><strong>考察/采访</strong></td>
+<td align="right">视频[采访/考察]+推文 1/21</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td align="left"><strong>搜集｜</strong>当地艺术形式/非遗资料</td>
+<td align="right">视频[采访/考察]+推文 1/23</td>
+</tr>
+<tr>
+<td>黄冈</td>
+<td>名家</td>
+<td align="left"><strong>搜集｜</strong>团队各地名人/风俗资料收集</td>
+<td align="right">推文 1/17</td>
+</tr>
+<tr>
+<td>丽水</td>
+<td>方言</td>
+<td align="left"><strong>搜集｜</strong>当地方言传承情况/采访（计划中）</td>
+<td align="right">推文 1/18</td>
 </tr>
 </tbody></table>
+<p>*请记得过程中搜集的资料作好保存，最终社会实践报告需要采用。</p>
 ]]></content>
       <categories>
-        <category>笔记</category>
+        <category>档案</category>
       </categories>
       <tags>
-        <tag>Markdown</tag>
-        <tag>CSS</tag>
+        <tag>社会实践</tag>
       </tags>
   </entry>
   <entry>
@@ -1490,89 +1693,154 @@
       </tags>
   </entry>
   <entry>
-    <title>团队实践活动内容分工</title>
-    <url>/2022/01/15/plan-formal/</url>
-    <content><![CDATA[<p><strong>社会实践细化日程及各组主题分工安排</strong></p>
+    <title>「是，大臣」观看笔记</title>
+    <url>/2022/01/15/y-m/</url>
+    <content><![CDATA[<p>Building……</p>
+]]></content>
+      <tags>
+        <tag>剧评</tag>
+        <tag>政治剧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>写作语法手册</title>
+    <url>/2021/01/01/note0/</url>
+    <content><![CDATA[<p>下面展示一些写作时需要的语法。</p>
+<span id="more"></span>
+
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题？"><a href="#六级标题？" class="headerlink" title="六级标题？"></a>六级标题？</h6><h2 id="标记"><a href="#标记" class="headerlink" title="标记"></a>标记</h2><p><u>下划线</u>、<em>斜体</em>、<strong>加粗</strong>、<em><strong>粗斜体</strong></em>、==高亮==、<del>删除线</del>、<a href="haha">链接</a>、注释<a href="%E6%B3%A8%E9%87%8A1">^1</a></p>
+<p><font color=#0099ff size=4 face="黑体">字体</font></p>
+<ul>
+<li><p><input disabled="" type="checkbox">  任务</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  已完成</p>
+</li>
+</ul>
+<ol>
+<li>有序列表项</li>
+<li>第二项</li>
+</ol>
+<p><code>单行代码</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">多行</span><br><span class="line">代码</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>单引用</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>嵌套引用</p>
+</blockquote>
+</blockquote>
+<h2 id="对齐"><a href="#对齐" class="headerlink" title="对齐"></a>对齐</h2><center>中心对齐</center>
+<p align="right">右对齐</p>
+
+<ul>
+<li>列表<ul>
+<li>二级列表<ul>
+<li>三级列表</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="绘制"><a href="#绘制" class="headerlink" title="绘制"></a>绘制</h2><p>分割线&gt;</p>
+<hr>
+<p>分割线&lt;</p>
 <table>
 <thead>
 <tr>
-<th>组</th>
-<th>主题</th>
-<th align="left">内容</th>
-<th align="right">呈现/DDL</th>
+<th>biao</th>
+<th>ge</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>台州</td>
-<td>美食</td>
-<td align="left"><strong>考察｜</strong>台州当地美食介绍及制作过程拍摄</td>
-<td align="right">视频+推文[台州+各地] 1/19</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td align="left"><strong>搜集｜</strong>团队各地美食搜集</td>
-<td align="right"></td>
-</tr>
-<tr>
-<td>甬杭</td>
-<td>历史</td>
-<td align="left"><strong>考察</strong>｜古镇探访</td>
-<td align="right">视频+推文[杭州] 1/20</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td align="left"><strong>搜集｜</strong>当地历史/古镇资料搜集</td>
-<td align="right">视频+推文[宁波] 1/22</td>
-</tr>
-<tr>
-<td>瓯婺</td>
-<td>艺术</td>
-<td align="left"><strong>考察/采访</strong></td>
-<td align="right">视频[采访/考察]+推文 1/21</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td align="left"><strong>搜集｜</strong>当地艺术形式/非遗资料</td>
-<td align="right">视频[采访/考察]+推文 1/23</td>
-</tr>
-<tr>
-<td>黄冈</td>
-<td>名家</td>
-<td align="left"><strong>搜集｜</strong>团队各地名人/风俗资料收集</td>
-<td align="right">推文 1/17</td>
-</tr>
-<tr>
-<td>丽水</td>
-<td>方言</td>
-<td align="left"><strong>搜集｜</strong>当地方言传承情况/采访（计划中）</td>
-<td align="right">推文 1/18</td>
+<td>1</td>
+<td>2</td>
 </tr>
 </tbody></table>
-<p>*请记得过程中搜集的资料作好保存，最终社会实践报告需要采用。</p>
 ]]></content>
       <categories>
-        <category>档案</category>
+        <category>笔记</category>
       </categories>
       <tags>
-        <tag>社会实践</tag>
+        <tag>Markdown</tag>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Surface Pro 2 评测备档</title>
+    <url>/2021/10/01/bilibili/</url>
+    <content><![CDATA[<blockquote>
+<p>这是由优酷用户@嘉峪出品 约八年前上传的微软 Surface Pro 2 评测视频。这是我最早了解到微软 Surface 系列产品，也是我彼时认为最优秀的一批关于该产品的测评。由于如今原视频失效，特在B站备份存档。（2021-10-01）</p>
+</blockquote>
+<span id="more"></span>
+
+<p><iframe src="//player.bilibili.com/player.html?aid=763293176&amp;cid=417794545&amp;page=1" frameborder="no" scrolling="no" width="95%" height="600"></iframe></p>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Valine - A simple comment system based on Leancloud.</title>
+    <!--Leancloud 操作库:-->
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <!--Valine 的核心代码库:-->
+    <script src="./dist/Valine.min.js"></script>
+</head>
+<body>
+    <div class="comment"></div>
+    <script>
+        new Valine({
+            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+            av: AV, 
+            el: '.comment', // 
+            app_id: 'Your APP ID', // 这里填写上面得到的APP ID
+            app_key: 'Your APP KEY', // 这里填写上面得到的APP KEY
+            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!' // [v1.0.7 new]留言框占位提示文字
+        });
+    </script>
+</body>
+</html>
+]]></content>
+      <categories>
+        <category>经典备份仓</category>
+      </categories>
+      <tags>
+        <tag>评测</tag>
+        <tag>科技</tag>
+        <tag>微软</tag>
       </tags>
   </entry>
   <entry>
     <title>Source Library</title>
     <url>/2022/01/25/webs/</url>
     <content><![CDATA[<ul>
-<li>免费可商用的图片素材库（使用方便）<a href="https://wunderstock.com/">https://wunderstock.com/</a></li>
-<li>和wunderstock一样简洁（访问速度变快）<a href="https://unsplash.com/">https://unsplash.com/</a></li>
-<li>平面抽象的背景底纹素材（覆盖无要求）<a href="https://www.hituyu.com/">https://www.hituyu.com/</a></li>
-<li>矢量图、免扣PNG、PSD等多种格式（国内图库速度快！不可商用）<a href="https://www.lanrentuku.com/">https://www.lanrentuku.com/</a></li>
-<li>同上提供优质图片素材且大部分素材可以免费下载可商用（某些表明素材来源）<a href="https://www.freepik.com/">https://www.freepik.com/</a></li>
-<li>coolors分为调色盘和探索两功能（记得填坑）完成大部分设计配色步骤<a href="https://coolors.co/">https://coolors.co/</a></li>
-<li>比coolors更强大，支持中文，选择不同色彩搭配算法，智能识别<a href="https://color.adobe.com/zh/create">https://color.adobe.com/zh/create</a></li>
-<li>字体资源网站（使用字体必须下载客户端，与Adobe、Office梦幻联动）<a href="https://www.hellofont.cn/">https://www.hellofont.cn/</a></li>
-<li>dafont，更多西文免费字体，质量高，全部免费（但是没说全部商用）<a href="https://www.dafont.com/">https://www.dafont.com/</a></li>
+<li><p>免费可商用的图片素材库（使用方便）<a href="https://wunderstock.com/">https://wunderstock.com/</a></p>
+</li>
+<li><p>和wunderstock一样简洁（访问速度变快）<a href="https://unsplash.com/">https://unsplash.com/</a></p>
+</li>
+<li><p>平面抽象的背景底纹素材（覆盖无要求）<a href="https://www.hituyu.com/">https://www.hituyu.com/</a></p>
+</li>
+<li><p>矢量图、免扣PNG、PSD等多种格式（国内图库速度快！不可商用）</p>
+<span id="more"></span>
+
+<p><a href="https://www.lanrentuku.com/">https://www.lanrentuku.com/</a></p>
+</li>
+<li><p>同上提供优质图片素材且大部分素材可以免费下载可商用（某些表明素材来源）</p>
+<p><a href="https://www.freepik.com/">https://www.freepik.com/</a></p>
+</li>
+<li><p>coolors分为调色盘和探索两功能（记得填坑）完成大部分设计配色步骤</p>
+<p><a href="https://coolors.co/">https://coolors.co/</a></p>
+</li>
+<li><p>比coolors更强大，支持中文，选择不同色彩搭配算法，智能识别</p>
+<p><a href="https://color.adobe.com/zh/create">https://color.adobe.com/zh/create</a></p>
+</li>
+<li><p>字体资源网站（使用字体必须下载客户端，与Adobe、Office梦幻联动）</p>
+<p><a href="https://www.hellofont.cn/">https://www.hellofont.cn/</a></p>
+</li>
+<li><p>dafont，更多西文免费字体，质量高，全部免费（但是没说全部商用）</p>
+<p><a href="https://www.dafont.com/">https://www.dafont.com/</a></p>
+</li>
 </ul>
 ]]></content>
       <categories>
@@ -1584,13 +1852,52 @@
       </tags>
   </entry>
   <entry>
-    <title>「是，大臣」观看笔记</title>
-    <url>/2022/01/15/y-m/</url>
-    <content><![CDATA[<p>Building……</p>
+    <title>「开端」纪录</title>
+    <url>/2022/01/15/kaiduan/</url>
+    <content><![CDATA[<p><img src="https://gitee.com/parallelcoder_admin/blog_file/raw/master/kaiduan.jpg" alt="avatar"></p>
+<blockquote class="blockquote-center">
+<p><font face="仿宋">善良不是廉价的美德,它是要和能力相匹配的,要不然就是添乱。</font></p>
+
+</blockquote>
+
+<span id="more"></span>
+
+<hr>
+<h3 id="观评"><a href="#观评" class="headerlink" title="观评"></a>观评</h3><p>熟悉类似影片的朋友或许会和我一样，在起初不自觉地给这部剧打上刻板的标签。</p>
+<p>或是探讨宿命、平行宇宙与世界本原的科学幻想（源代码），或是关乎执念、困囿于时线循环的惊悚篇章（恐怖游轮）。</p>
+<p>而《开端》以戏谑的姿态回应了这份偏见，或曰桎梏。</p>
+<p>在开端的叙事架构之中，循环本身被抽离了意义。不在乎为何循环，也不在乎“他”或者“她”为何被卷入循环；对创作者而言，他们所要传达的是光怪陆离表象之下的现实主义内核，其承载者正是这辆公交车和它的乘客们。</p>
+<p>如果说《一出好戏》以荒岛求生的俗套框架掩藏导演真正渴望演绎的人性实验，那么《开端》就是一副当代社会底层人物的群像，借由他们的话语阐述善、自由与正义。</p>
+<blockquote>
+<p><font face="仿宋">他原本逃避着李诗情太过清澈的目光，现在却根本移不开眼。这个女孩身上那些之前还让他‘诟病’的天真，现在却是如此让人惊心动魄。那些天真是她的武器，也是她的铠甲，让肖鹤云溃不成军。</font></p>
+</blockquote>
+<p>得以循环的李诗情和肖鹤云，一位学生，一位社畜；是参与者，也是旁观者。前者急于报警、着眼于救人的天真与单纯打动了“成为社会螺丝钉多年”而圆滑现实、心念逃避的后者；后者又以职业本能的逻辑理性释然了拘于感性的前者。而插曲般呈现的卢笛故事线，则讲述了缺乏尊严，控制欲覆压之下成长的年轻人何以找寻自我的价值。些数矛盾的价值内核确是不谋而合的。</p>
+<blockquote>
+<p><font face="仿宋">她装心脏不舒服的时候，阿姨积极拿药，肖鹤云让司机开门。</font></p>
+<p><font face="仿宋">她装被「色狼」欺负的时候，网红大哥积极留证，耳机肌肉男上前制服“坏蛋”。</font></p>
+<p><font face="仿宋">她装和肖鹤云吵架踢坏了别人瓜，网红大哥仗义执言，瓜农大叔把瓜分给大家以德报怨。</font></p>
+<p><font face="仿宋">她装没有卫生巾的时候，无家可归的大叔在行李箱里翻出卫生巾。</font></p>
+<p><font face="仿宋">他们不是冷漠的陌生人，只是没有应付突发状况的勇气和反应，也有正常人面对危险恐惧与却步。</font></p>
+<p><font face="仿宋">他们只是没有下一次循环的普通人。</font></p>
+</blockquote>
+<p align="right"><font face="仿宋">（载于<a href="https://movie.douban.com/review/14143283/?_dtcc=1">豆瓣</a>）</font></p>
+
+<hr>
+<h3 id="摘录"><a href="#摘录" class="headerlink" title="摘录"></a>摘录</h3><blockquote>
+<p><font face="仿宋">其实我也想要活下去，我也是人，我也怕死。其实之前每一次我都特别想要下车。我还偷偷想过，我是不是可以趁着循环的机会做一点出格的、放飞自我的事情，就像我可以不用担心花钱，也不用担心长胖，然后大吃大喝；或者是晚上可以不回宿舍，然后去网吧刷夜……可是，我能想到的让我高兴的事情也就是这样了。我就是一个普通人。我想象力有限。但是我觉得，如果能救下这一车人，就是我能想到最出格、最放飞自我的事情。而且他们现在对我来说，已经不再是普通的陌生人。（李诗情）</font></p>
+</blockquote>
+<blockquote>
+<p><font face="仿宋">爸爸，妈妈，我今天差一点坐上那辆爆炸的公交车。就差一点。我在想，如果这次死神抓住了我，你们以后会如何回忆我呢。一个不服管教、奇装异服、没有朋友，总是对你们抱怨、与社会格格不入的哮喘患者。我的内心其实比你们同事家的孩子都要丰富、充实，我早已找到了活着的意义。“我将守护我的次元，献出我的心。”唯一的遗憾，是可能没人为我颁发勋章，挂在客厅的墙上，让你们炫耀。如果有一天我没能回家，请你们到这个地址，动漫城九栋二零一，密码六个六，进去之后，你们就会知道我的秘密。别对我失望。你们应该这么想，我试着拥有过我想要的生活了。我拥有过快乐。谢谢你们一直保护着我。我想说，我很爱你们，很幸福，很知足，我对自己爹生活很满意。其实我最大心愿，是让你们看到我眼中的世界，是多么的精彩啊。（卢笛）</font></p>
+</blockquote>
+<hr>
+<h3 id="影音"><a href="#影音" class="headerlink" title="影音"></a>影音</h3><p>图片参见<a href="https://movie.douban.com/subject/35332289/all_photos">此处</a>。</p>
 ]]></content>
+      <categories>
+        <category>纪录</category>
+      </categories>
       <tags>
         <tag>剧评</tag>
-        <tag>政治剧</tag>
+        <tag>悬疑剧</tag>
       </tags>
   </entry>
 </search>
