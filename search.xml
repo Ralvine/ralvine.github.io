@@ -116,24 +116,6 @@
       </tags>
   </entry>
   <entry>
-    <title>社会实践｜总结报告分工</title>
-    <url>/2022/01/23/act-result/</url>
-    <content><![CDATA[<p>1、摘要、关键词，最终排版（1人）</p>
-<p>2、基本概况：概述、人员分工分组情况、前期准备（1人）</p>
-<p>3、实践过程：</p>
-<p>｜3.1美食｜3.2历史｜3.3艺术｜3.4名家｜3.5方言｜五大板块（5人，每组出一人）</p>
-<ul>
-<li>以论述形式阐述本组这七天大致做了哪些工作</li>
-<li>阐明对该主题的总结成果，附上相应的图文资料，<em><strong>逻辑清晰，表达书面，结构完整</strong></em>。</li>
-<li>字数自定，其中引用的资料尽量注明来源，采访/网络资料请完整附于行文中间</li>
-</ul>
-<p>4、实践结果：综合各地各主题实践资料，比较共性与个性，并简要阐明我们的呈现成果（视频/推文附代表性截图与链接）；总结（1人）</p>
-]]></content>
-      <tags>
-        <tag>社会实践</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>团队实践活动计划</title>
     <url>/2021/12/31/act-plan/</url>
     <content><![CDATA[<p><a href="https://gitee.com/parallelcoder_admin/blog_file/raw/master/plan.pdf">Download(plan.pdf)</a></p>
@@ -397,6 +379,24 @@
       <categories>
         <category>工作</category>
       </categories>
+      <tags>
+        <tag>社会实践</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>社会实践｜总结报告分工</title>
+    <url>/2022/01/23/act-result/</url>
+    <content><![CDATA[<p>1、摘要、关键词，最终排版（1人）</p>
+<p>2、基本概况：概述、人员分工分组情况、前期准备（1人）</p>
+<p>3、实践过程：</p>
+<p>｜3.1美食｜3.2历史｜3.3艺术｜3.4名家｜3.5方言｜五大板块（5人，每组出一人）</p>
+<ul>
+<li>以论述形式阐述本组这七天大致做了哪些工作</li>
+<li>阐明对该主题的总结成果，附上相应的图文资料，<em><strong>逻辑清晰，表达书面，结构完整</strong></em>。</li>
+<li>字数自定，其中引用的资料尽量注明来源，采访/网络资料请完整附于行文中间</li>
+</ul>
+<p>4、实践结果：综合各地各主题实践资料，比较共性与个性，并简要阐明我们的呈现成果（视频/推文附代表性截图与链接）；总结（1人）</p>
+]]></content>
       <tags>
         <tag>社会实践</tag>
       </tags>
@@ -1143,17 +1143,6 @@
       </tags>
   </entry>
   <entry>
-    <title>笔记</title>
-    <url>/2022/01/15/mqz/</url>
-    <content><![CDATA[<p>刚才我说了，大家都只会说不的时候，结果可能是最保守的势力来管理社会，受益最多的就是既得利益集团。世界上很多国家统治集团就是利用这一点才能长期管理社会的，抓住一两个敏感的点去挑逗民众的愤怒情绪，让大家在反对某件事的过程中团结起来。民众反对来反对去，貌似输出了很多政治诉求，最后一看，政治诉求都相互抵消了，台上还是那些人，还是几十年前那些利益集团。台湾省已经在这个陷阱里出不来了，中国大陆千万不能掉进这种政治陷阱。一定要主动创造一套新制度，保卫好我们的现代化发展道路。</p>
-<p>这是演讲的一个主要观点，我希望不管是对这次演讲持支持或是反对的人，都能更多说一说“我希望怎样”，而不是“我反对什么”。</p>
-]]></content>
-      <tags>
-        <tag>剧评</tag>
-        <tag>政治剧</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数学建模</title>
     <url>/2021/01/29/model/</url>
     <content><![CDATA[<span id="more"></span>
@@ -1223,6 +1212,82 @@
       </categories>
       <tags>
         <tag>数学建模</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>笔记</title>
+    <url>/2022/01/15/mqz/</url>
+    <content><![CDATA[<p>刚才我说了，大家都只会说不的时候，结果可能是最保守的势力来管理社会，受益最多的就是既得利益集团。世界上很多国家统治集团就是利用这一点才能长期管理社会的，抓住一两个敏感的点去挑逗民众的愤怒情绪，让大家在反对某件事的过程中团结起来。民众反对来反对去，貌似输出了很多政治诉求，最后一看，政治诉求都相互抵消了，台上还是那些人，还是几十年前那些利益集团。台湾省已经在这个陷阱里出不来了，中国大陆千万不能掉进这种政治陷阱。一定要主动创造一套新制度，保卫好我们的现代化发展道路。</p>
+<p>这是演讲的一个主要观点，我希望不管是对这次演讲持支持或是反对的人，都能更多说一说“我希望怎样”，而不是“我反对什么”。</p>
+]]></content>
+      <tags>
+        <tag>剧评</tag>
+        <tag>政治剧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>写作语法手册</title>
+    <url>/2021/01/01/note0/</url>
+    <content><![CDATA[<p>下面展示一些写作时需要的语法。</p>
+<span id="more"></span>
+
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题？"><a href="#六级标题？" class="headerlink" title="六级标题？"></a>六级标题？</h6><h2 id="标记"><a href="#标记" class="headerlink" title="标记"></a>标记</h2><p><u>下划线</u>、<em>斜体</em>、<strong>加粗</strong>、<em><strong>粗斜体</strong></em>、==高亮==、<del>删除线</del>、<a href="haha">链接</a>、注释<a href="%E6%B3%A8%E9%87%8A1">^1</a></p>
+<p><font color=#0099ff size=4 face="黑体">字体</font></p>
+<ul>
+<li><p><input disabled="" type="checkbox">  任务</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  已完成</p>
+</li>
+</ul>
+<ol>
+<li>有序列表项</li>
+<li>第二项</li>
+</ol>
+<p><code>单行代码</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">多行</span><br><span class="line">代码</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>单引用</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>嵌套引用</p>
+</blockquote>
+</blockquote>
+<h2 id="对齐"><a href="#对齐" class="headerlink" title="对齐"></a>对齐</h2><center>中心对齐</center>
+<p align="right">右对齐</p>
+
+<ul>
+<li>列表<ul>
+<li>二级列表<ul>
+<li>三级列表</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="绘制"><a href="#绘制" class="headerlink" title="绘制"></a>绘制</h2><p>分割线&gt;</p>
+<hr>
+<p>分割线&lt;</p>
+<table>
+<thead>
+<tr>
+<th>biao</th>
+<th>ge</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>2</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>
@@ -1360,71 +1425,6 @@
       </tags>
   </entry>
   <entry>
-    <title>写作语法手册</title>
-    <url>/2021/01/01/note0/</url>
-    <content><![CDATA[<p>下面展示一些写作时需要的语法。</p>
-<span id="more"></span>
-
-<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题？"><a href="#六级标题？" class="headerlink" title="六级标题？"></a>六级标题？</h6><h2 id="标记"><a href="#标记" class="headerlink" title="标记"></a>标记</h2><p><u>下划线</u>、<em>斜体</em>、<strong>加粗</strong>、<em><strong>粗斜体</strong></em>、==高亮==、<del>删除线</del>、<a href="haha">链接</a>、注释<a href="%E6%B3%A8%E9%87%8A1">^1</a></p>
-<p><font color=#0099ff size=4 face="黑体">字体</font></p>
-<ul>
-<li><p><input disabled="" type="checkbox">  任务</p>
-</li>
-<li><p><input checked="" disabled="" type="checkbox">  已完成</p>
-</li>
-</ul>
-<ol>
-<li>有序列表项</li>
-<li>第二项</li>
-</ol>
-<p><code>单行代码</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">多行</span><br><span class="line">代码</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>单引用</p>
-</blockquote>
-<blockquote>
-<blockquote>
-<p>嵌套引用</p>
-</blockquote>
-</blockquote>
-<h2 id="对齐"><a href="#对齐" class="headerlink" title="对齐"></a>对齐</h2><center>中心对齐</center>
-<p align="right">右对齐</p>
-
-<ul>
-<li>列表<ul>
-<li>二级列表<ul>
-<li>三级列表</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="绘制"><a href="#绘制" class="headerlink" title="绘制"></a>绘制</h2><p>分割线&gt;</p>
-<hr>
-<p>分割线&lt;</p>
-<table>
-<thead>
-<tr>
-<th>biao</th>
-<th>ge</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td>2</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-        <tag>CSS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>团队实践活动内容分工</title>
     <url>/2022/01/15/plan-formal/</url>
     <content><![CDATA[<p><strong>社会实践细化日程及各组主题分工安排</strong></p>
@@ -1493,56 +1493,6 @@
       </categories>
       <tags>
         <tag>社会实践</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Source Library</title>
-    <url>/2022/01/25/webs/</url>
-    <content><![CDATA[<ul>
-<li><p>免费可商用的图片素材库（使用方便）<a href="https://wunderstock.com/">https://wunderstock.com/</a></p>
-</li>
-<li><p>和wunderstock一样简洁（访问速度变快）<a href="https://unsplash.com/">https://unsplash.com/</a></p>
-</li>
-<li><p>平面抽象的背景底纹素材（覆盖无要求）<a href="https://www.hituyu.com/">https://www.hituyu.com/</a></p>
-</li>
-<li><p>矢量图、免扣PNG、PSD等多种格式（国内图库速度快！不可商用）</p>
-<span id="more"></span>
-
-<p><a href="https://www.lanrentuku.com/">https://www.lanrentuku.com/</a></p>
-</li>
-<li><p>同上提供优质图片素材且大部分素材可以免费下载可商用（某些表明素材来源）</p>
-<p><a href="https://www.freepik.com/">https://www.freepik.com/</a></p>
-</li>
-<li><p>coolors分为调色盘和探索两功能（记得填坑）完成大部分设计配色步骤</p>
-<p><a href="https://coolors.co/">https://coolors.co/</a></p>
-</li>
-<li><p>比coolors更强大，支持中文，选择不同色彩搭配算法，智能识别</p>
-<p><a href="https://color.adobe.com/zh/create">https://color.adobe.com/zh/create</a></p>
-</li>
-<li><p>字体资源网站（使用字体必须下载客户端，与Adobe、Office梦幻联动）</p>
-<p><a href="https://www.hellofont.cn/">https://www.hellofont.cn/</a></p>
-</li>
-<li><p>dafont，更多西文免费字体，质量高，全部免费（但是没说全部商用）</p>
-<p><a href="https://www.dafont.com/">https://www.dafont.com/</a></p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>便笺</category>
-      </categories>
-      <tags>
-        <tag>Docker</tag>
-        <tag>CS-Learning</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「是，大臣」观看笔记</title>
-    <url>/2022/01/15/y-m/</url>
-    <content><![CDATA[<p>Building……</p>
-]]></content>
-      <tags>
-        <tag>剧评</tag>
-        <tag>政治剧</tag>
       </tags>
   </entry>
   <entry>
@@ -1778,6 +1728,56 @@
       </categories>
       <tags>
         <tag>社会实践</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Source Library</title>
+    <url>/2022/01/25/webs/</url>
+    <content><![CDATA[<ul>
+<li><p>免费可商用的图片素材库（使用方便）<a href="https://wunderstock.com/">https://wunderstock.com/</a></p>
+</li>
+<li><p>和wunderstock一样简洁（访问速度变快）<a href="https://unsplash.com/">https://unsplash.com/</a></p>
+</li>
+<li><p>平面抽象的背景底纹素材（覆盖无要求）<a href="https://www.hituyu.com/">https://www.hituyu.com/</a></p>
+</li>
+<li><p>矢量图、免扣PNG、PSD等多种格式（国内图库速度快！不可商用）</p>
+<span id="more"></span>
+
+<p><a href="https://www.lanrentuku.com/">https://www.lanrentuku.com/</a></p>
+</li>
+<li><p>同上提供优质图片素材且大部分素材可以免费下载可商用（某些表明素材来源）</p>
+<p><a href="https://www.freepik.com/">https://www.freepik.com/</a></p>
+</li>
+<li><p>coolors分为调色盘和探索两功能（记得填坑）完成大部分设计配色步骤</p>
+<p><a href="https://coolors.co/">https://coolors.co/</a></p>
+</li>
+<li><p>比coolors更强大，支持中文，选择不同色彩搭配算法，智能识别</p>
+<p><a href="https://color.adobe.com/zh/create">https://color.adobe.com/zh/create</a></p>
+</li>
+<li><p>字体资源网站（使用字体必须下载客户端，与Adobe、Office梦幻联动）</p>
+<p><a href="https://www.hellofont.cn/">https://www.hellofont.cn/</a></p>
+</li>
+<li><p>dafont，更多西文免费字体，质量高，全部免费（但是没说全部商用）</p>
+<p><a href="https://www.dafont.com/">https://www.dafont.com/</a></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>便笺</category>
+      </categories>
+      <tags>
+        <tag>Docker</tag>
+        <tag>CS-Learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「是，大臣」观看笔记</title>
+    <url>/2022/01/15/y-m/</url>
+    <content><![CDATA[<p>Building……</p>
+]]></content>
+      <tags>
+        <tag>剧评</tag>
+        <tag>政治剧</tag>
       </tags>
   </entry>
 </search>
