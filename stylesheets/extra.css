@@ -363,7 +363,7 @@ a:hover {
     justify-content: center;
     gap: 2%;
     margin-top: .5em;
-    margin-bottom: .5em;
+    margin-bottom: 0em;
 }
 .trible-picture {
     display: flex;
@@ -371,7 +371,7 @@ a:hover {
     justify-content: center;
     gap: 1.1%;
     margin-top: .5em;
-    margin-bottom: .5em;
+    margin-bottom: 0em;
 }
 .double-picture-cover  {
     flex: 0 0 49%;
@@ -380,6 +380,7 @@ a:hover {
         margin-top: 5px;
     }
     display:flex;
+    margin-bottom: 1%;
 }
 .trible-picture-cover  {
     flex: 0 0 32.6%;
