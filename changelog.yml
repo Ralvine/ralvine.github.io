@@ -3,4 +3,8 @@
   - "10.22":
     - study:
         text: 大数据基本理论
-        href: /tech/bigdata-basic
+        href: /study/bigdata-basic
+  - "5.4":
+    - diary:
+        text: 火车开往破晓
+        href: /diary/wuhan
