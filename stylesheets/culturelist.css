@@ -19,7 +19,7 @@
 
 @media only screen and (max-width: 680px) {
     .media {
-        width: 100%;
+        width: 97%;
     }
 }
 
@@ -40,6 +40,15 @@
 .media-meta-item.title {
     font-weight: 700;
     font-size:.85em
+}
+
+.media-cover {
+    width: 100px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:left;
 }
 
 .media-meta-item.intro {
