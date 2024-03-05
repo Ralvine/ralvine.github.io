@@ -16,14 +16,13 @@
     overflow:hidden;
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0.1);
 }
-.media-cover {
-    width: 100px;
-    height: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    float:left;
+
+@media only screen and (max-width: 680px) {
+    .media {
+        width: 100%;
+    }
 }
+
 .media-meta {
     width: calc(100% - 100px);
     height: 100%;
