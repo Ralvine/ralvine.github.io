@@ -10,6 +10,9 @@
 :root {
   --md-text-font: "<font>"; 
 }*/
+img {
+    border-radius: 15px;
+}
 .md-typeset h1 {
   font-weight: 800;
   color: #24282d;
@@ -134,12 +137,20 @@ a:hover {
     transform: scale(1.02);
 }*/
 
+.md-typeset details:not([open])>summary {
+    border-radius: 15px;
+}
+
+.md-typeset summary:not(.focus-visible) {
+    border-radius: 15px 15px 0 0;
+}
+
 /* friend */
 
 .friend-link-div {
     height: 92px;
     margin: 10px 2% 10px;
-    width: 45%;
+    width: 45.5%;
     display: inline-block;
     box-shadow: 0 0px 40px rgba(0,0,0,0.1);
     border-radius: 25px;

@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://ralvines.top/home/friend/</loc>
+         <lastmod>2024-03-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://ralvines.top/home/tags/</loc>
          <lastmod>2024-03-05</lastmod>
          <changefreq>daily</changefreq>
@@ -42,11 +47,6 @@
     </url>
     <url>
          <loc>https://ralvines.top/list/course/</loc>
-         <lastmod>2024-03-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ralvines.top/list/friend/</loc>
          <lastmod>2024-03-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
