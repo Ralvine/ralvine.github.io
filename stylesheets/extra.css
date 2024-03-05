@@ -388,6 +388,7 @@ a:hover {
         margin-top: 5px;
     }
     display:flex;
+    margin-bottom: 1%;
 }
 .double-picture-cover img {
     width: 100%;
