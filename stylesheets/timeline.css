@@ -129,15 +129,9 @@
 .changelog-type-study::before {
     content: "学习";
 }
-.changelog-type-review::before {
-    content: "评测";
-}
 .changelog-type-mindkit::before {
     content: "思考";
 }
 .changelog-type-tech::before {
-    content: "技术";
-}
-.changelog-type-art::before {
-    content: "文艺";
+    content: "探索";
 }
