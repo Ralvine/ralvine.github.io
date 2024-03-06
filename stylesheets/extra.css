@@ -472,3 +472,7 @@ a:hover {
 [data-md-color-scheme="slate"] .md-typeset a {
     color: #d2e2ff;
 }
+
+.vpanel {
+    margin-top: 25px;
+}
