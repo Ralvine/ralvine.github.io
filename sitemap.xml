@@ -26,11 +26,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ralvines.top/explore/status/</loc>
-         <lastmod>2024-03-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://ralvines.top/home/about/</loc>
          <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
@@ -51,22 +46,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ralvines.top/list/album/</loc>
-         <lastmod>2024-03-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://ralvines.top/list/book/</loc>
          <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ralvines.top/list/course/</loc>
-         <lastmod>2024-03-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ralvines.top/list/item/</loc>
+         <loc>https://ralvines.top/list/explore/</loc>
          <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -76,7 +61,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ralvines.top/list/music/</loc>
+         <loc>https://ralvines.top/list/study/</loc>
          <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -102,11 +87,6 @@
     </url>
     <url>
          <loc>https://ralvines.top/study/bigdata-basic/</loc>
-         <lastmod>2024-03-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ralvines.top/study/status/</loc>
          <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>

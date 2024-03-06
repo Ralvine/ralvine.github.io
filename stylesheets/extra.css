@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
+@font-face {
+    font-family: Fang-Zheng-Song;
+    src: url("./FangZhengSong.woff2") format('woff2');
+    font-display: swap;
+}
+
 [data-md-color-scheme="light"] {
   --md-primary-fg-color:        #EE0F0F;
   --md-primary-fg-color--light: #ECB7B7;
@@ -422,30 +431,40 @@ a:hover {
     font-weight: 600;
 }
 .md-typeset h5 {
-    counter-reset: h6;
+/*    counter-reset: h6;*/
     font-weight: 600;
 }
 .md-typeset h2::before {
   counter-increment: h2;
   content: counter(h2) " ";
 }
-
 .md-typeset h3::before {
   counter-increment: h3;
   content: counter(h2) "." counter(h3) " ";
 }
-
 .md-typeset h4::before {
   counter-increment: h4;
   content: counter(h2) "." counter(h3) "." counter(h4) " ";
 }
-
 .md-typeset h5::before {
   counter-increment: h5;
   content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) " ";
 }
-
 /*.md-typeset h6::before {
   counter-increment: h6;
   content: ounter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) " ";
 }*/
+.md-typeset h6 {
+    font-size: 1.5em;
+    line-height: 1.4;
+    font-weight: 600;
+    margin: .64em 0;
+    text-align: center;
+    color: #24282d;
+}
+[data-md-color-scheme="slate"] .md-typeset h6 {
+    color: #ffffff;
+}
+[data-md-color-scheme="slate"] .md-typeset a {
+    color: #d2e2ff;
+}
