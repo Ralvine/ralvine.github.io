@@ -2,97 +2,112 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ralvines.top/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/diary/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/diary/status/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/diary/wuhan/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ralvines.top/explore/</loc>
+         <lastmod>2024-03-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ralvines.top/explore/status/</loc>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/home/about/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/home/friend/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/home/tags/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/list/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/list/album/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/list/book/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/list/course/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ralvines.top/list/item/</loc>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/list/movie/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/list/music/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/list/travel/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/mindkit/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/study/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/study/bigdata-basic/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ralvines.top/tech/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <loc>https://ralvines.top/study/status/</loc>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ralvines.top/home/tags/</loc>
-         <lastmod>2024-03-05</lastmod>
+         <lastmod>2024-03-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
