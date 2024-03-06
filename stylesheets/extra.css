@@ -459,7 +459,7 @@ a:hover {
     line-height: 1.4;
     font-weight: 600;
     margin: .64em 0;
-    text-align: center;
+/*    text-align: center;*/
     color: #24282d;
 }
 [data-md-color-scheme="slate"] .md-typeset h6 {
