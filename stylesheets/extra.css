@@ -17,11 +17,6 @@
 .md-typeset img:hover {
     opacity: .7;
 }
-.md-typeset h1 {
-  font-weight: 800;
-  color: #24282d;
-  text-align: center;
-}
 [data-md-color-scheme="slate"] h1 {
   color: #ffffff;
 }
@@ -110,6 +105,10 @@
     background-color: #000;
 }
 
+[dir=ltr] .md-typeset blockquote {
+    font-family: 'Noto Sans SC';
+}
+
 .md-search-result .md-typeset .md-tag {
     font-size: .64rem;
 }
@@ -156,10 +155,6 @@ a:hover {
 .glightbox-container .ginner-container.desc-left .gslide-description {
     border-radius: 15px;
     margin-right: 5px;
-}
-
-.md-typeset h2 {
-    margin: 0.64em 0 0.64em;
 }
 
 .glightbox-clean .gslide-title {
@@ -403,3 +398,54 @@ a:hover {
     margin: 0;
     object-fit: cover;
 }
+
+.md-content {
+    counter-reset: h2;
+}
+.md-typeset h1 {
+  font-weight: 800;
+  color: #24282d;
+  text-align: center;
+}
+.md-typeset h2 {
+    margin: 0.64em 0 0.64em;
+    counter-reset: h3;
+    font-weight: 600;
+}
+.md-typeset h3 {
+    margin: 0.8em 0 0.8em;
+    counter-reset: h4;
+    font-weight: 600;
+}
+.md-typeset h4 {
+    counter-reset: h5;
+    font-weight: 600;
+}
+.md-typeset h5 {
+    counter-reset: h6;
+    font-weight: 600;
+}
+.md-typeset h2::before {
+  counter-increment: h2;
+  content: counter(h2) " ";
+}
+
+.md-typeset h3::before {
+  counter-increment: h3;
+  content: counter(h2) "." counter(h3) " ";
+}
+
+.md-typeset h4::before {
+  counter-increment: h4;
+  content: counter(h2) "." counter(h3) "." counter(h4) " ";
+}
+
+.md-typeset h5::before {
+  counter-increment: h5;
+  content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) " ";
+}
+
+/*.md-typeset h6::before {
+  counter-increment: h6;
+  content: ounter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) " ";
+}*/

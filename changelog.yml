@@ -8,3 +8,7 @@
     - diary:
         text: 火车开往破晓
         href: /diary/wuhan
+  - "4.17":
+    - mindkit:
+        text: 告别完美主义幻想
+        href: /mindkit/taobi
