@@ -7,6 +7,10 @@
     font-display: swap;
 }
 
+.Fang-Zheng-Song {
+    font-family: Fang-Zheng-Song, Noto-Serif-SC, serif;
+}
+
 [data-md-color-scheme="light"] {
   --md-primary-fg-color:        #EE0F0F;
   --md-primary-fg-color--light: #ECB7B7;
