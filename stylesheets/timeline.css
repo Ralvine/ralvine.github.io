@@ -86,7 +86,8 @@
 
 .changelog-time {
     font-size: 1em;
-    font-weight: 800;
+    font-weight: 300;
+    opacity: .6;
 }
 
 .changelog-time::before {
@@ -100,7 +101,8 @@
     padding: 2px 5px;
     border: 1px solid #aaaaaa;
     color: #aaaaaa;
-    font-weight: 600;
+    font-weight: 300;
+    font-family: 'Noto Sans SC';
 }
 
 [data-md-color-scheme="slate"] .changelog-type {
@@ -121,6 +123,7 @@
 
 .changelog-content a {
     color: var(--md-default-fg-color);
+    font-weight: 600;
 }
 
 .changelog-type-diary::before {
