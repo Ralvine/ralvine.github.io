@@ -65,6 +65,8 @@
 }
 .md-ellipsis {
     font-weight: 800;
+    overflow-x: visible;
+    text-shadow: 0 0px 10px rgba(0,0,0,1);
 }
 .fas {
     font-weight: 900;
