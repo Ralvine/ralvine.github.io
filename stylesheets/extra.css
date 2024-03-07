@@ -70,6 +70,8 @@
 .md-ellipsis {
     font-weight: 800;
     overflow-x: visible;
+}
+.md-header__topic {
     text-shadow: 0 0px 5px rgba(0,0,0,1);
 }
 .fas {
