@@ -11,6 +11,10 @@
     font-family: Fang-Zheng-Song, Noto-Serif-SC, serif;
 }
 
+.Noto-Sans-SC {
+    font-family: -apple-system, PingFang SC, Fang-Zheng-Song, 'Noto Sans SC', serif;
+}
+
 @media screen and (min-width:45em) .md-typeset .inline {
     width: 14rem;
 }
