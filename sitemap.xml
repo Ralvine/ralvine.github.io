@@ -6,11 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ralvines.top/diary/</loc>
-         <lastmod>2024-03-09</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://ralvines.top/diary/sunnyday/</loc>
          <lastmod>2024-03-09</lastmod>
          <changefreq>daily</changefreq>
@@ -21,12 +16,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ralvines.top/explore/</loc>
+         <loc>https://ralvines.top/home/about/</loc>
          <lastmod>2024-03-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ralvines.top/home/about/</loc>
+         <loc>https://ralvines.top/home/diary/</loc>
+         <lastmod>2024-03-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ralvines.top/home/explore/</loc>
          <lastmod>2024-03-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -36,7 +36,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://ralvines.top/home/mindkit/</loc>
+         <lastmod>2024-03-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://ralvines.top/home/status/</loc>
+         <lastmod>2024-03-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ralvines.top/home/study/</loc>
          <lastmod>2024-03-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -76,17 +86,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ralvines.top/mindkit/</loc>
-         <lastmod>2024-03-09</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://ralvines.top/mindkit/taobi/</loc>
-         <lastmod>2024-03-09</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ralvines.top/study/</loc>
          <lastmod>2024-03-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
