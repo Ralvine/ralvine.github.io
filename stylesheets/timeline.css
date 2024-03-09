@@ -130,11 +130,11 @@
     content: "生活";
 }
 .changelog-type-study::before {
-    content: "学习";
+    content: "笔记";
 }
 .changelog-type-mindkit::before {
     content: "思考";
 }
 .changelog-type-tech::before {
-    content: "探索";
+    content: "复盘";
 }
