@@ -19,6 +19,10 @@
     width: 14rem;
 }
 
+.md-tabs__item {
+    height: 2.2rem;
+}
+
 [dir=ltr] .md-top {
     font-weight: 800;
 }
