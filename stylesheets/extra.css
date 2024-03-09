@@ -503,3 +503,7 @@ a:hover {
 .md-typeset .site-author-image:hover {
   transform: rotateZ(360deg);
 }
+
+.mkdocs-decrypt-form {
+    text-align: center;
+}
