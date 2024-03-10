@@ -14,6 +14,36 @@
 .md-main__inner {
     margin-top: 0;
 }
+.aplayer {
+    background: #fff;
+    box-shadow: 0 0px 40px rgba(0,0,0,0.1);
+    border-radius: 15px;
+}
+[data-md-color-scheme="slate"] .aplayer {
+    background: #333;
+    box-shadow: 0 0px 40px rgba(0,0,0,0.1);
+    border-radius: 15px;
+}
+[data-md-color-scheme="slate"] .aplayer .aplayer-info .aplayer-music .aplayer-author {
+    color: #ddd; 
+}
+[data-md-color-scheme="slate"] .aplayer .aplayer-lrc p {
+    color: #ddd;
+}
+[data-md-color-scheme="slate"] .aplayer .aplayer-lrc:after {
+    background: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0)), to(hsla(0, 0%, 16.1%, .8)));
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 0, hsl(0deg 0% 16.1% / 80%));
+}
+[data-md-color-scheme="slate"] .aplayer .aplayer-list ol li.aplayer-list-light {
+    background: #111111;
+}
+[data-md-color-scheme="slate"] .aplayer .aplayer-list ol li:hover {
+  background: #000000;
+}
+.aplayer .aplayer-lrc:before {
+    height: 3%;
+}
+
 [data-md-color-primary=black] .md-search__form {
     background-color: rgba(255, 255, 255, 0);
     backdrop-filter: blur(5px);
@@ -132,6 +162,7 @@
 [data-md-color-primary=black] .md-tabs {
   background-color: rgb(0 0 1 / 0%);
   line-height: 1;
+  margin-top: -20px;
 }
 [data-md-color-scheme="slate"] .md-tabs {
   background-color: #000;
@@ -505,7 +536,9 @@ a:hover {
     margin: 0;
     object-fit: cover;
 }
-
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    border-radius: 5px;
+}
 .md-content {
     counter-reset: h2;
 }
