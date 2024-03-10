@@ -326,6 +326,8 @@ a:hover {
             margin: 18px;
             border-radius: 50%;
         }
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
     }
     .friend-link-info {
         margin: 18px 18px 18px 92px;
