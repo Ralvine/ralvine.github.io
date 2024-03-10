@@ -59,8 +59,12 @@
     filter: none;
 }
 
+.md-tabs__list {
+    text-align: center;
+}
 .md-tabs__item {
     height: 2.2rem;
+    text-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
 }
 
 [dir=ltr] .md-top {
@@ -95,7 +99,7 @@
 [data-md-color-primary=black] .md-header {
   background-color: rgb(0 0 0 / 0%);
   background-image: url("https://pic.imgdb.cn/item/655c93c3c458853aefc44a0f.jpg");
-  background-position: 10% 85%;
+  background-position: 5% 5%;
   background-size: 110% auto;
   text-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
 }
