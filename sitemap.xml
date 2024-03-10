@@ -81,17 +81,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ralvines.top/mindkit/liucixin/</loc>
-         <lastmod>2024-03-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ralvines.top/mindkit/political-life/</loc>
-         <lastmod>2024-03-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://ralvines.top/mindkit/taobi/</loc>
+         <lastmod>2024-03-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ralvines.top/secret/liucixin/</loc>
+         <lastmod>2024-03-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ralvines.top/secret/political-life/</loc>
          <lastmod>2024-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>

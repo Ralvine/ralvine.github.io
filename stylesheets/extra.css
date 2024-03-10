@@ -7,6 +7,11 @@
     font-display: swap;
 }
 
+:root, [data-md-color-scheme=default] {
+    --md-default-fg-color--light: #0000006b;
+    --md-default-fg-color--lighter: #00000024;
+}
+
 .Fang-Zheng-Song {
     font-family: Fang-Zheng-Song, Noto-Serif-SC, serif;
 }
@@ -17,6 +22,25 @@
 
 @media screen and (min-width:45em) .md-typeset .inline {
     width: 14rem;
+}
+
+.md-nav__link {
+    transition: color 0.3s, filter 0.3s ease;
+    filter: blur(.75px);
+}
+.md-nav__link:hover {
+    filter: none;
+/*    font-weight: 600;*/
+/*    color: inherit;*/
+}
+.md-nav__link--index {
+    filter: none;
+}
+.md-nav__link--active {
+    filter: none;
+}
+.md-nav__item--section>.md-nav__link[for] {
+    filter: none;
 }
 
 .md-tabs__item {
@@ -139,7 +163,9 @@
 }
 
 [dir=ltr] .md-typeset blockquote {
-    font-family: 'Noto Sans SC';
+    font-weight: 600;
+/*    font-family: PingFang SC, 'Noto Sans SC';*/
+/*font-family: Fang-Zheng-Song, 'Noto Sans SC';*/
 }
 
 .md-search-result .md-typeset .md-tag {
