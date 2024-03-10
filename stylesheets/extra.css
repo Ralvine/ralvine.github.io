@@ -593,6 +593,18 @@ a:hover {
   counter-increment: h5;
   content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) " ";
 }
+.md-search-result .md-typeset h2::before {
+    content: none;
+}
+.md-search-result .md-typeset h3::before {
+    content: none;
+}
+.md-search-result .md-typeset h4::before {
+    content: none;
+}
+.md-search-result .md-typeset h5::before {
+    content: none;
+}
 /*.md-typeset h6::before {
   counter-increment: h6;
   content: ounter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) " ";
