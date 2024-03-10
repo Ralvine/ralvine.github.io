@@ -56,6 +56,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://ralvines.top/list/item/</loc>
+         <lastmod>2024-03-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://ralvines.top/list/movie/</loc>
          <lastmod>2024-03-10</lastmod>
          <changefreq>daily</changefreq>
@@ -102,6 +107,11 @@
     </url>
     <url>
          <loc>https://ralvines.top/study/bigdata-basic/</loc>
+         <lastmod>2024-03-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ralvines.top/study/statistic-knn/</loc>
          <lastmod>2024-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>

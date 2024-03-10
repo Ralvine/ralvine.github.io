@@ -7,10 +7,14 @@
         summary: 从除夕到元宵，由玄冬向立春，镜头里是新年以来的的一点剪影。
 - "2023":
   - "2023.10.31":
-    - study:
+    - mindkit:
         text: 设计师的政治人生
         href: /study/political-life
         summary: 正如他在三十年前写下的，在现代个人主义文化的弘扬过程中，个人获得了自由，但是却孤独了。
+    - study:
+        text: 分类问题中的 k 近邻法
+        href: /study/statistic-knn
+        summary: kNN算法是一种基于特征向量空间的分类和回归算法，通过测量不同特征值之间的距离来进行预测。
   - "2023.10.22":
     - study:
         text: 大数据基本理论
