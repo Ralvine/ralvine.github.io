@@ -16,6 +16,22 @@
     font-family: Fang-Zheng-Song, Noto-Serif-SC, serif;
 }
 
+.caption-single {
+    text-align: center;
+    opacity: .5;
+    font-family: 'Noto Sans SC';
+    margin-block-start: -1em;
+    font-size: .75rem;
+}
+
+.caption-multy {
+    text-align: center;
+    opacity: .5;
+    font-family: 'Noto Sans SC';
+    margin-block-start: 0em;
+    font-size: .75rem;
+}
+
 .Noto-Sans-SC {
     font-family: -apple-system, PingFang SC, Fang-Zheng-Song, 'Noto Sans SC', serif;
 }
@@ -460,6 +476,12 @@ a:hover {
 
 .md-content {
     counter-reset: h2;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.08);
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: -15px;
 }
 .md-typeset h1 {
   font-weight: 800;
