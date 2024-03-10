@@ -286,7 +286,9 @@ a:hover {
             white-space: nowrap;
             color: #aaaaaa;
             line-height: 1.3;
+            font-size: .7rem;
             margin-top: 7px;
+
         }
     }
 }
