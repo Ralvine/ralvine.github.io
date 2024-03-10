@@ -481,8 +481,8 @@ a:hover {
 }
 @media screen and (min-width: 76.25em) {
     .md-content {
-        box-shadow: 0 0px 10px rgba(0,0,0,0.08);
-        border-radius: 15px;
+        box-shadow: 0 0px 15px rgba(0,0,0,0.08);
+        border-radius: 20px;
         margin-left: 5px;
         margin-right: 5px;
         margin-bottom: 10px;
