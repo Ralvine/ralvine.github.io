@@ -11,7 +11,24 @@
     --md-default-fg-color--light: #0000006b;
     --md-default-fg-color--lighter: #00000024;
 }
-
+.md-main__inner {
+    margin-top: 0;
+}
+[data-md-color-primary=black] .md-search__form {
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border: solid 0.8px rgba(255, 255, 255, 0.3);
+}
+[data-md-toggle=search]:checked~.md-header .md-search__form {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 15px 15px 0 0;
+}
+[data-md-toggle=search]:checked~.md-header .md-search__output {
+    border-radius: 0 0 15px 15px;
+    opacity: .95;
+}
 .Fang-Zheng-Song {
     font-family: Fang-Zheng-Song, Noto-Serif-SC, serif;
 }
@@ -495,11 +512,12 @@ a:hover {
 @media screen and (min-width: 76.25em) {
     .md-content {
         box-shadow: 0 0px 15px rgba(0,0,0,0.08);
-        border-radius: 20px;
+        border-radius: 15px;
         margin-left: 5px;
         margin-right: 5px;
-        margin-bottom: 10px;
+        margin-bottom: -15px;
         margin-top: -15px;
+        padding-top: 10px;
     }
 }
 
