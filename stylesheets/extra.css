@@ -59,7 +59,7 @@
     filter: none;
 }
 
-.md-tabs__list {
+[dir=ltr] .md-tabs__list {
     text-align: center;
 }
 .md-tabs__item {
