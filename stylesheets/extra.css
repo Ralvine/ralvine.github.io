@@ -67,12 +67,14 @@
 [data-md-color-primary=black] .md-search__form {
     background-color: rgba(255, 255, 255, 0);
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     border-radius: 15px;
     border: solid 0.8px rgba(255, 255, 255, 0.3);
 }
 [data-md-toggle=search]:checked~.md-header .md-search__form {
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     border-radius: 15px 15px 0 0;
 }
 [data-md-toggle=search]:checked~.md-header .md-search__output {
@@ -109,7 +111,7 @@
 
 .md-nav__link {
     transition: color 0.3s, filter 0.3s ease;
-    filter: blur(.75px);
+    filter: blur(.6px);
 }
 .md-nav__link:hover {
     filter: none;
@@ -133,6 +135,7 @@
     height: 2.2rem;
     text-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
     backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
     border-radius: 20%;
 }
 
@@ -249,6 +252,7 @@
     color: #000;
     background-color: rgba(255, 255, 255, 0);
     backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
 }
 [data-md-color-scheme="slate"] .md-footer {
     background-color: #111;
@@ -566,6 +570,7 @@ a:hover {
 .md-content {
     counter-reset: h2;
     backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
 }
 @media screen and (min-width: 76.25em) {
     .md-content {
