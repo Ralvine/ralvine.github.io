@@ -11,12 +11,16 @@
     --md-default-fg-color--light: #0000006b;
     --md-default-fg-color--lighter: #00000024;
 }
-
+.md-main {
+    background-image: linear-gradient(rgba(50, 0, 0, 0.02) 1px, transparent 0), linear-gradient(90deg, rgba(50, 0, 0, 0.02) 1px, transparent 0);
+    background-size: 20px 20px;
+}
 .namecard {
     line-height: 1.5;
     padding: 0 15px;
     font-size: .95em;
 }
+
 .brief {
     font-size: .7rem;
     font-family: PingFang SC, 'Noto Sans SC';

@@ -42,7 +42,7 @@ button:not(:disabled),
   transition: transform 0.6s ease-in-out;
   img {
     border-radius: 15px;
-    box-shadow: var(--md-shadow-z1);
+/*    box-shadow: var(--md-shadow-z1);*/
   }
 }
 @media (prefers-reduced-motion: reduce) {
