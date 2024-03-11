@@ -564,6 +564,7 @@ a:hover {
 }
 .md-content {
     counter-reset: h2;
+    backdrop-filter: blur(3px);
 }
 @media screen and (min-width: 76.25em) {
     .md-content {
