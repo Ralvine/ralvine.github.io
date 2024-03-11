@@ -12,6 +12,11 @@
     --md-default-fg-color--lighter: #00000024;
 }
 
+.namecard {
+    line-height: 1.5;
+    padding: 0 15px;
+    font-size: .95em;
+}
 .brief {
     font-size: .7rem;
     font-family: PingFang SC, 'Noto Sans SC';
@@ -21,9 +26,9 @@
     border-top: 0.8px solid;
     border-bottom: 0.8px solid;
 }
-.md-main__inner {
+/*.md-main__inner {
     margin-top: 0;
-}
+}*/
 .aplayer {
     background: #fff;
     box-shadow: 0 0px 40px rgba(0,0,0,0.1);
