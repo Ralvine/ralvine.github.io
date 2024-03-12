@@ -109,9 +109,13 @@
     width: 14rem;
 }
 
+.md-typeset .inline {
+width: 12.7rem;
+}
+
 .md-nav__link {
-    transition: color 0.3s, filter 0.3s ease;
-    filter: blur(.6px);
+    transition: color 0.3s; -- , filter 0.3s ease;
+/*    filter: blur(.6px);*/
 }
 .md-nav__link:hover {
     filter: none;
