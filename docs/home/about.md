@@ -118,23 +118,11 @@ template: home.html
 
 **框架**
 
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff)
-
-PyTorch, DGL, React, SpringBoot Hadoop Spark MySQL Kafka
+![PyTorch](https://img.shields.io/badge/-PyTorch-007ACC?logo=pytorch%20code&logoColor=fff) ![Hadoop](https://img.shields.io/badge/-Hadoop-007ACC?logo=hadoop&logoColor=fff) ![MySQL](https://img.shields.io/badge/-MySQL-007ACC?logo=mysql&logoColor=fff) ![Spark](https://img.shields.io/badge/-Spark-007ACC?logo=spark&logoColor=fff) ![Kafka](https://img.shields.io/badge/-Kafka-007ACC?logo=kafka&logoColor=fff)
 
 **工具**
 
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) Linux, VSCode, PyCharm, Obsidian  FrontPage Tableau , Sketch, Figma, Photoshop, Lightroom, Dreamweaver, FCP, ID, SD
-
-  
-
-
-
-
-
-
-
-
+![Linux](https://img.shields.io/badge/-Linux-007ACC?logo=linux&logoColor=fff) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual%20studio%20code&logoColor=fff) ![PyCharm](https://img.shields.io/badge/-PyCharm-007ACC?logo=pycharm&logoColor=fff) ![Obsidian](https://img.shields.io/badge/-Obsidian-007ACC?logo=obsidian&logoColor=fff) ![FrontPage](https://img.shields.io/badge/-FrontPage-007ACC?logo=frontpage&logoColor=fff) ![Tableau](https://img.shields.io/badge/-Tableau-007ACC?logo=tableau&logoColor=fff) ![Sketch](https://img.shields.io/badge/-Sketch-007ACC?logo=sketch&logoColor=fff) ![Figma](https://img.shields.io/badge/-Figma-007ACC?logo=figma%20code&logoColor=fff) ![Photoshop](https://img.shields.io/badge/-Photoshop-007ACC?logo=photoshop&logoColor=fff) ![Lightroom](https://img.shields.io/badge/-Lightroom-007ACC?logo=lightroom%20code&logoColor=fff) ![Dreamweaver](https://img.shields.io/badge/-Dreamweaver-007ACC?logo=dreamweaver&logoColor=fff)
 
 ###### 望薮
 
