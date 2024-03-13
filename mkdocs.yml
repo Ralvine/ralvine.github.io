@@ -1,0 +1,244 @@
+site_name: 望薮
+site_description: 明日巴陵道，秋山又几重。
+site_url: https://ralvines.top/
+copyright: '「明日巴陵道，秋山又几重」&copy; 2015-2024 <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+nav:
+  - 🏡 主页:
+    - index.md
+    - 🐳 动态‍: home/status.md
+    - 👨‍🎓 关于: home/about.md
+    - 📆 归档: 
+      - list/index.md
+      - 📚 阅读: list/book.md
+      - 🎬 观影: list/movie.md
+      # - 🎼 音乐: list/music.md
+      # - 👩🏻‍🏫 课程: list/course.md
+      - 🧭 足迹: list/travel.md
+      # - 📷 光影: list/album.md
+      - ✏️ 学习: list/study.md
+      - 💻 好物: list/item.md
+    - 🏷 标签: home/tags.md
+    - 🤝 友链: home/friend.md
+  - 🌊 生活:
+    - diary/index.md
+    - 📷 光影:
+      - diary/sunnyday.md
+    - 🏖 旅行:
+      - diary/wuhan.md
+  - 🌍 笔记:
+    - study/index.md
+    - 📊 数据:
+      - study/bigdata-basic.md
+    - ⌛ 数学:
+      - 统计学习方法:
+        - study/statistic-knn.md
+  - 🌔 便笺:
+    - mindkit/index.md
+    - 🤔 心理:
+      - mindkit/taobi.md
+    - 🛠️ 政治:
+      - secret/political-life.md
+    - 📖 文学:
+      - secret/liucixin.md
+  - 🎲 复盘:
+    - explore/index.md
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      #primary: custom
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: 切换到浅色模式
+  font:
+    text: Noto Serif SC # Comic Sans MS # Palatino
+    code: Roboto Mono
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  language: 'zh'
+  features:
+    # - navigation.instant
+    # - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.tabs.sticky
+    - navigation.prune
+    - toc.follow
+    - content.code.annotate
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.footer
+plugins:
+  - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
+       skip_classes:
+         - custom-skip-class-name
+       auto_caption: false
+       caption_position: bottom
+       background: white
+       shadow: true
+  - changelog:
+      file: docs/changelog.yml
+  # - comments
+    # separator: '[\s\u200b\-]'
+  - statistics:
+      page_check_metadata: 'statics'
+  # - termynal:
+  #     title: ""
+  #     buttons: macos
+  #     prompt_literal_start:
+  #       - "$"
+  #       - ">"
+  #       - "%"
+  # - social:
+  #     cards_layout_options:
+  #       font_family: Noto Sans SC
+  # - blog
+  - tags:
+      tags_file: home/tags.md
+  - rss:
+      match_path: (diary|mindkit)/(?!index\.md).+
+      date_from_meta:
+        datetime_format: "%Y-%m-%d"
+        as_creation: "create_date"
+        as_update: true
+      categories:
+        - tags
+      use_git: false
+      abstract_chars_count: 160
+  - search
+  - encryptcontent:
+      title_prefix: '🔐'
+      summary: '您没有权限访问此页'
+      placeholder: '密码'
+      decryption_failure_message: '密码错误！'
+      encryption_info_message: "请在此输入访问此页的密码。"
+      # input_class: 'md-search__form md-search__input'
+      # button_class: 'md-search__icon'
+
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon 
+      link: https://fosstodon.org/@squidfunk
+      name: squidfunk on Fosstodon
+  generator: false
+  # analytics:
+  #   provider: google
+  #   property: G-JT9BRCXKJJ
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Ralvine
+    - icon: fontawesome/solid/envelope
+      link: mailto:ralvine@163.com
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/ralvine_circle
+    - icon: fontawesome/brands/qq
+      link: https://qm.qq.com/q/KcAmUB1eoI
+    - icon: fontawesome/brands/weixin
+      link: http://weixin.qq.com/r/qhyHny7ED3NwrWr890m4
+    - icon: fontawesome/solid/rss
+      link: http://ralvines.top/feed_rss_created.xml
+extra_css:
+  - https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.css
+  - stylesheets/extra.css
+  - stylesheets/timeline.css
+  # - https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css
+  - stylesheets/carousel.css
+  - stylesheets/diary.css
+  - stylesheets/culturelist.css
+extra_javascript:
+  - javascripts/extra.js
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js # 支持表格排序
+  - javascripts/tablesort.js
+  - https://unpkg.com/valine@1.5.1/dist/Valine.min.js
+  - https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js
+  # - https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js
+  - javascripts/bootstrap.min.js
+  # - https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.0/mermaid.min.js
+  - https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.js
+  - https://cdn.jsdelivr.net/npm/meting@1.1.0/dist/Meting.min.js
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - footnotes
+  # - neoteroi.cards
+  # - neoteroi.timeline
+  - meta
+  - toc:
+      permalink: ·
+      # title: On this page
+      permalink_title: 跳转到此部分
+      slugify: !!python/name:pymdownx.slugs.uslugify # enable Unicode link
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
+  - pymdownx.snippets: # 允许将其他文件内容插入文件，语法是 --8<-- "filename.ext" 等，参见 https://facelessuser.github.io/pymdown-extensions/extensions/snippets/#snippets-notation
+      auto_append:
+        - includes/abbreviations.md
+      base_path: ["docs"]
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material

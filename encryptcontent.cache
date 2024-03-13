@@ -1,0 +1,5 @@
+kdf_iterations: 10000
+obfuscate: {}
+password:
+  buxukanzhege: f6c6779922411235944323d8820c8b1f0f7b319fd7afc4c634b5de8818a9315e;144f6eaeec33bdeea10161780a0c7ea5;ed2aa4ac0f1848db575eab9d1016bc630136af4227fd3919d048ad1b75457ace
+userpass: {}

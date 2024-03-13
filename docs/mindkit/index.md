@@ -1,0 +1,36 @@
+---
+hide:
+  footer
+---
+
+# 🌔
+
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" style="margin-top: -5em;">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://s11.ax1x.com/2023/11/07/pi1M7nI.jpg" class="d-block w-100" style="overflow: hidden; width: 100%; object-fit: cover; height: 220px">
+      <div class="carousel-caption d-none d-md-block">
+        <p style="font-size: 1rem">2022.11<br><b>之江校区</b></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://s11.ax1x.com/2023/11/04/piQlJZ6.png" class="d-block w-100" style="overflow: hidden; width: 100%; object-fit: cover; height: 220px">
+      <div class="carousel-caption d-none d-md-block">
+        <p style="font-size: 1rem">2023.4<br><b>古籍馆</b></p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </button>
+</div>
+
+!!! success "推荐阅读"
+    - 🤔 [告别完美主义幻想](/mindkit/taobi)
