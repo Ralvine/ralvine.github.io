@@ -114,9 +114,9 @@ del {
     width: 14rem;
 }
 
-.md-typeset .inline {
+/*.md-typeset .inline {
 width: 12.7rem;
-}
+}*/
 
 .md-nav__link {
     transition: color 0.3s; -- , filter 0.3s ease;
