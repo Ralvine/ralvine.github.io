@@ -7,7 +7,7 @@ template: home.html
 ---
 
 !!! note ""
-    <center><b>归档所有文章！</b><br>订阅 [:fontawesome-solid-rss: **RSS**](https://ralvines.top/feed_rss_created.xml) 或关注公众号<b>驻晓拾念</b>以获得博文更新推送。</center>
+    <center><b>归档所有文章！</b><br>订阅 [:fontawesome-solid-rss: **RSS**](https://ralvines.top/feed_rss_created.xml) 以获得博文更新推送。</center>
 
 ###### 2024
 

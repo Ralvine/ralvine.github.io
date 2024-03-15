@@ -5,7 +5,7 @@ template: home.html
 ---
 
 !!! note ""
-    <center><b>一些琐碎日常...</b><br>加入 [:simple-telegram: **频道**](https://t.me/ralvine_circle) 以获得日常动态推送！</center>
+    <center><b>一些琐碎日常...</b><br><del>加入 :simple-telegram: **频道** 以获得日常动态推送！</del></center>
 
 ###### 2024
 
