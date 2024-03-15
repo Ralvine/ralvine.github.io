@@ -2,6 +2,7 @@
 hide:
   footer
 template: home.html
+glightbox: false
 ---
 
 <center><img class="site-author-image" src="https://ralvines.top/assets/logo.png"><br>

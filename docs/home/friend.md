@@ -2,6 +2,7 @@
 hide:
   footer
 template: home.html
+glightbox: false
 ---
 
 !!! note ""
