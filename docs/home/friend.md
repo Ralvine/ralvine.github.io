@@ -173,6 +173,18 @@ glightbox: false
         </div>
     </a>
     </div>
+    <!-- <div class="friend-link-div">
+        <div class="friend-link-avatar"><img loading="lazy" src="https://weiyan.cc/assets/logo.png"></div>
+        <div class="friend-link-info">
+            <div class="friend-name-div">
+                <a href="https://xuan-insr.github.io">
+                <i class="fas fa-user-circle fa-fw"></i>
+                <i class="friend-name">咸鱼暄的代码空间！</i>
+            </div>
+            <p class="friend-bio">Bio & IT 爱好者，沉淀生活，记录点滴。</p>
+        </div>
+    </a>
+    </div> -->
 
 <div class="friend-link-div">
     <div class="friend-link-avatar"><img loading="lazy" src="https://www.sulvblog.cn/img/Q.gif"></div>
@@ -243,6 +255,18 @@ glightbox: false
             <i class="friend-name">阿龙的笔记</i>
         </div>
         <p class="friend-bio">阿巴阿巴…</p>
+    </div>
+</a>
+</div>
+<div class="friend-link-div">
+    <div class="friend-link-avatar"><img loading="lazy" src="https://weiyan.cc/assets/logo.png"></div>
+    <div class="friend-link-info">
+        <div class="friend-name-div">
+            <a href="https://weiyan.cc">
+            <i class="fas fa-user-circle fa-fw"></i>
+            <i class="friend-name">维燕的知识花园</i>
+        </div>
+        <p class="friend-bio">Bio & IT 爱好者，沉淀生活，记录点滴。</p>
     </div>
 </a>
 </div>

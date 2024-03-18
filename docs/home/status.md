@@ -14,33 +14,17 @@ template: home.html
     <div class="diary-dot-wrapper"><div class="diary-dot"></div></div>
     <div class="diary-content"><div class="diary-card">
       <div class="diary-content">
-        <p>昨晚看了Taylor Swift的告别专场放映，全场好不热闹，蹦完三小时后疲惫到了极点。碰巧的是，今晚操场又有一场专场夜跑，和同学们溜达了一小会儿——“也许这才是理想的大一生活”。</p>
-      </div>
-      <div class="diary-time">
-        <span class="twemoji"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 20c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10C6.47 22 2 17.5 2 12S6.5 2 12 2m.5 11H11V7h1.5v4.26l3.7-2.13.75 1.3L12.5 13Z"></path></svg></span>
-        <b>2024.3.13</b> 杭州·紫金港</b></div></div></div>
-  </div>
-  <div class="diary-item">
-    <div class="diary-dot-wrapper"><div class="diary-dot"></div></div>
-    <div class="diary-content"><div class="diary-card">
-      <div class="diary-content">
-        <img src="https://s21.ax1x.com/2024/03/12/pF6heeJ.jpg">
-        <p>紫金港，玉兰盛开的季节。同一天先后收到了杭研所的新人见面活动邀请和新的实习offer；办了卡+互相监督后，开始有规律地健身和散步，在户外呼吸新鲜空气确是慰藉心态的优解。</p>
-      </div>
-      <div class="diary-time">
-        <span class="twemoji"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 20c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10C6.47 22 2 17.5 2 12S6.5 2 12 2m.5 11H11V7h1.5v4.26l3.7-2.13.75 1.3L12.5 13Z"></path></svg></span>
-        <b>2024.3.11</b> 杭州</b></div></div></div>
-  </div>
-  <div class="diary-item">
-    <div class="diary-dot-wrapper"><div class="diary-dot"></div></div>
-    <div class="diary-content"><div class="diary-card">
-      <div class="diary-content">
         <img src="https://s21.ax1x.com/2024/03/10/pFy1Idx.jpg">
-        <p>如果医图能有主图那么近就好了...</p>
+        <img src="https://s21.ax1x.com/2024/03/12/pF6heeJ.jpg">
+        <img src="https://s21.ax1x.com/2024/03/17/pF2ogmV.jpg">
+        <img src="https://s21.ax1x.com/2024/03/17/pF2T8NF.jpg">
+        <img src="https://s21.ax1x.com/2024/03/17/pF2TNcR.jpg">
+        <img src="https://s21.ax1x.com/2024/03/17/pF2o0YQ.jpg">
+        <p>𝑾𝙚𝙚𝙠 𝙄 ➤ 𝙄𝙄𝙄</p>
       </div>
       <div class="diary-time">
         <span class="twemoji"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 20c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10C6.47 22 2 17.5 2 12S6.5 2 12 2m.5 11H11V7h1.5v4.26l3.7-2.13.75 1.3L12.5 13Z"></path></svg></span>
-        <b>2024.3.9</b> 杭州</b></div></div></div>
+        <b>2024.3.17</b> 杭州</b></div></div></div>
   </div>
   <div class="diary-item">
     <div class="diary-dot-wrapper"><div class="diary-dot"></div></div>
@@ -58,7 +42,7 @@ template: home.html
       <div class="diary-content">
         <img src="https://s11.ax1x.com/2024/03/05/pFDYOX9.jpg">
         <img src="https://s11.ax1x.com/2024/03/05/pFDN5GT.jpg">
-        <p>久违晴天！</p>
+        <p>久违晴天</p>
       </div>
       <div class="diary-time">
         <span class="twemoji"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 20c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10C6.47 22 2 17.5 2 12S6.5 2 12 2m.5 11H11V7h1.5v4.26l3.7-2.13.75 1.3L12.5 13Z"></path></svg></span>
@@ -78,6 +62,7 @@ template: home.html
     <div class="diary-dot-wrapper"><div class="diary-dot"></div></div>
     <div class="diary-content"><div class="diary-card">
       <div class="diary-content">
+        <img src="https://s21.ax1x.com/2024/03/17/pF2oBWj.jpg">
         <p>「暂时把烦恼丢出去，让自己好好自然醒。」</p>
       </div>
       <div class="diary-time">

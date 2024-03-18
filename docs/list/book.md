@@ -166,7 +166,7 @@ template: home.html
       <div class="media">
         <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi86JDs.jpg)"></div>
         <div class="media-meta">
-          <div class="media-meta-item title"><a href="../../liucixin/">刘慈欣短篇科幻小说合集</a><span style="float:right;font-weight:400">文学/科幻</span></div>
+          <div class="media-meta-item title"><a href="../../liucixin/">刘慈欣短篇合集</a><span style="float:right;font-weight:400">文学/科幻</span></div>
           <div class="media-meta-item">
             <span class="author">刘慈欣</span>
             <span class="star-score">★★★★★<span class="grey-star"></span></span>
@@ -188,7 +188,7 @@ template: home.html
       <div class="media">
         <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8gfje.jpg)"></div>
         <div class="media-meta">
-          <div class="media-meta-item title">郑渊洁长篇小说选集<span style="float:right;font-weight:400">文学/童话</span></div>
+          <div class="media-meta-item title">郑渊洁长篇选集<span style="float:right;font-weight:400">文学/童话</span></div>
           <div class="media-meta-item">
             <span class="author">郑渊洁</span>
             <span class="star-score">★★★★★<span class="grey-star"></span></span>

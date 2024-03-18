@@ -9,16 +9,34 @@ template: home.html
 
 ###### 2024
 
+!!! success "年度印象"
+    <div class="culture-list">
+      <div class="media">
+        <div class="media-cover" style="background-image:url(https://s21.ax1x.com/2024/03/17/pF2oyyq.jpg)"></div>
+        <div class="media-meta">
+          <div class="media-meta-item title">Taylor Swift: The Eras Tour<span style="float:right;font-weight:400"></span></div>
+          <div class="media-meta-item">
+            <span class="author">03-12</span>
+            <span class="star-score">★★★★★</span>
+          </div>
+          <div class="media-meta-item intro">影院专场的氛围甚至比不少演唱会 / Livehouse 的现场演出更有临场沉浸感。</div>
+        </div>
+      </div>
+      <div class="media">
+        <div class="media-cover" style="background-image:url(https://s21.ax1x.com/2024/03/17/pF2o6O0.jpg)"></div>
+        <div class="media-meta">
+          <div class="media-meta-item title">La La Land<span style="float:right;font-weight:400">歌舞/爱情</span></div>
+          <div class="media-meta-item">
+            <span class="author">01-22 重映 二刷</span>
+            <span class="star-score">★★★★★<span class="grey-star"></span></span>
+          </div>
+          <div class="media-meta-item intro">那一幕洛杉矶的 Blue Hour 在脑海里存了很多年。</div>
+        </div>
+      </div>
+    </div>
+
 !!! info ""
     <div class="culture-list">
-      <div class="media-3">
-        <div class="media-meta-item title">泰勒·斯威夫特：时代巡回演唱会<span style="float:right;font-weight:400">纪录</span></div>
-        <div class="media-meta-item">
-          <span class="author">03-12</span>
-          <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-        </div>
-        <div class="media-meta-item intro"></div>
-      </div>
       <div class="media-3">
         <div class="media-meta-item title">沙丘2<span style="float:right;font-weight:400">冒险/科幻</span></div>
         <div class="media-meta-item">
@@ -48,14 +66,6 @@ template: home.html
         <div class="media-meta-item">
           <span class="author">02-11</span>
           <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
-        </div>
-        <div class="media-meta-item intro"></div>
-      </div>
-      <div class="media-3">
-        <div class="media-meta-item title">爱乐之城<span style="float:right;font-weight:400">歌舞/爱情</span></div>
-        <div class="media-meta-item">
-          <span class="author">01-22 重映 二刷</span>
-          <span class="star-score">★★★★★<span class="grey-star"></span></span>
         </div>
       </div>
     </div>
@@ -1202,7 +1212,7 @@ template: home.html
         <div class="media-meta-item title">钢铁侠 1-3<span style="float:right;font-weight:400">科幻</span></div>
         <div class="media-meta-item">
           <span class="author">高中</span>
-          <span class="star-score">★★★★★<span class="grey-star"></span></span>
+          <span class="star-score">★★★★<span class="grey-star">☆</span></span>
         </div>
         <div class="media-meta-item intro"></div>
       </div>

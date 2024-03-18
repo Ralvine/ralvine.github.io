@@ -16,7 +16,7 @@ nav:
       # - 👩🏻‍🏫 课程: list/course.md
       - 🧭 足迹: list/travel.md
       # - 📷 光影: list/album.md
-      - ✏️ 学习: list/study.md
+      # - ✏️ 学习: list/study.md
       - 💻 好物: list/item.md
     - 🏷 标签: home/tags.md
     - 🤝 友链: home/friend.md
