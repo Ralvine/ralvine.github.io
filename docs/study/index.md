@@ -32,5 +32,5 @@ hide:
   </button>
 </div>
 
-!!! success "推荐阅读"
-    - 📊 [大数据基本理论](/study/bigdata-basic)
+<!-- !!! success "推荐阅读"
+    - 📊 [大数据基本理论](/study/bigdata-basic) -->

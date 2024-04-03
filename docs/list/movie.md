@@ -7,6 +7,19 @@ template: home.html
 !!! note ""
     <center><b>我的观影记录！</b></center>
 
+###### 正在观看
+
+!!! info ""
+    <div class="culture-list">
+      <div class="media-3">
+        <div class="media-meta-item title">王冠 第一季<span style="float:right;font-weight:400">剧情/历史</span></div>
+        <div class="media-meta-item">
+          <span class="author">剧情/历史</span>
+          <span class="star-score"><span class="grey-star">☆☆☆☆☆</span></span>
+        </div>
+      </div>
+    </div>
+
 ###### 2024
 
 !!! success "年度印象"
@@ -177,10 +190,10 @@ template: home.html
 !!! info ""
     <div class="culture-list">
       <div class="media-3">
-        <div class="media-meta-item title">孤注一掷<span style="float:right;font-weight:400">纪录</span></div>
+        <div class="media-meta-item title">孤注一掷<span style="float:right;font-weight:400">剧情/犯罪</span></div>
         <div class="media-meta-item">
-          <span class="author">03-21 </span>
-          <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+          <span class="author">08-19 </span>
+          <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
         </div>
         <div class="media-meta-item intro"></div>
       </div>
@@ -244,6 +257,22 @@ template: home.html
         <div class="media-meta-item intro"></div>
       </div>
       <div class="media-3">
+        <div class="media-meta-item title">彗星来的那一夜<span style="float:right;font-weight:400">悬疑/惊悚</span></div>
+        <div class="media-meta-item">
+          <span class="author">05-15 解说</span>
+          <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+        </div>
+        <div class="media-meta-item intro"></div>
+      </div>
+      <div class="media-3">
+        <div class="media-meta-item title">横空出世<span style="float:right;font-weight:400">历史/剧情</span></div>
+        <div class="media-meta-item">
+          <span class="author">05-12 精讲</span>
+          <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+        </div>
+        <div class="media-meta-item intro"></div>
+      </div>
+      <div class="media-3">
         <div class="media-meta-item title">遗愿清单<span style="float:right;font-weight:400">剧情/喜剧</span></div>
         <div class="media-meta-item">
           <span class="author">05-03 </span>
@@ -288,25 +317,6 @@ template: home.html
         <div class="media-meta-item">
           <span class="author">02-12 </span>
           <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
-        </div>
-      </div>
-    </div>
-
-!!! info ""
-    <div class="culture-list">
-      <div class="media-3">
-        <div class="media-meta-item title">彗星来的那一夜<span style="float:right;font-weight:400">悬疑/惊悚</span></div>
-        <div class="media-meta-item">
-          <span class="author">05-15 解说</span>
-          <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-        </div>
-        <div class="media-meta-item intro"></div>
-      </div>
-      <div class="media-3">
-        <div class="media-meta-item title">横空出世<span style="float:right;font-weight:400">历史/剧情</span></div>
-        <div class="media-meta-item">
-          <span class="author">05-12 精讲</span>
-          <span class="star-score">★★★★<span class="grey-star">☆</span></span>
         </div>
         <div class="media-meta-item intro"></div>
       </div>

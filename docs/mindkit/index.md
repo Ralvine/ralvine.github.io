@@ -32,5 +32,5 @@ hide:
   </button>
 </div>
 
-!!! success "推荐阅读"
-    - 🤔 [告别完美主义幻想](/mindkit/taobi)
+<!-- !!! success "推荐阅读"
+    - 🤔 [告别完美主义幻想](/mindkit/taobi) -->

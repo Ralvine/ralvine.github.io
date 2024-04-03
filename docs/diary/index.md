@@ -39,6 +39,6 @@ hide:
   </button>
 </div>
 
-!!! success "推荐阅读"
+<!-- !!! success "推荐阅读"
     - 🏖 [火车开往破晓](/diary/wuhan)
-    - 📷 [华灯初上、春和景明与久违晴天](/diary/sunnyday)
+    - 📷 [华灯初上、春和景明与久违晴天](/diary/sunnyday) -->

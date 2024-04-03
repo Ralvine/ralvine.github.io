@@ -23,9 +23,12 @@ nav:
   - 🌊 生活:
     - diary/index.md
     - 📷 光影:
+      - diary/fujian.md
       - diary/sunnyday.md
-    - 🏖 旅行:
       - diary/wuhan.md
+    - 🧐 随想:
+      - diary/siyue.md
+    # - 🏖 旅行:
   - 🌍 笔记:
     - study/index.md
     - 📊 数据:
@@ -38,9 +41,9 @@ nav:
     - 🤔 心理:
       - mindkit/taobi.md
     - 🛠️ 政治:
-      - secret/political-life.md
+      - mindkit/political-life.md
     - 📖 文学:
-      - secret/liucixin.md
+      - mindkit/liucixin.md
   - 🎲 复盘:
     - explore/index.md
 

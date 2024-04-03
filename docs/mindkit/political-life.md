@@ -4,7 +4,6 @@ statics: true
 comments: true
 create_date: "2023-10-31"
 description: 正如他在三十年前写下的，在现代个人主义文化的弘扬过程中，个人获得了自由，但是却孤独了。
-password: 'buxukanzhege'
 ---
 
 # 设计师的政治人生

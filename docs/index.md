@@ -15,9 +15,16 @@ template: home.html
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
+      <img src="https://pic.imgdb.cn/item/6607cc339f345e8d03d9c3e0.jpg" class="d-block w-100" style="overflow: hidden; width: 100%; object-fit: cover; height: 220px;">
+      <div class="carousel-caption d-none d-md-block">
+        <p style="font-size: 1rem">2024.3.25<br><b>黄厝海滩</b></p>
+      </div>
+    </div>
+    <div class="carousel-item">
       <img src="https://s11.ax1x.com/2024/03/05/pFDYOX9.jpg" class="d-block w-100" style="overflow: hidden; width: 100%; object-fit: cover; height: 220px;">
       <div class="carousel-caption d-none d-md-block">
         <p style="font-size: 1rem">2024.3.3<br><b>太子湾</b></p>
@@ -64,11 +71,11 @@ template: home.html
     🤝 太阳白羊 × **ENFJ**
     </center>
 
-!!! success "推荐阅读"
+<!-- !!! success "推荐阅读"
     - 📷 [华灯初上、春和景明与久违晴天](/diary/sunnyday)
     - 📊 [大数据基本理论](/study/bigdata-basic)
     - 🏖 [火车开往破晓](/diary/wuhan)
-    - 🤔 [告别完美主义幻想](/mindkit/taobi)
+    - 🤔 [告别完美主义幻想](/mindkit/taobi) -->
 
 ###### 近期更新
 

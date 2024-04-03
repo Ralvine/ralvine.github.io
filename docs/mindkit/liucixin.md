@@ -4,7 +4,6 @@ statics: true
 comments: true
 create_date: "2022-12-01"
 description: 在刘慈欣的文学世界里，种种物理猜想和对世界本原的思索不仅是世界观的需要，也是叙事的重心本身。
-password: 'buxukanzhege'
 ---
 
 # 刘慈欣短篇：科幻抑或近代史诗
