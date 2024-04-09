@@ -256,6 +256,12 @@ width: 12.7rem;
     margin-left: 0.2rem;
 }
 
+[dir=ltr] .md-typeset h1 {
+    .headerlink {
+        display: none;
+    }
+}
+
 .md-footer {
 /*    background-color: #eee;*/
     color: #000;
