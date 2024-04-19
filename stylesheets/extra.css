@@ -71,8 +71,8 @@ del {
 
 [data-md-color-primary=black] .md-search__form {
     background-color: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     border-radius: 15px;
     border: solid 0.8px rgba(255, 255, 255, 0.3);
 }
