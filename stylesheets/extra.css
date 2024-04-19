@@ -186,9 +186,12 @@ width: 12.7rem;
 }
 [data-md-color-primary=black] .md-header {
   background-color: rgb(0 0 0 / 0%);
-  background-image: url("https://pic.imgdb.cn/item/655c93c3c458853aefc44a0f.jpg");
+  /*background-image: url("https://pic.imgdb.cn/item/655c93c3c458853aefc44a0f.jpg");
   background-position: 5% 5%;
-  background-size: 110% auto;
+  background-size: 110% auto;*/
+  background-image: url("https://s21.ax1x.com/2024/03/08/pFsE2Us.jpg");
+  background-position: 10% 35%;
+  background-size: 45% auto;
   text-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
 }
 [data-md-color-primary=black] .md-tabs {
