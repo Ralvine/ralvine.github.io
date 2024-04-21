@@ -239,6 +239,14 @@ width: 12.7rem;
     border-radius: 0rem;
 }
 
+.md-typeset .md-tag[href] {
+    color: #666666;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .md-tag[href] {
+    color: #ffffff;
+}
+
 .md-typeset .md-tags {
     margin-bottom: .125em;
     opacity: 0.7;
