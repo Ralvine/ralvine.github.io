@@ -260,7 +260,7 @@ width: 12.7rem;
 }
 
 .md-tag::before {
-    content: "#";
+/*    content: "#";*/
     font-family: 'Noto Sans SC';
 }
 [dir=ltr] .md-typeset .headerlink {
@@ -600,7 +600,8 @@ a:hover {
 }
 @media screen and (min-width: 76.25em) {
     .md-content {
-        box-shadow: 0 0px 15px rgba(0,0,0,0.08);
+/*        box-shadow: 0 0px 15px rgba(0,0,0,0.08);*/
+        box-shadow: 0 0px 20px rgba(0,0,0,0.05);
         border-radius: 15px;
         margin-left: 5px;
         margin-right: 5px;
