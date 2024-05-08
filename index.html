@@ -44,13 +44,10 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#近期更新">
-          跳转至
-        </a>
 </div>
 <div data-md-component="announce">
 </div>
-<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+<header class="md-header" data-md-component="header">
 <nav aria-label="页眉" class="md-header__inner md-grid">
 <a aria-label="望薮" class="md-header__button md-logo" data-md-component="logo" href="." title="望薮">
 <img alt="logo" src="assets/logo.png"/>
@@ -119,6 +116,8 @@
 </div>
 </div>
 </nav>
+</header>
+<div class="md-container" data-md-component="container">
 <nav aria-label="标签" class="md-tabs" data-md-component="tabs">
 <div class="md-grid">
 <ul class="md-tabs__list">
@@ -132,21 +131,9 @@
         🌊 生活
       </a>
 </li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="study/bigdata-basic/">
-        🌍 笔记
-      </a>
-</li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="mindkit/taobi/">
-        🌔 便笺
-      </a>
-</li>
 </ul>
 </div>
 </nav>
-</header>
-<div class="md-container" data-md-component="container">
 <main class="md-main" data-md-component="main">
 <div class="md-main__inner md-grid">
 <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
@@ -200,12 +187,12 @@
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
 <a class="md-nav__link" href="list/book/">
-        📚 阅读
+        📚 书籍
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="list/movie/">
-        🎬 观影
+        🎬 影片
       </a>
 </li>
 <li class="md-nav__item">
@@ -220,7 +207,7 @@
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="list/item/">
-        💻 好物
+        💻 产品
       </a>
 </li>
 </ul>
@@ -276,131 +263,6 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_2_2" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
-          🧐 随想
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_2_2_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_2">
-<span class="md-nav__icon md-icon"></span>
-          🧐 随想
-        </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="diary/siyue/">
-        四月随想：与时舒卷
-      </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-          🌍 笔记
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_3">
-<span class="md-nav__icon md-icon"></span>
-          🌍 笔记
-        </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_3_1" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
-          📊 数据
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_3_1_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_3_1">
-<span class="md-nav__icon md-icon"></span>
-          📊 数据
-        </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="study/bigdata-basic/">
-        大数据基本理论
-      </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_3_2" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
-          ⌛ 数学
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_3_2_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_3_2">
-<span class="md-nav__icon md-icon"></span>
-          ⌛ 数学
-        </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_3_2_1" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
-          统计学习方法
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_3_2_1_label" class="md-nav" data-md-level="3">
-<label class="md-nav__title" for="__nav_3_2_1">
-<span class="md-nav__icon md-icon"></span>
-          统计学习方法
-        </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="study/statistic-knn/">
-        分类问题中的 k 近邻法
-      </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
-          🌔 便笺
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_4">
-<span class="md-nav__icon md-icon"></span>
-          🌔 便笺
-        </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_4_1" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
-          🤔 心理
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_4_1_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_4_1">
-<span class="md-nav__icon md-icon"></span>
-          🤔 心理
-        </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="mindkit/taobi/">
-        告别完美主义幻想
-      </a>
-</li>
-</ul>
-</nav>
-</li>
 </ul>
 </nav>
 </li>
@@ -413,22 +275,6 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="目录" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#近期更新">
-    近期更新
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#留言板">
-    留言板
-  </a>
-</li>
-</ul>
 </nav>
 </div>
 </div>
@@ -487,7 +333,7 @@ Always be altruistic.</p></center>
 <p><center>
 🎉 总页面：<strong>21</strong><br/>
 🏆 <span id="busuanzi_container_site_uv">访客：<strong><span id="busuanzi_value_site_uv"></span></strong></span>人<span id="busuanzi_container_site_pv"><strong><span id="busuanzi_value_site_pv"></span></strong></span>次<br/>
-✏️ 总字数：<strong>63976</strong>
+✏️ 总字数：<strong>63446</strong>
 </center></p>
 </div>
 <div class="admonition quote">
@@ -505,27 +351,34 @@ Always be altruistic.</p></center>
 <div class="admonition failure">
 <p><center>关注<a href="http://weixin.qq.com/r/qhyHny7ED3NwrWr890m4"><strong>公众号</strong></a>或订阅<a href="https://ralvines.top/feed_rss_created.xml"><strong>RSS</strong></a>以获取内容更新。</center></p>
 </div>
-<h6 id="近期更新">近期更新<a class="headerlink" href="#近期更新" title="跳转到此部分">·</a></h6>
+<!-- ###### 近期更新
+
 <div style="position: relative">
-<div class="timeline-wrapper">
-<div class="timeline">
-<div class="timeline-item">
-<div class="timeline-dot-wrapper">
-<div class="timeline-dot"></div>
-</div>
-<div class="timeline-content">
-<div class="timeline-card">
-<div class="changelog-time" id="2024.3.8">2024.3.8</div>
-<div class="changelog-content">
-<p><span class="changelog-type changelog-type-diary"></span> <a href="/diary/sunnyday">华灯初上、春和景明与久违晴天</a><br/><div style="font-family: PingFang SC, 'Noto Sans SC'; padding: 0 2.1rem; font-size: .7rem">从除夕到元宵，由玄冬向立春，镜头里是新年以来的的一点剪影。</div></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<h6 id="留言板">留言板<a class="headerlink" href="#留言板" title="跳转到此部分">·</a></h6>
+  <div class="timeline-wrapper">
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot-wrapper">
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-card">
+            <div class="changelog-time" id="2024.3.8">2024.3.8</div>
+            <div class="changelog-content">
+
+
+                  <p><span class="changelog-type changelog-type-diary"></span> <a href="/diary/sunnyday">华灯初上、春和景明与久违晴天</a><br><div style="font-family: PingFang SC, 'Noto Sans SC'; padding: 0 2.1rem; font-size: .7rem">从除夕到元宵，由玄冬向立春，镜头里是新年以来的的一点剪影。</div></p>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div> -->
+<!-- ###### 留言板 -->
 <hr/>
 <div class="md-source-file">
 <small>
@@ -632,7 +485,7 @@ Always be altruistic.</p></center>
 <div class="md-footer-meta__inner md-grid">
 <div class="md-copyright">
 <div class="md-copyright__highlight">
-      「明日巴陵道，秋山又几重」© 2015-2024 <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license external nofollow noopener noreffer" target="_blank">CC BY-NC 4.0</a>
+<b>「明日巴陵道，秋山又几重」</b>© 2015-2024 <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license external nofollow noopener noreffer" target="_blank">CC BY-NC 4.0</a>
 </div>
 </div>
 <div class="md-social">
@@ -662,7 +515,7 @@ Always be altruistic.</p></center>
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": ".", "features": ["navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.tabs.sticky", "navigation.prune", "toc.follow", "content.code.annotate", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "search.share", "navigation.footer"], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+<script id="__config" type="application/json">{"base": ".", "features": ["navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.prune", "toc.follow", "content.code.annotate", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "search.share", "navigation.footer"], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
 <script src="assets/javascripts/bundle.fac441b0.min.js"></script>
 <script src="javascripts/extra.js"></script>
 <script src="javascripts/mathjax.js"></script>
