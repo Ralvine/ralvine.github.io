@@ -31,7 +31,7 @@
 }
 
 .timeline-dot-wrapper {
-    width: 60px;
+    width: 45px;
 }
 
 .timeline-dot {
@@ -52,14 +52,7 @@
 }
 
 .timeline-content::before {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    transform: rotate(45deg);
-    background-color: #f0f0f0;
-    left: -10px;
-    top: calc(50% - 10px);
+    content: " ";
 }
 
 .timeline-card {
@@ -70,14 +63,15 @@
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fffbfb;
+/*    background-color: #fffbfb;*/
     background-clip: border-box;
-    border-radius: 1rem;
+/*    border-radius: 1rem;*/
+    border-radius: 0;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 10px;
-    box-shadow: 0 0px 20px rgba(0,0,0,0.1);
+/*    box-shadow: 0 0px 20px rgba(0,0,0,0.05);*/
 }
 
 [data-md-color-scheme="slate"] .timeline-card {
@@ -88,21 +82,23 @@
     font-size: 1em;
     font-weight: 300;
     opacity: .6;
+/*    border-bottom: solid 2px #ddd;*/
+    border-bottom: solid 1px #ddd;
 }
 
 .changelog-time::before {
-    content: "🕙 ";
+    content: " ";
 }
 
 .changelog-type {
     background-color: #ffffff;
-    border-radius: 15px;
-    font-size: 80%;
+/*    border-radius: 15px;*/
+/*    font-size: 80%;*/
     padding: 2px 5px;
-    border: 1px solid #aaaaaa;
+/*    border: 1px solid #aaaaaa;*/
     color: #aaaaaa;
     font-weight: 300;
-    font-family: 'Noto Sans SC';
+    font-family: 'Noto Serif SC';
 }
 
 [data-md-color-scheme="slate"] .changelog-type {

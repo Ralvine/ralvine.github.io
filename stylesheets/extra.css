@@ -69,13 +69,15 @@ del {
     height: 3%;
 }
 
-[data-md-color-primary=white] .md-search__form {
+/*[data-md-color-primary=white] */
+.md-search__form {
     background-color: rgba(0, 0, 0, 0.05);
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
     border-radius: 15px;
     border: solid 0.8px rgba(255, 255, 255, 0.3);
 }
+
 [data-md-toggle=search]:checked~.md-header .md-search__form {
     background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(5px);
@@ -97,7 +99,7 @@ del {
 .caption-single {
     text-align: center;
     opacity: .5;
-    font-family: 'Noto Sans SC';
+    font-family: 'Noto Serif SC';
     margin-block-start: -1em;
     font-size: .75rem;
 }
@@ -105,7 +107,7 @@ del {
 .caption-multy {
     text-align: center;
     opacity: .5;
-    font-family: 'Noto Sans SC';
+    font-family: 'Noto Serif SC';
     margin-block-start: 0em;
     font-size: .75rem;
 }
@@ -207,6 +209,9 @@ width: 12.7rem;
     margin-top: .3rem;
 }
 
+.md-typeset .admonition, .md-typeset details {
+    box-shadow: 0 0px 20px rgba(0,0,0,0.05);
+}
 
 [data-md-color-primary=white] .md-header {
 /*  background-color: rgb(0 0 0 / 0%);
@@ -298,9 +303,13 @@ width: 12.7rem;
     }
 }
 
+.md-typeset .admonition.abstract {
+    opacity: .66;
+}
+
 .md-tag::before {
 /*    content: "#";*/
-    font-family: 'Noto Sans SC';
+    font-family: 'Noto Serif SC';
 }
 [dir=ltr] .md-typeset .headerlink {
     margin-left: 0.2rem;
