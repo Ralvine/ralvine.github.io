@@ -122,15 +122,6 @@
     font-weight: 600;
 }
 
-.changelog-type-diary::before {
-    content: "生活";
-}
-.changelog-type-study::before {
-    content: "笔记";
-}
-.changelog-type-mindkit::before {
-    content: "思考";
-}
-.changelog-type-tech::before {
-    content: "复盘";
+.changelog-type-lvtu::before {
+    content: "旅途";
 }
