@@ -69,15 +69,15 @@ del {
     height: 3%;
 }
 
-[data-md-color-primary=black] .md-search__form {
-    background-color: rgba(255, 255, 255, 0.05);
+[data-md-color-primary=white] .md-search__form {
+    background-color: rgba(0, 0, 0, 0.05);
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
     border-radius: 15px;
     border: solid 0.8px rgba(255, 255, 255, 0.3);
 }
 [data-md-toggle=search]:checked~.md-header .md-search__form {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border-radius: 15px 15px 0 0;
@@ -88,6 +88,10 @@ del {
 }
 .Fang-Zheng-Song {
     font-family: Fang-Zheng-Song, Noto-Serif-SC, serif;
+}
+
+.md-search__inner {
+    width: 6.5rem;
 }
 
 .caption-single {
@@ -204,7 +208,7 @@ width: 12.7rem;
 }
 
 
-[data-md-color-primary=black] .md-header {
+[data-md-color-primary=white] .md-header {
 /*  background-color: rgb(0 0 0 / 0%);
     background-image: url("https://pic.imgdb.cn/item/655c93c3c458853aefc44a0f.jpg");
     background-position: 5% 5%;
@@ -219,11 +223,12 @@ width: 12.7rem;
     color: #000;
     box-shadow: 0 -40px 50px rgba(0,0,0,0.5);
 }
-[data-md-color-primary=black] .md-tabs {
+[data-md-color-primary=white] .md-tabs {
   background-color: rgb(0 0 1 / 0%);
   line-height: 1;
 /*  margin-top: -20px;*/
   color: #000;
+  border: none;
 }
 [data-md-color-scheme="slate"] .md-tabs {
   background-color: rgb(0 0 1 / 0%);
