@@ -414,7 +414,8 @@ a:hover {
     margin: 10px 2% 10px;
     width: 45.5%;
     display: inline-block;
-    box-shadow: 0 0px 40px rgba(0,0,0,0.1);
+/*    box-shadow: 0 0px 40px rgba(0,0,0,0.1);*/
+    box-shadow: 0 0px 20px rgba(0,0,0,0.05);
     border-radius: 25px;
     vertical-align: top;
     backdrop-filter: blur(2.2px);
