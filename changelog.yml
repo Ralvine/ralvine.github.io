@@ -9,7 +9,7 @@
     - lvtu:
         image: https://s21.ax1x.com/2024/03/08/pFsE2Us.jpg
         text: 华灯初上、春和景明与久违晴天
-        href: /diary/sunnyday
+        href: /lvtu/sunnyday
         summary: 从除夕到元宵，由玄冬向立春，镜头里是新年以来的的一点剪影。
 - "2023":
   # - "2023.10.31":
@@ -30,7 +30,7 @@
     - lvtu:
         image: https://pic.imgdb.cn/item/655c9934c458853aefd69613.jpg
         text: 火车开往破晓
-        href: /diary/wuhan
+        href: /lvtu/wuhan
         summary: 「昔人已乘黄鹤去，此地空余黄鹤楼。」五一前夕，一个念头在脑海中迸发：之前走过东西南北的不同省份，却唯独忘记了华中这片土地。于是，这趟行程就此展开。
   # - "2023.4.22":
   #   - mindkit:

@@ -6,16 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ralvines.top/diary/sunnyday/</loc>
-         <lastmod>2024-05-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ralvines.top/diary/wuhan/</loc>
-         <lastmod>2024-05-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://ralvines.top/home/about/</loc>
          <lastmod>2024-05-10</lastmod>
          <changefreq>daily</changefreq>
@@ -62,6 +52,16 @@
     </url>
     <url>
          <loc>https://ralvines.top/list/travel/</loc>
+         <lastmod>2024-05-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ralvines.top/lvtu/sunnyday/</loc>
+         <lastmod>2024-05-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ralvines.top/lvtu/wuhan/</loc>
          <lastmod>2024-05-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
