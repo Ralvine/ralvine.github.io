@@ -7,6 +7,7 @@
   #       summary: 福州 × 厦门。
   - "2024.3.8":
     - lvtu:
+        image: https://pic.imgdb.cn/item/65fd552b9f345e8d032166e1.jpg
         text: 华灯初上、春和景明与久违晴天
         href: /diary/sunnyday
         summary: 从除夕到元宵，由玄冬向立春，镜头里是新年以来的的一点剪影。
@@ -27,6 +28,7 @@
   #       summary: 大数据时代，基于数据仓库的治理方法论和相关的技术栈变得尤为重要。
   - "2023.5.4":
     - lvtu:
+        image: https://pic.imgdb.cn/item/655c9934c458853aefd69613.jpg
         text: 火车开往破晓
         href: /diary/wuhan
         summary: 「昔人已乘黄鹤去，此地空余黄鹤楼。」五一前夕，一个念头在脑海中迸发：之前走过东西南北的不同省份，却唯独忘记了华中这片土地。于是，这趟行程就此展开。
