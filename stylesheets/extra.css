@@ -18,8 +18,11 @@ del {
 
 .md-typeset {
     font-size: .85rem;
-    line-height: 1.7;
+    line-height: 1.75;
 }
+/*.md-typeset p {
+    font-family: PingFang SC Light, PingFang SC, Noto Sans SC, Noto Serif SC, Serif;
+}*/
 .md-nav {
     font-size: .75rem;
     line-height: 1.5;
@@ -50,12 +53,12 @@ del {
     line-height: 1.5;
     padding: 0 15px;
 /*    font-size: .95em;*/
-    font-size: .75rem;
+    font-size: .8rem;
     margin-bottom: 1rem;
 }
 
 .brief {
-    font-size: .7rem;
+    font-size: .75rem;
     font-family: PingFang SC, 'Noto Sans SC';
 }
 .md-typeset code {
@@ -385,7 +388,7 @@ width: 12.7rem;
 
 .md-typeset .admonition, .md-typeset details {
     border-radius: 15px;
-    font-size: .72rem;
+    font-size: .75rem;
 }
 
 [dir=ltr] .md-typeset .admonition-title {
