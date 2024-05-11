@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
 
-@font-face {
+/*@font-face {
     font-family: Fang-Zheng-Song;
     src: url("./FangZhengSong.woff2") format('woff2');
     font-display: swap;
-}
+}*/
 
 :root, [data-md-color-scheme=default] {
     --md-default-fg-color--light: #0000006b;
@@ -16,22 +16,40 @@ del {
     text-decoration-thickness: .5px;
 }
 
+.md-nav--secondary .md-nav__title {
+    background: none;
+    box-shadow: none;
+}
+
+[dir=ltr] .md-sidebar__inner {
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid #eeeeee;
+    border-radius: 20px;
+    padding: 20px 0;
+}
+[data-md-color-scheme="slate"] .md-sidebar__inner {
+    border: 1px solid #333333;
+}
+
+.v[data-class=v] .vtime, .v[data-class=v] .vsys {
+    color: #dddddd;
+}
 .md-typeset {
-    font-size: .85rem;
+    font-size: .8rem;
     line-height: 1.75;
 }
-/*.md-typeset p {
+.md-typeset p {
     font-family: PingFang SC Light, PingFang SC, Noto Sans SC, Noto Serif SC, Serif;
-}*/
+}
 .md-nav {
     font-size: .75rem;
     line-height: 1.5;
 }
 .md-sidebar__scrollwrap {
-    margin: 0 .5rem;
+    margin: 0 1rem;
 }
 .md-grid {
-    max-width: 68rem;
+    max-width: 65rem;
     margin-top: .3rem;
 }
 .md-tabs__link {
@@ -118,9 +136,9 @@ del {
     border-radius: 0 0 15px 15px;
     opacity: .95;
 }
-.Fang-Zheng-Song {
+/*.Fang-Zheng-Song {
     font-family: Fang-Zheng-Song, Noto-Serif-SC, serif;
-}
+}*/
 
 .md-search__inner {
     width: 6.5rem;
@@ -129,7 +147,7 @@ del {
 .caption-single {
     text-align: center;
     opacity: .5;
-    font-family: 'Noto Serif SC';
+/*    font-family: 'Noto Serif SC';*/
     margin-block-start: -1em;
     font-size: .75rem;
 }
@@ -137,14 +155,14 @@ del {
 .caption-multy {
     text-align: center;
     opacity: .5;
-    font-family: 'Noto Serif SC';
+/*    font-family: 'Noto Serif SC';*/
     margin-block-start: 0em;
     font-size: .75rem;
 }
 
-.Noto-Sans-SC {
+/*.Noto-Sans-SC {
     font-family: -apple-system, PingFang SC, Fang-Zheng-Song, 'Noto Sans SC', serif;
-}
+}*/
 
 @media screen and (min-width:45em) .md-typeset .inline {
     width: 14.7rem;
@@ -296,6 +314,7 @@ width: 12.7rem;
 }
 .md-nav--lifted>.md-nav__list>.md-nav__item--active>.md-nav__link {
     background: none;
+    box-shadow: none;
 }
 
 
@@ -319,7 +338,7 @@ width: 12.7rem;
 .md-typeset .md-tags {
     margin-bottom: .125em;
     opacity: 0.7;
-    text-align: center;
+/*    text-align: center;*/
 }
 
 .md-tags {
@@ -694,6 +713,9 @@ a:hover {
         padding-left: .8rem;
         padding-right: .8rem;
     }
+    [data-md-color-scheme="slate"] .md-content {
+        box-shadow: 0 20px 20px rgba(255,255,255,0.05);
+    }
 }
 .md-footer__link {
     margin-top: 0;
@@ -702,7 +724,7 @@ a:hover {
 .md-typeset h1 {
   font-weight: 800;
   color: #24282d;
-  text-align: center;
+/*  text-align: center;*/
   font-size: 1.75em;
 }
 .md-typeset h2 {
@@ -723,7 +745,7 @@ a:hover {
 /*    counter-reset: h6;*/
     font-weight: 600;
 }
-.md-typeset h2::before {
+/*.md-typeset h2::before {
   counter-increment: h2;
   content: counter(h2) " ";
 }
@@ -738,8 +760,8 @@ a:hover {
 .md-typeset h5::before {
   counter-increment: h5;
   content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) " ";
-}
-.md-search-result .md-typeset h2::before {
+}*/
+/*.md-search-result .md-typeset h2::before {
     content: none;
 }
 .md-search-result .md-typeset h3::before {
@@ -750,7 +772,7 @@ a:hover {
 }
 .md-search-result .md-typeset h5::before {
     content: none;
-}
+}*/
 /*.md-typeset h6::before {
   counter-increment: h6;
   content: ounter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) " ";

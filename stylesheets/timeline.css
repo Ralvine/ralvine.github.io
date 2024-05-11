@@ -1,7 +1,7 @@
 .timeline-wrapper {
     flex: 1;
     overflow-y: auto;
-    padding: 20px 20px 30px 0;
+    padding: 20px 10px 30px 0;
 }
 
 .timeline-wrapper::before {
@@ -75,7 +75,7 @@
 }
 
 [data-md-color-scheme="slate"] .timeline-card {
-    background-color: #333333;
+    background-color: none;
 }
 
 .changelog-time {
@@ -91,14 +91,14 @@
 }
 
 .changelog-type {
-    background-color: #ffffff;
-/*    border-radius: 15px;*/
+    background-color: rgb(191 219 254);
+    border-radius: 5px;
 /*    font-size: 80%;*/
     padding: 2px 5px;
 /*    border: 1px solid #aaaaaa;*/
-    color: #aaaaaa;
-    font-weight: 300;
-    font-family: 'Noto Serif SC';
+    color: #1e87f0;
+    font-weight: 600;
+    font-family: PingFang SC Light, PingFang SC, Noto Sans SC, Noto Serif SC, Serif;
 }
 
 [data-md-color-scheme="slate"] .changelog-type {
@@ -110,6 +110,8 @@
 
 .changelog-content {
     margin-top: 10px;
+/*    opacity: .75;*/
+    font-family: PingFang SC Light, PingFang SC, Noto Sans SC, Noto Serif SC, Serif;
 }
 
 .changelog-content p {
@@ -120,6 +122,7 @@
 .changelog-content a {
     color: var(--md-default-fg-color);
     font-weight: 600;
+    font-family: Noto Serif SC, serif;
 }
 
 .changelog-type-lvtu::before {
