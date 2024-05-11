@@ -16,6 +16,32 @@ del {
     text-decoration-thickness: .5px;
 }
 
+.md-typeset {
+    font-size: .85rem;
+    line-height: 1.7;
+}
+.md-nav {
+    font-size: .75rem;
+    line-height: 1.5;
+}
+.md-sidebar__scrollwrap {
+    margin: 0 .5rem;
+}
+.md-grid {
+    max-width: 68rem;
+    margin-top: .3rem;
+}
+.md-tabs__link {
+    font-weight: 600;
+    font-size: .8rem;
+}
+.md-search {
+    margin-right: .5rem;
+}
+.md-header__button.md-logo {
+    margin: .2rem .5rem;
+}
+
 .md-container {
     background-image: linear-gradient(rgba(50, 0, 0, 0.02) 1px, transparent 0), linear-gradient(90deg, rgba(50, 0, 0, 0.02) 1px, transparent 0);
     background-size: 60px 60px;
@@ -203,13 +229,7 @@ width: 12.7rem;
     color: #ffffff;
 }
 
-.md-tabs__link {
-    font-weight: 600;
-    font-size: .75rem;
-}
-.md-grid {
-    margin-top: .3rem;
-}
+
 
 .md-typeset .admonition, .md-typeset details {
     box-shadow: 0 0px 20px rgba(0,0,0,0.05);
@@ -286,7 +306,7 @@ width: 12.7rem;
 }
 
 .md-typeset .md-tag[href] {
-    color: #666666;
+    color: #888888;
 }
 
 [data-md-color-scheme="slate"] .md-typeset .md-tag[href] {
@@ -301,7 +321,7 @@ width: 12.7rem;
 
 .md-tags {
     .md-tag {
-        font-size: .64rem;
+        font-size: .8rem;
     }
 }
 
@@ -668,6 +688,8 @@ a:hover {
         margin-top: -15px;
         padding-top: 5px;
         padding-bottom: 10px;
+        padding-left: .8rem;
+        padding-right: .8rem;
     }
 }
 .md-footer__link {
