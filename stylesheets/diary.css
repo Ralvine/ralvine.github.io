@@ -21,6 +21,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 1em;
+    box-shadow: none;
 }
 
 .diary-dot-wrapper {
@@ -63,7 +64,8 @@
     box-shadow: -20px 0px 20px rgba(0,0,0,0.05);
 }
 [data-md-color-scheme="slate"] .diary-card {
-    background-color: none;
+    background: none;
+    box-shadow: -20px 0px 20px rgba(0,0,0,0.1);
 }
 
 .diary-content {
