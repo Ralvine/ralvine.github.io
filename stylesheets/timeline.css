@@ -92,13 +92,13 @@
 
 .changelog-type {
     background-color: rgb(191 219 254);
-    border-radius: 5px;
+    border-radius: 7px;
 /*    font-size: 80%;*/
-    padding: 2px 5px;
+    padding: 3px 5px;
 /*    border: 1px solid #aaaaaa;*/
     color: #1e87f0;
     font-weight: 600;
-    font-family: PingFang SC Light, PingFang SC, Noto Sans SC, Noto Serif SC, Serif;
+    font-family: Times New Roman, PingFang SC Light, PingFang SC, Noto Sans SC, Noto Serif SC, Serif;
 }
 
 [data-md-color-scheme="slate"] .changelog-type {
@@ -111,7 +111,7 @@
 .changelog-content {
     margin-top: 10px;
 /*    opacity: .75;*/
-    font-family: PingFang SC Light, PingFang SC, Noto Sans SC, Noto Serif SC, Serif;
+    font-family: Times New Roman, PingFang SC Light, PingFang SC, Noto Sans SC, Noto Serif SC, Serif;
 }
 
 .changelog-content p {
@@ -122,6 +122,7 @@
 .changelog-content a {
     color: var(--md-default-fg-color);
     font-weight: 600;
+    font-size: .8rem;
     font-family: Noto Serif SC, serif;
 }
 

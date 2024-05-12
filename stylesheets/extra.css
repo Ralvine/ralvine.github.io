@@ -7,6 +7,85 @@
     font-display: swap;
 }*/
 
+/*.animate-waveHand {
+    animation: wavingHand 1.5s ease-in-out infinite;
+}
+@keyframes wavingHand {
+    0% {
+        transform: none;
+        transform-origin:70% 70%
+    }
+
+    25% {
+        transform: rotate3d(1, 1, 1, -15deg);
+        transform-origin:70% 70%
+    }
+
+    50% {
+        transform: rotate3d(1, 1, 1, 15deg);
+        transform-origin:70% 70%
+    }
+
+    75% {
+        transform: rotate3d(1, 1, 1, -15deg);
+        transform-origin:70% 70%
+    }
+
+    to {
+        transform: none;
+        transform-origin:70% 70%
+    }
+}
+.cursor-pointer {
+    cursor: pointer;
+}*/
+
+/*@keyframes shake {
+  0% { transform: translateX(0); }
+  10% { transform: translateX(-10px); }
+  20% { transform: translateX(10px); }
+  30% { transform: translateX(-10px); }
+  40% { transform: translateX(10px); }
+  50% { transform: translateX(-10px); }
+  60% { transform: translateX(10px); }
+  70% { transform: translateX(-10px); }
+  80% { transform: translateX(10px); }
+  90% { transform: translateX(-10px); }
+  100% { transform: translateX(0); }
+}
+
+.shake-element {
+  animation: shake 1s infinite;
+}*/
+
+.items-center {
+    display:flex;
+/*    margin-right: .8rem;*/
+    border-bottom: .05rem solid var(--md-default-fg-color--lightest);
+}
+.md-typeset .items-center-text {
+    margin: auto 0;
+}
+.md-typeset .items-center-text h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.md-typeset .items-center-text p {
+    font-size: .7rem;
+    padding: 0;
+    margin-top: 0;
+}
+.items-center-left {
+    align-items: center;
+    font-size: 2rem;
+    display:flex;
+    padding: 5px;
+    margin-right: .5rem;
+    float:left;
+}
+
 :root, [data-md-color-scheme=default] {
     --md-default-fg-color--light: #0000006b;
     --md-default-fg-color--lighter: #00000024;
@@ -15,10 +94,19 @@
 del {
     text-decoration-thickness: .5px;
 }
+.md-typeset a:hover {
+    text-decoration: underline;
+    color: var(--md-typeset-a-color);
+}
+.md-typeset a {
+    transition: none;
+}
 
 .md-nav--secondary .md-nav__title {
     background: none;
     box-shadow: none;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
 }
 
 [dir=ltr] .md-sidebar__inner {
@@ -39,7 +127,7 @@ del {
     line-height: 1.75;
 }
 .md-typeset p {
-    font-family: PingFang SC Light, PingFang SC, Noto Sans SC, Noto Serif SC, Serif;
+    font-family: Times New Roman, PingFang SC Light, PingFang SC, Noto Sans SC, Noto Serif SC, Serif;
 }
 .md-nav {
     font-size: .75rem;
@@ -75,14 +163,140 @@ del {
     margin-bottom: 1rem;
 }
 
+.warp-post-embed {
+    background-image: url(https://static.ouorz.com/link.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    border-radius: .5rem;
+    border-width: 1px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .6);
+    margin: 15px 0;
+    opacity: .7;
+    overflow: hidden;
+    padding: 5px 30px 10px;
+    position: relative;
+    --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: opacity 0.3s;
+}
+
+.warp-post-embed:is(.dark *) {
+    --tw-border-opacity: 1;
+    border-color: rgb(115 115 115);
+    --tw-bg-opacity: 1;
+    background-color: rgb(64 64 64);
+    background-image:none
+}
+
+.warp-post-embed:hover {
+    opacity:1
+}
+
+.warp-post-embed .embed-content {
+    margin-right: 20%;
+    overflow: hidden;
+    text-overflow:ellipsis
+}
+
+.warp-post-embed a {
+    text-decoration:none
+}
+
+.warp-post-embed .embed-content p {
+    color: #888;
+    display: block;
+    font-size: 13px;
+    font-style:normal
+}
+
+.warp-post-embed .embed-content p:is(.dark *) {
+    --tw-text-opacity: 1;
+    color:rgb(163 163 163/var(--tw-text-opacity))
+}
+
+.warp-post-embed .embed-content p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+    margin-top:0
+}
+
+.warp-post-embed .embed-content b {
+    background: #eee;
+    color:#999
+}
+
+.warp-post-embed .embed-content b:is(.dark *) {
+    --tw-text-opacity: 1;
+    color: rgb(229 229 229/var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color:rgb(82 82 82/var(--tw-bg-opacity))
+}
+
+.warp-post-embed .embed-content b {
+    border-radius: 50px;
+    font-weight: 500 !important;
+    padding:1px 8px 3px 9px
+}
+
+.warp-post-embed .embed-content h2 {
+    color:rgba(0, 0, 0, .8)
+}
+
+.warp-post-embed .embed-content h2:is(.dark *) {
+    --tw-text-opacity: 1;
+    color:rgb(245 245 245/var(--tw-text-opacity))
+}
+
+.warp-post-embed .embed-content h2 {
+    display: block;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    margin-top: 4%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap
+}
+
+.warp-post-embed .embed-bg {
+    background-size: contain;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .12);
+    box-sizing: border-box;
+    float: right;
+    height: 100px;
+    margin-left: 12px;
+    vertical-align: middle;
+    width:100px
+}
+
 .brief {
     font-size: .75rem;
     font-family: PingFang SC, 'Noto Sans SC';
 }
 .md-typeset code {
-    background-color: rgba(255, 255, 255, 0);
-    border-top: 0.8px solid;
-    border-bottom: 0.8px solid;
+/*    background-color: rgba(255, 255, 255, 0);*/
+/*    border-top: 0.8px solid;*/
+/*    border-bottom: 0.8px solid;*/
+    background-color: #282c34;
+    border-radius: .5rem;
+}
+.highlight .o, .highlight .ow {
+    color: #c678dd;
+}
+.highlight .kc, .highlight .n {
+    color: #cccccc;
+}
+.highlight .p {
+    color: #e6c07b;
+}
+.highlight .c, .highlight .c1, .highlight .ch, .highlight .cm, .highlight .cs, .highlight .sd {
+    color: #5c6370;
+}
+.highlight .bp, .highlight .nb, .highlight .no {
+    color: #d19a66;
 }
 /*.md-main__inner {
     margin-top: 0;
@@ -310,11 +524,13 @@ width: 12.7rem;
     font-family: "Font Awesome 5 Free";
 }
 .md-typeset .emojione, .md-typeset .gemoji, .md-typeset .twemoji {
-    height: 1.5em;
+    height: 1.2em;
 }
 .md-nav--lifted>.md-nav__list>.md-nav__item--active>.md-nav__link {
     background: none;
     box-shadow: none;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
 }
 
 
@@ -329,6 +545,7 @@ width: 12.7rem;
 
 .md-typeset .md-tag[href] {
     color: #888888;
+    font-weight: 100;
 }
 
 [data-md-color-scheme="slate"] .md-typeset .md-tag[href] {
@@ -394,6 +611,23 @@ width: 12.7rem;
     font-weight: 600;
 /*    font-family: PingFang SC, 'Noto Sans SC';*/
 /*font-family: Fang-Zheng-Song, 'Noto Sans SC';*/
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath fill='rgba(119,119,119,0.34)' d='M21 3a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H6.455L2 22.5V4a1 1 0 0 1 1-1zm-1 2H4v13.385L5.763 17H20zm-9.485 2.412.447.688c-1.668.903-1.639 2.352-1.639 2.664.155-.02.318-.024.48-.009a1.76 1.76 0 0 1 1.613 1.745 1.75 1.75 0 0 1-1.75 1.75c-.537 0-1.05-.245-1.374-.59-.515-.546-.792-1.16-.792-2.155 0-1.75 1.228-3.318 3.015-4.093m5 0 .447.688c-1.668.903-1.639 2.352-1.639 2.664.155-.02.318-.024.48-.009a1.76 1.76 0 0 1 1.613 1.745 1.75 1.75 0 0 1-1.75 1.75c-.537 0-1.05-.245-1.374-.59-.515-.546-.792-1.16-.792-2.155 0-1.75 1.228-3.318 3.015-4.093'/%3E%3C/svg%3E");
+    background-position: 10px 8px;
+    background-repeat: no-repeat;
+    background-size: 8%;
+    border-radius: .5rem;
+    color: #777;
+    display: block;
+    font-size: 16px;
+    font-style: normal;
+    height: auto;
+    margin: 20px 0;
+    padding: 20px 25px 16px 75px;
+    width: 100%;
+    opacity: .85;
+}
+.md-typeset blockquote p {
+    font-family: Times New Roman, Noto Serif SC, serif;
 }
 
 .md-search-result .md-typeset .md-tag {
@@ -438,7 +672,7 @@ a:hover {
 .md-typeset .admonition {
 /*    border: 0.01rem solid #448aff;*/
     border: none;
-    font-family: PingFang SC Light, PingFang SC, Noto Sans SC, Noto Serif SC, Serif;
+    font-family: Times New Roman, PingFang SC Light, PingFang SC, Noto Sans SC, Noto Serif SC, Serif;
 }
 
 .glightbox-container .ginner-container.desc-left .gslide-description {
