@@ -777,6 +777,9 @@ a:hover {
 .subpage-box-cover a {
     border-bottom:none;
 }
+.subpage-box-cover a:hover {
+    text-decoration: none;
+}
 .subpage-box-cover img {
     width: 100%;
     height: 100%;
