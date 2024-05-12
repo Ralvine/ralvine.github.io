@@ -966,7 +966,7 @@ a:hover {
 
 [data-md-color-scheme="slate"] .md-content {
 /*    background-color: #111111;*/
-    background: linear-gradient(180deg, #000000, 10px, #222222);
+    background: linear-gradient(180deg, #000000, 100px, #222222);
 }
 
 .md-footer__link {
