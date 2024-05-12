@@ -32,6 +32,17 @@
         text: 火车开往破晓
         href: /lvtu/wuhan
         summary: 「昔人已乘黄鹤去，此地空余黄鹤楼。」五一前夕，一个念头在脑海中迸发：之前走过东西南北的不同省份，却唯独忘记了华中这片土地。于是，这趟行程就此展开。
+  - "2023.3.1":
+    - shidai:
+        image: https://pic.imgdb.cn/item/65fd552b9f345e8d032166e1.jpg
+        text: 八次危机与现代化的代价
+        href: /shidai/baciweiji
+        summary: “两个互不否定”指涉的历史见证了中国经济举世瞩目的成就。那么，代价是什么呢？
+    - shidai:
+        image: https://z1.ax1x.com/2023/10/23/piA8qxO.png
+        text: 横向叙事：一场资本主义符号幻觉
+        href: /shidai/fuhao
+        summary: “两头在外”的工业化与投资转向要素驱动的困境。
   # - "2023.4.22":
   #   - mindkit:
   #       text: 四月随想：与时舒卷

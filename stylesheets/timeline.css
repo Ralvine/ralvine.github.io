@@ -132,3 +132,6 @@
 .changelog-type-lvtu::before {
     content: "旅途";
 }
+.changelog-type-shidai::before {
+    content: "时代";
+}
