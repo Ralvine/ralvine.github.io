@@ -66,6 +66,9 @@
 .md-typeset .items-center-text {
     margin: auto 0;
 }
+[dir=ltr] .md-typeset ul li {
+    font-family: Times New Roman, PingFang SC Light, PingFang SC, Noto Sans SC, Noto Serif SC, Serif;
+}
 .md-typeset .items-center-text h2 {
     font-size: 1.2rem;
     margin-top: 10px;
@@ -286,6 +289,7 @@ del {
 /*    border-bottom: 0.8px solid;*/
     background-color: #282c34;
     border-radius: .5rem;
+    color: rgba(255, 255, 255, 0.6);
 }
 .highlight .o, .highlight .ow {
     color: #c678dd;
