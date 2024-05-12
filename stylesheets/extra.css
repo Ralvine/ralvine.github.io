@@ -1067,3 +1067,16 @@ a:hover {
 .mkdocs-decrypt-form {
     text-align: center;
 }
+
+.wechat {
+    text-align: center;
+    align-items: center;
+    font-family: Times New Roman, PingFang SC Light, PingFang SC, Noto Sans SC, Noto Serif SC, Serif;
+    font-size: .5rem;
+    opacity: .7;
+    line-height: 1;
+}
+.wechat img {
+    height: 90px;
+    border-radius: 0px;
+}
