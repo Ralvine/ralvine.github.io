@@ -788,6 +788,14 @@ a:hover {
 .subpage-box-cover:hover img {
     opacity:.7;
 }
+.subpage-box-cover:hover .image-caption {
+    opacity: 1;
+    top: 50%;
+}
+.subpage-box-cover:hover .image-description {
+    opacity: 1;
+    top: 65%;
+}
 .subpage-box-cover a {
     border-bottom:none;
 }
@@ -821,6 +829,8 @@ a:hover {
     color:#fff;
     text-shadow: 0px 0px 20px rgba(0,0,0,0.7);
     font-family: Noto Serif SC, serif;
+    opacity: .7;
+    transition: opacity 0.3s ease;
 }
 .subpage-box-cover .image-description {
     display: flex;
@@ -838,6 +848,8 @@ a:hover {
     font-weight: 700;
     color:#fff;
     text-shadow: 0px 0px 20px rgba(0,0,0,0.7);
+    opacity: .7;
+    transition: opacity 0.3s ease;
 }
 .subpage-box-cover .image-hyper {
     display: flex;
