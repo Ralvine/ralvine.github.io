@@ -46,6 +46,10 @@
     margin-left: 5px;
 }
 
+.diary-time .twemoji {
+    height: 1.6em;
+}
+
 .diary-card {
     position: relative;
     display: -ms-flexbox;
