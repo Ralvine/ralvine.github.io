@@ -628,7 +628,7 @@ width: 12.7rem;
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath fill='rgba(119,119,119,0.34)' d='M21 3a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H6.455L2 22.5V4a1 1 0 0 1 1-1zm-1 2H4v13.385L5.763 17H20zm-9.485 2.412.447.688c-1.668.903-1.639 2.352-1.639 2.664.155-.02.318-.024.48-.009a1.76 1.76 0 0 1 1.613 1.745 1.75 1.75 0 0 1-1.75 1.75c-.537 0-1.05-.245-1.374-.59-.515-.546-.792-1.16-.792-2.155 0-1.75 1.228-3.318 3.015-4.093m5 0 .447.688c-1.668.903-1.639 2.352-1.639 2.664.155-.02.318-.024.48-.009a1.76 1.76 0 0 1 1.613 1.745 1.75 1.75 0 0 1-1.75 1.75c-.537 0-1.05-.245-1.374-.59-.515-.546-.792-1.16-.792-2.155 0-1.75 1.228-3.318 3.015-4.093'/%3E%3C/svg%3E");
     background-position: 10px 8px;
     background-repeat: no-repeat;
-    background-size: 8%;
+    background-size: 5%;
     border-radius: .5rem;
     color: #777;
     display: block;
@@ -636,7 +636,7 @@ width: 12.7rem;
     font-style: normal;
     height: auto;
     margin: 20px 0;
-    padding: 20px 25px 16px 75px;
+    padding: 20px 25px 16px 50px;
     width: 100%;
     opacity: .85;
 }

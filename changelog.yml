@@ -26,6 +26,12 @@
   #       text: 大数据基本理论
   #       href: /study/bigdata-basic
   #       summary: 大数据时代，基于数据仓库的治理方法论和相关的技术栈变得尤为重要。
+  - "2023.10.31":
+    - shidai:
+        image: https://z1.ax1x.com/2023/10/23/piA3TgS.png
+        text: 设计师的政治人生
+        href: /reads/political-life
+        summary: 正如他在三十年前写下的，在现代个人主义文化的弘扬过程中，个人获得了自由，但是却孤独了。
   - "2023.5.4":
     - lvtu:
         image: https://pic.imgdb.cn/item/655c9934c458853aefd69613.jpg
@@ -34,7 +40,7 @@
         summary: 「昔人已乘黄鹤去，此地空余黄鹤楼。」五一前夕，一个念头在脑海中迸发：之前走过东西南北的不同省份，却唯独忘记了华中这片土地。于是，这趟行程就此展开。
   - "2023.3.1":
     - shidai:
-        image: https://pic.imgdb.cn/item/65fd552b9f345e8d032166e1.jpg
+        image: https://z1.ax1x.com/2023/10/23/piAGKJ0.png
         text: 八次危机与现代化的代价
         href: /shidai/baciweiji
         summary: “两个互不否定”指涉的历史见证了中国经济举世瞩目的成就。那么，代价是什么呢？
