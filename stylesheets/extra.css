@@ -630,7 +630,7 @@ width: 12.7rem;
     background-repeat: no-repeat;
     background-size: 5%;
     border-radius: .5rem;
-    color: #777;
+    color: #555;
     display: block;
     font-size: 16px;
     font-style: normal;
@@ -639,6 +639,9 @@ width: 12.7rem;
     padding: 20px 25px 16px 50px;
     width: 100%;
     opacity: .85;
+}
+[data-md-color-scheme="slate"] .md-typeset blockquote {
+    color: #bbb;
 }
 .md-typeset blockquote p {
     font-family: Times New Roman, Noto Serif SC, serif;

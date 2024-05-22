@@ -135,3 +135,6 @@
 .changelog-type-shidai::before {
     content: "时代";
 }
+.changelog-type-shuzhai::before {
+    content: "书摘";
+}
