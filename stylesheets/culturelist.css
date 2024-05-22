@@ -23,6 +23,14 @@
     }
 }
 
+.media-3:hover {
+    opacity: .5;
+}
+
+.media-3 {
+    transition: opacity 0.3s;
+}
+
 .media-meta {
     width: calc(100% - 100px);
     height: 100%;
