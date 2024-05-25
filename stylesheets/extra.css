@@ -761,6 +761,10 @@ a:hover {
     }
 }
 
+.friend-link-div a:hover {
+    text-decoration: none
+}
+
 @media only screen and (max-width: 680px) {
     .friend-link-div {
         width: 100%;
