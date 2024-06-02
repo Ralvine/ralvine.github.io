@@ -75,7 +75,8 @@
     -webkit-box-orient:vertical
 }
 .media-meta-item .author {
-    opacity:.65
+    opacity:.65;
+    font-family: PingFang SC Light, PingFang SC, Noto Sans SC, Noto Serif SC, Serif;
 }
 
 .media-meta-item .star-score {
